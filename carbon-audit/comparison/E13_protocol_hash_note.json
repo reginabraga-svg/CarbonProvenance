@@ -1,0 +1,5 @@
+{
+  "initial_checksum": "3fc4aea9749d7cedb7eccdd060273bf8df12612c5ac8f83d6c6efce771b00efb",
+  "byte_checksum": "f3df3ee983a60ba656d5028184b5eda2d9e149ea5dbd27e81505122a3a7fb8df",
+  "reason": "Initial checksum used LF text before Windows text output converted line endings to CRLF. The first run stopped at the protocol hash assertion before any analysis. Protocol content is unchanged. The checksum now identifies the saved bytes."
+}

@@ -1,0 +1,10 @@
+{
+  "python": "3.12",
+  "packages": {
+    "pandas": "3.0.1",
+    "numpy": "2.3.5",
+    "python-docx": "1.2.0",
+    "lxml": "6.1.1"
+  },
+  "earthengine_optional": "1.7.53"
+}

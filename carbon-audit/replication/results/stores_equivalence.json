@@ -1,0 +1,38 @@
+[
+ {
+  "case": "GWP AR5->AR6 (P2)",
+  "changed_sources": 2,
+  "affected_engine": 4688,
+  "sparql_equal": true,
+  "sql_equal": true,
+  "triples": 882904,
+  "seconds_build_rdf": 19.5,
+  "seconds_sparql": 0.84,
+  "seconds_build_sql": 0.5,
+  "seconds_sql": 0.018
+ },
+ {
+  "case": "IPCC factors 2006->2019 (P2)",
+  "changed_sources": 20,
+  "affected_engine": 25359,
+  "sparql_equal": true,
+  "sql_equal": true,
+  "triples": 882904,
+  "seconds_build_rdf": 19.6,
+  "seconds_sparql": 2.57,
+  "seconds_build_sql": 0.6,
+  "seconds_sql": 0.132
+ },
+ {
+  "case": "MapBiomas V0->V2 (P1)",
+  "changed_sources": 63,
+  "affected_engine": 91241,
+  "sparql_equal": true,
+  "sql_equal": true,
+  "triples": 2259495,
+  "seconds_build_rdf": 48.5,
+  "seconds_sparql": 9.02,
+  "seconds_build_sql": 1.3,
+  "seconds_sql": 0.444
+ }
+]

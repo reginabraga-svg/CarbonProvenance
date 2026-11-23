@@ -1,0 +1,49 @@
+{
+  "experiment": "E16",
+  "protocol_sha256": "9f221cc2849170dcacef421a333a6971bd47adc9cb451eb9b17539622d65d39a",
+  "summary": [
+    {
+      "allocation": "midpoint",
+      "sign_reversals": 1669,
+      "positive_to_negative": 1657,
+      "soil_dominates": 1668,
+      "absolute_soil_TgC": 569.0861220430454,
+      "absolute_area_TgC": 1.3331745159805133,
+      "absolute_added_TgC": 0.0002259691392079823,
+      "absolute_withdrawn_TgC": 0.0025236975088067898
+    },
+    {
+      "allocation": "soil_first",
+      "sign_reversals": 1669,
+      "positive_to_negative": 1657,
+      "soil_dominates": 1667,
+      "absolute_soil_TgC": 570.2438651151646,
+      "absolute_area_TgC": 2.2862255146611865,
+      "absolute_added_TgC": 0.0002259691392079823,
+      "absolute_withdrawn_TgC": 0.0025236975088067898
+    },
+    {
+      "allocation": "area_first",
+      "sign_reversals": 1669,
+      "positive_to_negative": 1657,
+      "soil_dominates": 1666,
+      "absolute_soil_TgC": 567.9295834844401,
+      "absolute_area_TgC": 1.2950884936208977,
+      "absolute_added_TgC": 0.0002259691392079823,
+      "absolute_withdrawn_TgC": 0.0025236975088067898
+    }
+  ],
+  "soil_dominates_under_all_conventions": 1665,
+  "dominance_changes_between_conventions": 3,
+  "checks": {
+    "independent_contribution_checks": 66828,
+    "max_municipality_year_closure_error_tC": 1.1920928955078125e-07,
+    "E7_midpoint_count_reproduced": true
+  },
+  "limits": [
+    "Allocation order is an accounting convention, not a physical cause",
+    "No new prediction or emissions inventory",
+    "The same extracted maps are reused",
+    "No probability sample or causal identification"
+  ]
+}

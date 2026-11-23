@@ -1,0 +1,46 @@
+[
+ {
+  "years": 8,
+  "values": 70691,
+  "derived": 35553,
+  "seconds_build": 1.2,
+  "flagged": 25359,
+  "seconds_impact": 0.053,
+  "seconds_incremental": 0.226,
+  "seconds_full_rebuild": 1.54,
+  "seconds_impact_sql": 0.13
+ },
+ {
+  "years": 20,
+  "values": 177505,
+  "derived": 89221,
+  "seconds_build": 7.33,
+  "flagged": 63304,
+  "seconds_impact": 0.151,
+  "seconds_incremental": 0.384,
+  "seconds_full_rebuild": 3.26,
+  "seconds_impact_sql": 0.342
+ },
+ {
+  "years": 33,
+  "values": 291246,
+  "derived": 145922,
+  "seconds_build": 10.0,
+  "flagged": 103177,
+  "seconds_impact": 0.191,
+  "seconds_incremental": 0.584,
+  "seconds_full_rebuild": 6.09,
+  "seconds_impact_sql": 0.5
+ },
+ {
+  "years": 62,
+  "values": 523640,
+  "derived": 259455,
+  "seconds_build": 13.91,
+  "flagged": 181532,
+  "seconds_impact": 0.416,
+  "seconds_incremental": 1.146,
+  "seconds_full_rebuild": 8.97,
+  "seconds_impact_sql": 0.805
+ }
+]

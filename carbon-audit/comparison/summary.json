@@ -1,0 +1,28 @@
+{
+  "experiment": "E10",
+  "protocol_sha256": "b2b7eabde6f11f72d2e2fe948f5d63868dd856b4f973b254cd4bed3ab759def6",
+  "cases": 18,
+  "cases_executed_natively_in_provsql": 17,
+  "adapter_rejection_cases": 1,
+  "output_checks_per_complete_approach": 574,
+  "mismatches": {
+    "ledger": 0,
+    "sql_full": 0,
+    "sql_no_contracts": 10,
+    "sql_no_history": 5
+  },
+  "provsql_adapter_mismatches": 0,
+  "provsql_version": "1.14.0-dev",
+  "postgres_version": "PostgreSQL 17.5 on wasm32-unknown-linux-gnu, compiled by emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.74 (1092ec30a3fb1d46b1782ff1b4db5094d3d06ae5), 32-bit",
+  "interpretation": "Equivalent results on the declared cases, without evidence of exclusive capability or cross-runtime speed superiority. ProvSQL classification uses the same independent SQL contract/history adapter as the SQL comparator. Native ProvSQL arithmetic and provenance tokens are separately executed.",
+  "oracle_review": "Explicit control expectations and Decimal NOAA arithmetic. Single AI-assisted evaluator. No independent human adjudication has been performed.",
+  "timing": "Not compared across runtimes",
+  "coverage_limits": [
+    "No comparative attribution experiment",
+    "No participant study",
+    "No GProM execution",
+    "No rerun of the original GX/OpenLineage comparison with additional domain rules",
+    "No national-scale ProvSQL comparison",
+    "WASM development build, not a stable native server deployment"
+  ]
+}

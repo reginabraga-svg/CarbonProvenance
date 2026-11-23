@@ -1,0 +1,52 @@
+{
+ "values": 70815,
+ "derived": 35553,
+ "Q1": {
+  "sql_answer": [
+   [
+    "gwp",
+    "AR6"
+   ],
+   [
+    "ipcc_factors",
+    "2019"
+   ],
+   [
+    "faostat_livestock",
+    "FAOSTAT EMN 2025-09"
+   ]
+  ],
+  "sql_seconds": 0.0937,
+  "sparql_answer": [
+   "faostat_livestock_FAOSTAT_EMN_2025-09",
+   "gwp_AR6",
+   "ipcc_factors_2019"
+  ],
+  "sparql_seconds": 0.11
+ },
+ "Q2": {
+  "sql_answer": 30805,
+  "sql_seconds": 0.1033
+ },
+ "Q3": {
+  "sql_answer": 0,
+  "sql_seconds": 0.0047
+ },
+ "Q4": {
+  "sql_answer": 0,
+  "sql_seconds": 0.0042
+ },
+ "Q5": {
+  "sql_answer": 5472,
+  "sql_seconds": 0.0042,
+  "sparql_answer": 5472,
+  "sparql_seconds": 1.889
+ },
+ "Q6": {
+  "sql_answer": 1360,
+  "sql_seconds": 0.0021,
+  "sparql_answer": 1360,
+  "sparql_seconds": 0.023
+ },
+ "triples": 878767
+}

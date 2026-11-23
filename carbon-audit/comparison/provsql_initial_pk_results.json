@@ -1,0 +1,2452 @@
+{
+  "metadata": {
+    "postgres": [
+      {
+        "version": "PostgreSQL 17.5 on wasm32-unknown-linux-gnu, compiled by emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.74 (1092ec30a3fb1d46b1782ff1b4db5094d3d06ae5), 32-bit"
+      }
+    ],
+    "provsql": [
+      {
+        "extversion": "1.14.0-dev"
+      }
+    ],
+    "protocol_hash": "b2b7eabde6f11f72d2e2fe948f5d63868dd856b4f973b254cd4bed3ab759def6",
+    "timing_scope": "No cross-runtime timing comparison",
+    "asset_manifest": [
+      {
+        "url": "https://provsql.org/playground/pglite/contrib/uuid_ossp.js",
+        "file": "pglite/contrib/uuid_ossp.js",
+        "bytes": 215,
+        "sha256": "0d4a46aa5f8c3801f7c2ca7f4be7ac07936474c4d5526b2417ea663eb75451bd"
+      },
+      {
+        "url": "https://provsql.org/playground/pglite/index.js",
+        "file": "pglite/index.js",
+        "bytes": 396565,
+        "sha256": "549acb8aac0efb4520d18f34f8ec59582480b6537c3046ef010b39783609f4c0"
+      },
+      {
+        "url": "https://provsql.org/playground/pglite/initdb.wasm",
+        "file": "pglite/initdb.wasm",
+        "bytes": 401741,
+        "sha256": "c6588f84a6bbd7b94b251b9c345fdfb6c27c26f44f7e5b33be211b98e29b3dae"
+      },
+      {
+        "url": "https://provsql.org/playground/pglite/pglite.data",
+        "file": "pglite/pglite.data",
+        "bytes": 6231135,
+        "sha256": "ea541279ecc4b6ae884cfb988419d3dc92ae32c30f12b5c6bcfa29b8a41b0afe"
+      },
+      {
+        "url": "https://provsql.org/playground/pglite/pglite.wasm",
+        "file": "pglite/pglite.wasm",
+        "bytes": 10080643,
+        "sha256": "42f15d81f61dbe0ffa1f2c403de810f00d30a79636788b9137b8b830c013eb6a"
+      },
+      {
+        "url": "https://provsql.org/playground/provsql.tar.gz",
+        "file": "provsql.tar.gz",
+        "bytes": 1890066,
+        "sha256": "7596a62420e148362d9dbdd008bc490a07d0ac8585bab965cd3b5d50f95dd186"
+      },
+      {
+        "url": "https://provsql.org/playground/pglite/chunk-CNF5ZKUH.js",
+        "file": "pglite/chunk-CNF5ZKUH.js",
+        "bytes": 102339,
+        "sha256": "37cf8e7b90db85047e4e113de237bcd18f83b0f9bf425066bf5ddceb4857f8cc"
+      },
+      {
+        "url": "https://provsql.org/playground/pglite/chunk-F4GETNPB.js",
+        "file": "pglite/chunk-F4GETNPB.js",
+        "bytes": 998,
+        "sha256": "5ab11fd9fd74b259484f42a7855cd9569a5fe6ee1cf3c032238ac43a59511d97"
+      },
+      {
+        "url": "https://provsql.org/playground/pglite/chunk-JOTQFPBW.js",
+        "file": "pglite/chunk-JOTQFPBW.js",
+        "bytes": 18094,
+        "sha256": "bf890602e6e4e4da3c6bd292f10e923dd5407d01e386dc192f9be35db5ddc4be"
+      },
+      {
+        "url": "https://provsql.org/playground/pglite/chunk-QY3QWFKW.js",
+        "file": "pglite/chunk-QY3QWFKW.js",
+        "bytes": 1335,
+        "sha256": "bff6d3144dd6ea2689b00d9d0eea1ea2267b9cc14505fb9107b6194c1832bdea"
+      },
+      {
+        "url": "https://provsql.org/playground/pglite/chunk-SHISBDX7.js",
+        "file": "pglite/chunk-SHISBDX7.js",
+        "bytes": 1950,
+        "sha256": "caa21fbf4c7c4ea51f3c19243271107233258ff430db921b81c17dbb1d5e029c"
+      },
+      {
+        "url": "https://provsql.org/playground/pglite/chunk-VC7SUH2R.js",
+        "file": "pglite/chunk-VC7SUH2R.js",
+        "bytes": 916,
+        "sha256": "0f1e0162b5bde15805b3cb8fcddffad3d7aaf24de720d77163787333110808f7"
+      },
+      {
+        "url": "https://provsql.org/playground/pglite/chunk-WUKNEE7X.js",
+        "file": "pglite/chunk-WUKNEE7X.js",
+        "bytes": 4209,
+        "sha256": "59937eca70bc83361b03f358d1ad86ff6a0a6de4ad21703d708d81ce241350d1"
+      },
+      {
+        "url": "https://provsql.org/playground/pglite/fs/nodefs.js",
+        "file": "pglite/fs/nodefs.js",
+        "bytes": 565,
+        "sha256": "58f355c189aaea57e9501caf4cd9834ee55eed49dfd54056e315df69e75e8c48"
+      },
+      {
+        "url": "https://provsql.org/playground/pglite/fs/opfs-ahp.js",
+        "file": "pglite/fs/opfs-ahp.js",
+        "bytes": 10112,
+        "sha256": "feedff99742a417beb564002a0975fe9e494ccae7d19ba1f67e88f9525aa9478"
+      },
+      {
+        "url": "https://provsql.org/playground/pglite/uuid-ossp.tar.gz",
+        "file": "pglite/uuid-ossp.tar.gz",
+        "bytes": 16481,
+        "sha256": "44340d3081452d6ce48d40e81a852147b603b3af17ec5908bfc9557af2cb3783"
+      }
+    ]
+  },
+  "results": [
+    {
+      "id": "unchanged",
+      "snapshots": [
+        {
+          "name": "baseline",
+          "values": {
+            "stock|forest": {
+              "value": 400,
+              "status": "ok"
+            },
+            "stock|pasture": {
+              "value": 100,
+              "status": "ok"
+            },
+            "total": {
+              "value": 500,
+              "status": "ok"
+            }
+          },
+          "outputs_with_token": 3
+        }
+      ],
+      "failures": [],
+      "modification_log": [
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        }
+      ]
+    },
+    {
+      "id": "numeric_revision",
+      "snapshots": [
+        {
+          "name": "baseline",
+          "values": {
+            "stock|forest": {
+              "value": 400,
+              "status": "ok"
+            },
+            "stock|pasture": {
+              "value": 100,
+              "status": "ok"
+            },
+            "total": {
+              "value": 500,
+              "status": "ok"
+            }
+          },
+          "outputs_with_token": 3
+        }
+      ],
+      "failures": [
+        {
+          "exception": "duplicate key value violates unique constraint \"facts_pkey\""
+        }
+      ],
+      "error": "duplicate key value violates unique constraint \"facts_pkey\"",
+      "failed_sql": "UPDATE facts SET key='soil|forest',value=44.0,qkind='stock',unit='t C/ha',period='instant:2021',support='municipality_class',source='soil' WHERE key='soil|forest'"
+    },
+    {
+      "id": "compensating_changes",
+      "snapshots": [
+        {
+          "name": "baseline",
+          "values": {
+            "stock|forest": {
+              "value": 400,
+              "status": "ok"
+            },
+            "stock|pasture": {
+              "value": 100,
+              "status": "ok"
+            },
+            "total": {
+              "value": 500,
+              "status": "ok"
+            }
+          },
+          "outputs_with_token": 3
+        }
+      ],
+      "failures": [
+        {
+          "exception": "duplicate key value violates unique constraint \"facts_pkey\""
+        }
+      ],
+      "error": "duplicate key value violates unique constraint \"facts_pkey\"",
+      "failed_sql": "UPDATE facts SET key='soil|forest',value=44.0,qkind='stock',unit='t C/ha',period='instant:2021',support='municipality_class',source='soil' WHERE key='soil|forest'"
+    },
+    {
+      "id": "withdrawal",
+      "snapshots": [
+        {
+          "name": "baseline",
+          "values": {
+            "stock|forest": {
+              "value": 400,
+              "status": "ok"
+            },
+            "stock|pasture": {
+              "value": 100,
+              "status": "ok"
+            },
+            "total": {
+              "value": 500,
+              "status": "ok"
+            }
+          },
+          "outputs_with_token": 3
+        },
+        {
+          "name": "Controlled source revision",
+          "values": {
+            "stock|forest": {
+              "value": 400,
+              "status": "ok"
+            },
+            "stock|pasture": {
+              "value": null,
+              "status": "orphan"
+            },
+            "total": {
+              "value": null,
+              "status": "orphan"
+            }
+          },
+          "outputs_with_token": 3
+        }
+      ],
+      "failures": [],
+      "modification_log": [
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "DELETE",
+          "query": "DELETE FROM facts WHERE key='soil|pasture'"
+        }
+      ]
+    },
+    {
+      "id": "never_present",
+      "snapshots": [
+        {
+          "name": "baseline",
+          "values": {
+            "stock|forest": {
+              "value": 400,
+              "status": "ok"
+            },
+            "stock|pasture": {
+              "value": null,
+              "status": "unresolved"
+            },
+            "total": {
+              "value": null,
+              "status": "unresolved"
+            }
+          },
+          "outputs_with_token": 3
+        }
+      ],
+      "failures": [],
+      "modification_log": [
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "DELETE",
+          "query": "DELETE FROM facts WHERE key='soil|pasture'"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        }
+      ]
+    },
+    {
+      "id": "first_appearance",
+      "snapshots": [
+        {
+          "name": "baseline",
+          "values": {
+            "stock|forest": {
+              "value": 400,
+              "status": "ok"
+            },
+            "stock|pasture": {
+              "value": null,
+              "status": "unresolved"
+            },
+            "total": {
+              "value": null,
+              "status": "unresolved"
+            }
+          },
+          "outputs_with_token": 3
+        },
+        {
+          "name": "Source first appears",
+          "values": {
+            "stock|forest": {
+              "value": 400,
+              "status": "ok"
+            },
+            "stock|pasture": {
+              "value": 100,
+              "status": "ok"
+            },
+            "total": {
+              "value": 500,
+              "status": "ok"
+            }
+          },
+          "outputs_with_token": 3
+        }
+      ],
+      "failures": [],
+      "modification_log": [
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "DELETE",
+          "query": "DELETE FROM facts WHERE key='soil|pasture'"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        }
+      ]
+    },
+    {
+      "id": "unit_change",
+      "snapshots": [
+        {
+          "name": "baseline",
+          "values": {
+            "stock|forest": {
+              "value": 400,
+              "status": "ok"
+            },
+            "stock|pasture": {
+              "value": 100,
+              "status": "ok"
+            },
+            "total": {
+              "value": 500,
+              "status": "ok"
+            }
+          },
+          "outputs_with_token": 3
+        }
+      ],
+      "failures": [
+        {
+          "exception": "duplicate key value violates unique constraint \"facts_pkey\""
+        }
+      ],
+      "error": "duplicate key value violates unique constraint \"facts_pkey\"",
+      "failed_sql": "UPDATE facts SET key='soil|forest',value=40.0,qkind='stock',unit='kg C/ha',period='instant:2021',support='municipality_class',source='soil' WHERE key='soil|forest'"
+    },
+    {
+      "id": "period_change",
+      "snapshots": [
+        {
+          "name": "baseline",
+          "values": {
+            "stock|forest": {
+              "value": 400,
+              "status": "ok"
+            },
+            "stock|pasture": {
+              "value": 100,
+              "status": "ok"
+            },
+            "total": {
+              "value": 500,
+              "status": "ok"
+            }
+          },
+          "outputs_with_token": 3
+        }
+      ],
+      "failures": [
+        {
+          "exception": "duplicate key value violates unique constraint \"facts_pkey\""
+        }
+      ],
+      "error": "duplicate key value violates unique constraint \"facts_pkey\"",
+      "failed_sql": "UPDATE facts SET key='soil|forest',value=40.0,qkind='stock',unit='t C/ha',period='instant:2022',support='municipality_class',source='soil' WHERE key='soil|forest'"
+    },
+    {
+      "id": "support_change",
+      "snapshots": [
+        {
+          "name": "baseline",
+          "values": {
+            "stock|forest": {
+              "value": 400,
+              "status": "ok"
+            },
+            "stock|pasture": {
+              "value": 100,
+              "status": "ok"
+            },
+            "total": {
+              "value": 500,
+              "status": "ok"
+            }
+          },
+          "outputs_with_token": 3
+        }
+      ],
+      "failures": [
+        {
+          "exception": "duplicate key value violates unique constraint \"facts_pkey\""
+        }
+      ],
+      "error": "duplicate key value violates unique constraint \"facts_pkey\"",
+      "failed_sql": "UPDATE facts SET key='soil|forest',value=40.0,qkind='stock',unit='t C/ha',period='instant:2021',support='farm_area',source='soil' WHERE key='soil|forest'"
+    },
+    {
+      "id": "context_extension",
+      "snapshots": [
+        {
+          "name": "baseline",
+          "values": {
+            "stock|forest": {
+              "value": 400,
+              "status": "ok"
+            },
+            "stock|pasture": {
+              "value": 100,
+              "status": "ok"
+            },
+            "total": {
+              "value": 500,
+              "status": "ok"
+            }
+          },
+          "outputs_with_token": 3
+        },
+        {
+          "name": "New context and sum mapping",
+          "values": {
+            "stock|forest": {
+              "value": 400,
+              "status": "ok"
+            },
+            "stock|pasture": {
+              "value": 100,
+              "status": "ok"
+            },
+            "stock|wetland": {
+              "value": 60,
+              "status": "ok"
+            },
+            "total": {
+              "value": 560,
+              "status": "ok"
+            }
+          },
+          "outputs_with_token": 4
+        }
+      ],
+      "failures": [],
+      "modification_log": [
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "DELETE",
+          "query": "DELETE FROM facts WHERE key='soil|pasture'"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|wetland',30.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|wetland',2.0,'area','ha','instant:2021','municipality_class','area')"
+        }
+      ]
+    },
+    {
+      "id": "unit_alias",
+      "snapshots": [
+        {
+          "name": "baseline",
+          "values": {
+            "sum": {
+              "value": 5,
+              "status": "ok"
+            }
+          },
+          "outputs_with_token": 1
+        }
+      ],
+      "failures": [],
+      "modification_log": [
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "DELETE",
+          "query": "DELETE FROM facts WHERE key='soil|pasture'"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|wetland',30.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|wetland',2.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('a',2.0,'flux','t C / a','annual:2021','country','flux')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('b',3.0,'flux','t C / a','annual:2021','country','flux')"
+        }
+      ]
+    },
+    {
+      "id": "context_assignment",
+      "snapshots": [
+        {
+          "name": "baseline",
+          "values": {
+            "assigned": {
+              "value": 40,
+              "status": "contextual"
+            }
+          },
+          "outputs_with_token": 1
+        }
+      ],
+      "failures": [],
+      "modification_log": [
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "DELETE",
+          "query": "DELETE FROM facts WHERE key='soil|pasture'"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|wetland',30.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|wetland',2.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('a',2.0,'flux','t C / a','annual:2021','country','flux')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('b',3.0,'flux','t C / a','annual:2021','country','flux')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('a',40.0,'stock','t C/ha','instant:2021','municipality','soil')"
+        }
+      ]
+    },
+    {
+      "id": "zero_denominator",
+      "snapshots": [
+        {
+          "name": "baseline",
+          "values": {
+            "ratio": {
+              "value": null,
+              "status": "unresolved"
+            }
+          },
+          "outputs_with_token": 1
+        }
+      ],
+      "failures": [],
+      "modification_log": [
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "DELETE",
+          "query": "DELETE FROM facts WHERE key='soil|pasture'"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|forest',40.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|pasture',20.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|forest',10.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|pasture',5.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('soil|wetland',30.0,'stock','t C/ha','instant:2021','municipality_class','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('area|wetland',2.0,'area','ha','instant:2021','municipality_class','area')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('a',2.0,'flux','t C / a','annual:2021','country','flux')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('b',3.0,'flux','t C / a','annual:2021','country','flux')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('a',40.0,'stock','t C/ha','instant:2021','municipality','soil')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('a',40.0,'stock','t C','instant:2021','municipality_class','stock')"
+        },
+        {
+          "query_type": "TRANSACTION",
+          "query": null
+        },
+        {
+          "query_type": "INSERT",
+          "query": "INSERT INTO facts VALUES ('b',0.0,'stock','t C','instant:2021','municipality_class','stock')"
+        }
+      ]
+    }
+  ]
+}

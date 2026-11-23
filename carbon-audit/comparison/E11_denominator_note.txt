@@ -1,0 +1,1 @@
+The first execution stopped at the positive-baseline assertion before any threshold results were calculated. Five municipality-year records had zero stock in both versions, for one municipality in all five years. The eligibility rule was made explicit and the five records are reported separately. No threshold or expected stock difference was changed.

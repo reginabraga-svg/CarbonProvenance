@@ -1,0 +1,38 @@
+{
+ "events": 7,
+ "datasets": [
+  "dstock_br",
+  "dstock_mun",
+  "dstock_uf",
+  "stock",
+  "stock_br",
+  "stock_mun",
+  "stock_uf"
+ ],
+ "stock_uf_upstream": [
+  "stock_mun",
+  "stock",
+  "area",
+  "mapbiomas_lulc_area",
+  "mapbiomas_soil",
+  "soil"
+ ],
+ "stock_br_upstream": [
+  "stock_uf",
+  "stock_mun",
+  "stock",
+  "area",
+  "mapbiomas_lulc_area",
+  "mapbiomas_soil",
+  "soil"
+ ],
+ "dstock_mun_upstream": [
+  "stock_mun",
+  "stock",
+  "area",
+  "mapbiomas_lulc_area",
+  "mapbiomas_soil",
+  "soil"
+ ],
+ "note": "the graph is the same for every state, municipality and year; it holds no values and no operations"
+}

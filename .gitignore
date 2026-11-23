@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+credentials.json
+*.pem
+*.key
+
+# Data supplied as a release asset
+/Article_C_data_20261123.zip
+/carbon-audit/replication/data/contextos_versoes.csv
+/carbon-audit/replication/data/crop_emission_rate.xls
+/carbon-audit/replication/data/gee_solo_2021_versoes.csv
+/carbon-audit/replication/data/carbofarm/data_integration_all_areas_final.csv
+/carbon-audit/replication/data/faostat/emn_cache.csv
+/carbon-audit/replication/data/faostat/emn_cache_1961_2022.csv
+/carbon-audit/replication/data/faostat/emn_cache_1990_2022.csv
+/carbon-audit/replication/data/faostat/emn_cache_2003_2022.csv
+/carbon-audit/replication/data/mapbiomas_brasil/brasil_solo_A_beta21_cob71.csv
+/carbon-audit/replication/data/mapbiomas_brasil/brasil_solo_B_col3_cob71.csv
+/carbon-audit/replication/data/mapbiomas_brasil/brasil_solo_C_col3_cob10.csv
+/carbon-audit/replication/data/primap/changes_v2.7_to_v2.6.xlsx
+/carbon-audit/replication/data/primap/Guetschow_et_al_2024a-PRIMAP-hist_v2_6_final_13-Sep-2024.csv
+/carbon-audit/replication/data/primap/Guetschow_et_al_2025a-PRIMAP-hist_v2_7_final_22-Aug-2025.csv
+*.part

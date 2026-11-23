@@ -1,0 +1,46 @@
+{
+ "D1_unit": {
+  "contexts": 44,
+  "blocked": 43,
+  "ratio_median": 0.9998859434025589,
+  "ratio_if_really_CO2": 3.6667,
+  "example": [
+   "repro_ratio|1100908|3 = 0.999305 [share, 1, none, municipality_class] status=blocked (ratio of incompatible values: ('stock', 't CO2/ha', 'instant:2021', 'municipality_class') / ('stock', 't C/ha', 'instant:2021', 'municipality_class')) <- ratio",
+   "  release_stock|1100908|3 = 31.3493 [stock, t CO2/ha, instant:2021, municipality_class] status=ok <- source carbofarm_release version carbofarm-2023 sha256 ",
+   "  soil|1100908|3|2021 = 31.3711 [stock, t C/ha, instant:2021, municipality_class] status=ok <- source mapbiomas_soil_context version V0 sha256 "
+  ]
+ },
+ "D2_kind": {
+  "balance_values_blocked": 45596,
+  "example": "bal_ha|1 = 31.3711 [flux, t CO2e/ha/yr, annual:2021, farm_area] status=blocked (diff of different quantity kinds: ['flux', 'stock']) <- diff"
+ },
+ "D3_support": {
+  "contextual_values": 91294,
+  "example": "stock_ha|1 = 31.3711 [stock, t C/ha, instant:2021, farm_area] status=contextual (value of municipality_class assigned to farm_area) <- broadcast {'expect': [('stock', 't C/ha', 'instant:2021', 'municipality_class')]}"
+ },
+ "D4_origin": {
+  "records_without_source": 2,
+  "release_values_for_them": [
+   40.97878671801424
+  ],
+  "example": [
+   "stock_ha|2937 = — [stock, t C/ha, instant:2021, farm_area] status=unresolved (missing input: soil|3142106|4|2021) <- broadcast {'expect': [('stock', 't C/ha', 'instant:2021', 'municipality_class')]}",
+   "  soil|3142106|4|2021: MISSING"
+  ]
+ },
+ "D5_component": {
+  "contexts": 44,
+  "contexts_with_residual": 32,
+  "records_with_residual": 15726,
+  "residual_constant_within_municipality": true,
+  "residual_by_municipality": {
+   "1100908": 2.7547,
+   "2312908": 4.1738,
+   "3142106": 2.9462,
+   "4319802": 2.3574,
+   "5107602": 4.1902,
+   "5107768": 0.8746
+  },
+  "rule": "residual added only where the BRLUC rate is positive"
+ }
+}

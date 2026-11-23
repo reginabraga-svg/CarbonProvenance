@@ -1,0 +1,45 @@
+{
+  "experiment": "E15",
+  "created_utc": "2026-11-17T12:14:28.163743+00:00",
+  "design": "Retrospective analysis of reporting consequences after E11 to E13. Fixed before E15 calculations. This is not an observed decision by an inventory compiler.",
+  "sources": {
+    "brasil_solo_B_col3_cob71.csv": "5f617781cbf17ee13cdbe2bca78e3afd2c84e2503a6cb6451e099e9300d55b62",
+    "brasil_solo_C_col3_cob10.csv": "f200f6961c6958e7edcf51de3ac8b5dec26c46cacc7cf9e7b10225d7c000ff56"
+  },
+  "legend_protocol_sha256": "4ae7fb8278940380cb7e3166d5863d2a874c7ab3e1bd070e6e3442963a0a7d32",
+  "years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "partition": "level1",
+  "reporting_outputs": [
+    "stock allocated to MapBiomas forest parent",
+    "stock allocated to MapBiomas farming parent",
+    "their shares of the municipality stock"
+  ],
+  "groups": [
+    "forest",
+    "farming"
+  ],
+  "measures": [
+    "before and after stock",
+    "absolute and relative stock difference",
+    "stock share difference in percentage points",
+    "counts at 1 and 5 percentage point absolute share differences",
+    "sum of absolute group differences and signed national group difference"
+  ],
+  "denominators": "Share uses municipality stock in each version. Stock relative change is reported only when the old group stock is positive. Absent groups are zero allocations, not missing factors in an emissions model.",
+  "exclusions": "The five municipality-year records with zero total stock are excluded from share comparisons. No division by zero.",
+  "checks": "Compute stocks and shares in pandas and independently with CSV parsing and math.fsum. Reconcile municipality stock totals and E12 level1 forest/farming national deltas.",
+  "limits": [
+    "MapBiomas parent groups are not claimed to be IPCC land use categories",
+    "No emission factors or emissions estimates are assigned",
+    "No claim of measured environmental change",
+    "No human audit outcome",
+    "No ecological equivalence established by grouping",
+    "Repeated municipality-year records are not independent samples"
+  ]
+}

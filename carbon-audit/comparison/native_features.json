@@ -1,0 +1,83 @@
+{
+  "before": [
+    {
+      "soil_key": "soil_forest",
+      "area_key": "area_forest",
+      "stock": "400",
+      "token": "8d69512a-9ab7-5e27-9ac7-444f6f847d58",
+      "active": true,
+      "provsql": "8d69512a-9ab7-5e27-9ac7-444f6f847d58"
+    },
+    {
+      "soil_key": "soil_pasture",
+      "area_key": "area_pasture",
+      "stock": "100",
+      "token": "e7b2c6f3-ee3e-5b0b-9ea4-72b13173b747",
+      "active": true,
+      "provsql": "e7b2c6f3-ee3e-5b0b-9ea4-72b13173b747"
+    }
+  ],
+  "where_provenance": [
+    {
+      "record": "{[facts:212e5912-ade5-4e52-b080-5be474157074:1],[facts:212e5912-ade5-4e52-b080-5be474157074:2],[facts:683772cd-4b0d-4094-9b5a-91ccf1971789:1],[facts:683772cd-4b0d-4094-9b5a-91ccf1971789:2]}"
+    }
+  ],
+  "steps": [
+    {
+      "name": "baseline",
+      "expected": 500,
+      "observed": 500,
+      "token": "d265daa9-f206-561d-845c-2a85fa0fa72c"
+    },
+    {
+      "name": "numeric_update",
+      "expected": 540,
+      "observed": 540,
+      "token": "d265daa9-f206-561d-845c-2a85fa0fa72c"
+    },
+    {
+      "name": "withdrawal_plain_sum",
+      "expected": 440,
+      "observed": 440,
+      "token": "d265daa9-f206-561d-845c-2a85fa0fa72c"
+    },
+    {
+      "name": "undo_withdrawal",
+      "expected": 540,
+      "observed": 540,
+      "token": "d265daa9-f206-561d-845c-2a85fa0fa72c"
+    }
+  ],
+  "old_token_gate": [
+    {
+      "gate": "times"
+    }
+  ],
+  "modifications": [
+    {
+      "query_type": "TRANSACTION",
+      "query": null
+    },
+    {
+      "query_type": "UPDATE",
+      "query": "UPDATE facts SET value=44 WHERE key='soil_forest'"
+    },
+    {
+      "query_type": "TRANSACTION",
+      "query": null
+    },
+    {
+      "query_type": "DELETE",
+      "query": "DELETE FROM facts WHERE key='soil_pasture'"
+    },
+    {
+      "query_type": "TRANSACTION",
+      "query": null
+    },
+    {
+      "query_type": "UNDO",
+      "query": "SELECT undo(provsql) FROM update_provenance WHERE query_type='DELETE' ORDER BY ts DESC LIMIT 1"
+    }
+  ],
+  "interpretation": "Native update provenance, row provenance and undo work in the tested build. The plain SQL sum after withdrawal is 440, following SQL semantics. The application contract requires retaining a separate orphan record with a null total. That requirement is an adapter policy, not a claim that native SQL arithmetic is wrong."
+}

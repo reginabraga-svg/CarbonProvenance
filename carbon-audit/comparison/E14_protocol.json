@@ -1,0 +1,165 @@
+{
+  "experiment": "E14",
+  "created_utc": "2026-11-17T12:17:47.604854+00:00",
+  "design": "Purposive diagnostic case selection after E13. The protocol and municipality set precede map extraction. This is not a national probability sample or a blinded source transfer.",
+  "years": [
+    2021,
+    2017
+  ],
+  "sample": [
+    {
+      "id": "56859067B16572160644513",
+      "municipio": "Caiabu",
+      "uf": "Sao Paulo",
+      "stock_group": 1,
+      "severity_group": 1,
+      "reference_area_ha": 25118.443465981425,
+      "reference_stock_tC": 889042.6394343576,
+      "E12_gross_percent": 2.34801345049804
+    },
+    {
+      "id": "56859067B29594982157265",
+      "municipio": "Emas",
+      "uf": "Paraiba",
+      "stock_group": 1,
+      "severity_group": 2,
+      "reference_area_ha": 24565.229309437695,
+      "reference_stock_tC": 751494.857969609,
+      "E12_gross_percent": 6.862458177883557
+    },
+    {
+      "id": "56859067B77707117894632",
+      "municipio": "Terra de Areia",
+      "uf": "Rio Grande do Sul",
+      "stock_group": 1,
+      "severity_group": 3,
+      "reference_area_ha": 13381.471834750366,
+      "reference_stock_tC": 886775.6302385886,
+      "E12_gross_percent": 19.86626605748548
+    },
+    {
+      "id": "56859067B22613522920734",
+      "municipio": "Borebi",
+      "uf": "Sao Paulo",
+      "stock_group": 2,
+      "severity_group": 1,
+      "reference_area_ha": 34340.85196571938,
+      "reference_stock_tC": 1561511.701895144,
+      "E12_gross_percent": 2.032999166948054
+    },
+    {
+      "id": "56859067B17129043800586",
+      "municipio": "Ramilândia",
+      "uf": "Parana",
+      "stock_group": 2,
+      "severity_group": 2,
+      "reference_area_ha": 23411.767456172754,
+      "reference_stock_tC": 1292065.9333778445,
+      "E12_gross_percent": 5.6404719760383175
+    },
+    {
+      "id": "56859067B97028441467773",
+      "municipio": "Araçaí",
+      "uf": "Minas Gerais",
+      "stock_group": 2,
+      "severity_group": 3,
+      "reference_area_ha": 18905.630328843043,
+      "reference_stock_tC": 1038264.3092389168,
+      "E12_gross_percent": 14.165520758000222
+    },
+    {
+      "id": "56859067B70861767862647",
+      "municipio": "Umuarama",
+      "uf": "Parana",
+      "stock_group": 3,
+      "severity_group": 1,
+      "reference_area_ha": 123717.76443946896,
+      "reference_stock_tC": 4279487.7323544845,
+      "E12_gross_percent": 2.200024242579081
+    },
+    {
+      "id": "56859067B92965867058108",
+      "municipio": "Piranga",
+      "uf": "Minas Gerais",
+      "stock_group": 3,
+      "severity_group": 2,
+      "reference_area_ha": 64662.35905542788,
+      "reference_stock_tC": 3473177.480334332,
+      "E12_gross_percent": 6.125514750164542
+    },
+    {
+      "id": "56859067B84372438534846",
+      "municipio": "Tocantinópolis",
+      "uf": "Tocantins",
+      "stock_group": 3,
+      "severity_group": 3,
+      "reference_area_ha": 106000.72296980165,
+      "reference_stock_tC": 3542202.004885554,
+      "E12_gross_percent": 15.388263079587029
+    },
+    {
+      "id": "56859067B42691950323680",
+      "municipio": "Ilhéus",
+      "uf": "Bahia",
+      "stock_group": 4,
+      "severity_group": 1,
+      "reference_area_ha": 156260.32666896915,
+      "reference_stock_tC": 8563637.206454556,
+      "E12_gross_percent": 2.036900362784866
+    },
+    {
+      "id": "56859067B40911142932648",
+      "municipio": "Goianorte",
+      "uf": "Tocantins",
+      "stock_group": 4,
+      "severity_group": 2,
+      "reference_area_ha": 180700.04109648408,
+      "reference_stock_tC": 6446717.181101659,
+      "E12_gross_percent": 6.13744289216931
+    },
+    {
+      "id": "56859067B64109293374612",
+      "municipio": "São Domingos do Capim",
+      "uf": "Para",
+      "stock_group": 4,
+      "severity_group": 3,
+      "reference_area_ha": 164745.21205099058,
+      "reference_stock_tC": 8246834.612426859,
+      "E12_gross_percent": 14.91310353575158
+    }
+  ],
+  "selection_eligible_municipalities": 4525,
+  "selection": "Within E13 2021 previous-stock quartiles retain reference mapped area from 10000 to 250000 ha. Sort each remaining quartile by E12 level1 gross percentage then identifier, split into three equal-count severity groups, select the middle record in each. These are diagnostic cases, not a claim of population representativeness.",
+  "assets": {
+    "municipalities": "WM/geoLab/geoBoundaries/600/ADM2",
+    "cover71_folder": "projects/mapbiomas-public/assets/brazil/lulc/collection7_1",
+    "cover10_folder": "projects/mapbiomas-public/assets/brazil/lulc/collection10",
+    "soil": "projects/mapbiomas-public/assets/brazil/soil/collection3/mapbiomas_brazil_collection3_soil_carbon_v1"
+  },
+  "asset_choice": "Enumerate cover folders. Require unique integration/coverage image with classification bands for both years. Save chosen exact IDs and metadata before summaries. Stop on ambiguity rather than silently use the first image.",
+  "grids": "Primary uses projection and affine transform of collection7.1 classification band. Sensitivity uses collection10 native grid if different. No bestEffort coarsening. Default nearest-neighbour sampling for categorical bands.",
+  "support": "Same municipality geometry and soil collection3 band for both classifications. Soil>=0 and both coverage masks define common support. Keep class0 separate. Sum stock per pixel as soil tC/ha times pixelArea ha, with identical region weights for both cover versions.",
+  "summaries": [
+    "Pixel area and stock by original code pair",
+    "Parent group transition matrix under E12 level1 mapping",
+    "Net and gross group stock differences on common support",
+    "Mask membership area and stock for both, only71, only10, neither",
+    "Comparison with E12 municipal gross and source extraction estimates",
+    "Grid sensitivity"
+  ],
+  "checks": [
+    "Pair matrix margins reconcile with parent totals",
+    "Common-support total stock equal for both classifications by construction",
+    "Gross group difference no greater than twice stock attached to between-parent transitions",
+    "Returned identifiers and years match fixed sample",
+    "No unlisted class code accepted"
+  ],
+  "limits": [
+    "No ground truth reference labels",
+    "A map label transition is not environmental change",
+    "No unique attribution between classification algorithm, input imagery and revised class definitions",
+    "Purposive sample cannot estimate national transition prevalence",
+    "E12 uses class mean times area while E14 uses pixel stock sums and explicitly matched grid, so differences require reconciliation rather than being declared source errors"
+  ],
+  "execution": "Read public Earth Engine assets with user authorization. Download summary JSON only. Do not publish assets, create storage buckets or include credentials in the supplement."
+}

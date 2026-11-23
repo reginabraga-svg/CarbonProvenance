@@ -1,0 +1,13 @@
+denominator,threshold_percent,eligible,class_alerts,total_alerts,class_without_total
+previous,0.1,27840,27794,0,27794
+previous,1.0,27840,25828,0,25828
+previous,5.0,27840,15158,0,15158
+previous,10.0,27840,8176,0,8176
+symmetric,0.1,27840,27794,0,27794
+symmetric,1.0,27840,25828,0,25828
+symmetric,5.0,27840,15158,0,15158
+symmetric,10.0,27840,8176,0,8176
+maximum,0.1,27840,27794,0,27794
+maximum,1.0,27840,25828,0,25828
+maximum,5.0,27840,15158,0,15158
+maximum,10.0,27840,8176,0,8176

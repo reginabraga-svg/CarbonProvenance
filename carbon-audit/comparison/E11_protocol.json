@@ -1,0 +1,33 @@
+{
+  "experiment": "E11",
+  "design": "Retrospective descriptive extension of the MapBiomas land cover comparison. Protocol written before this extension was executed, after E1-E10 were known.",
+  "versions": [
+    "V1: soil collection 3 and land cover 7.1",
+    "V2: soil collection 3 and land cover 10"
+  ],
+  "years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "unit_of_analysis": "municipality and year",
+  "stock": "sum of soil mean times mapped area within each class",
+  "net_relative": "abs(sum class differences) / previous total stock",
+  "class_relative": "sum abs(class differences) / previous total stock",
+  "offsetting_relative": "(sum abs(class differences) - abs(sum class differences)) / (2 times previous total stock)",
+  "thresholds_percent": [
+    0.1,
+    1,
+    5,
+    10
+  ],
+  "total_only_alert": "net_relative >= threshold",
+  "class_alert": "class_relative >= threshold",
+  "missed_by_total_summary": "class_alert is true and total_only_alert is false",
+  "interpretation": "An alert marks a version difference, not an error in the source or a measured environmental change. Gross class differences count positive and negative terms. Offsetting differences are an arithmetic quantity, not evidence of carbon transport.",
+  "validation": "Compare national 2021 net change and largest class changes to E7 rounded records. Reconcile source totals before threshold counts.",
+  "scope": "Finite set from the supplied extracts. Municipality-year comparisons are not independent samples. No significance test or claim of transfer to other products.",
+  "relative_measure_eligibility": "Previous total stock must be strictly positive. Records with zero baseline are counted separately and excluded from relative threshold counts. Absolute differences remain in the source reconciliation."
+}

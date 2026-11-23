@@ -1,0 +1,78 @@
+{
+ "revisions": [
+  {
+   "revision": "Soil beta 2.1 -> collection 3 (P1)",
+   "lineage_flagged": 91250,
+   "lineage_orphans_reported": 0,
+   "validation_alarm": false,
+   "failed": []
+  },
+  {
+   "revision": "Land cover 7.1 -> 10 (P1)",
+   "lineage_flagged": 91250,
+   "lineage_orphans_reported": 0,
+   "validation_alarm": true,
+   "failed": [
+    "expect_column_distinct_values_to_contain_set"
+   ]
+  },
+  {
+   "revision": "PRIMAP-hist v2.6 -> v2.7 (P2)",
+   "lineage_flagged": 4696,
+   "lineage_orphans_reported": 0,
+   "validation_alarm": true,
+   "failed": [
+    "expect_column_values_to_be_in_set"
+   ]
+  },
+  {
+   "revision": "GWP AR5 -> AR6 (P2)",
+   "lineage_flagged": 4688,
+   "lineage_orphans_reported": 0,
+   "validation_alarm": true,
+   "failed": [
+    "expect_column_values_to_be_between"
+   ]
+  },
+  {
+   "revision": "IPCC factors 2006 -> 2019, 2006 regions (P2)",
+   "lineage_flagged": 32417,
+   "lineage_orphans_reported": 0,
+   "validation_alarm": true,
+   "failed": [
+    "expect_column_distinct_values_to_contain_set",
+    "expect_column_values_to_be_between"
+   ]
+  }
+ ],
+ "defects": {
+  "unit_label": "120/120",
+  "period": "69/120",
+  "kind": "120/120",
+  "support": "120/120",
+  "removed": "120/120",
+  "silent_scale": "71/120",
+  "silent_scale_versioned": "71/120",
+  "revision_versioned": "1/120",
+  "invalid_total": "691/840",
+  "controls_flagged": "1/120",
+  "union_with_ledger": {
+   "unit_label": "120/120",
+   "period": "120/120",
+   "kind": "120/120",
+   "support": "120/120",
+   "removed": "120/120",
+   "silent_scale": "120/120",
+   "silent_scale_versioned": "71/120",
+   "revision_versioned": "1/120",
+   "invalid_total": "791/840",
+   "controls_flagged": "1/120"
+  }
+ },
+ "release": {
+  "expectations": 11,
+  "failed": [],
+  "problems_flagged": "0/5"
+ },
+ "openlineage_events": 8
+}

@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "origin": "executed_this_session",
+  "date": "2026-11-16",
+  "python": "3.12.14",
+  "unit_tests": {
+    "passed": 13,
+    "total": 13,
+    "cases": [
+      "Sum and product",
+      "Source withdrawal and return",
+      "Contract block without a numeric value",
+      "Input absent from the initial version",
+      "New context before dependent outputs",
+      "Cycle rejection without graph mutation",
+      "New output counts",
+      "Duplicate key rejection",
+      "Unit aliases",
+      "Division by zero",
+      "Rejection of sums across years",
+      "Example calculations",
+      "Node declaration order"
+    ]
+  },
+  "prospective": {
+    "origin": "executed_this_session",
+    "experiment": "P3 prospective contexts",
+    "scope": "stocks by class, municipality, state and country for 2017 to 2021",
+    "excludes": "annual stock differences and attribution",
+    "steps": [
+      {
+        "version": "V1",
+        "new_context_outputs": 148,
+        "rewired_sums": 952,
+        "active_outputs": 339993,
+        "retained_outputs": 340818,
+        "rebuild_mismatches": 0,
+        "independent_checks": 27845,
+        "independent_failures": 0,
+        "max_absolute_deviation_tC": 1.1920928955078125e-07,
+        "incremental_seconds": 13.913
+      },
+      {
+        "version": "V2",
+        "new_context_outputs": 28648,
+        "rewired_sums": 21588,
+        "active_outputs": 352608,
+        "retained_outputs": 369466,
+        "rebuild_mismatches": 0,
+        "independent_checks": 27845,
+        "independent_failures": 0,
+        "max_absolute_deviation_tC": 1.1920928955078125e-07,
+        "incremental_seconds": 16.497
+      }
+    ]
+  },
+  "replication_p1": {
+    "steps": [
+      {
+        "step": "V1",
+        "source": "mapbiomas_soil_context",
+        "new_version": "V1",
+        "derived_values": 136900,
+        "source_diff": {
+          "changed": 68,
+          "removed": 0,
+          "added": 0,
+          "contract_changed": 0,
+          "unannounced": 0
+        },
+        "impact": {
+          "stale": 91241,
+          "orphan": 0,
+          "resolvable": 0
+        },
+        "truly_changed": 91240,
+        "flagged": 91241,
+        "recall": 1.0,
+        "precision": 1.0,
+        "incremental_equals_full_rebuild": true,
+        "mismatches": [],
+        "table_level_flagged": 91241,
+        "table_level_precision": 1.0,
+        "no_lineage_silently_stale": 91240,
+        "evaluations_incremental": 91241,
+        "evaluations_full": 136900,
+        "seconds_impact_analysis": 0.1144,
+        "seconds_incremental_recompute": 0.5845,
+        "seconds_full_rebuild": 2.793,
+        "status_counts_after": {
+          "contextual": 91294,
+          "blocked": 45596,
+          "unresolved": 10
+        }
+      },
+      {
+        "step": "V2",
+        "source": "mapbiomas_soil_context",
+        "new_version": "V2",
+        "derived_values": 136900,
+        "source_diff": {
+          "changed": 64,
+          "removed": 3,
+          "added": 8,
+          "contract_changed": 0,
+          "unannounced": 0
+        },
+        "impact": {
+          "stale": 88815,
+          "orphan": 2426,
+          "resolvable": 0
+        },
+        "truly_changed": 91240,
+        "flagged": 91241,
+        "recall": 1.0,
+        "precision": 1.0,
+        "incremental_equals_full_rebuild": true,
+        "mismatches": [],
+        "table_level_flagged": 91241,
+        "table_level_precision": 1.0,
+        "no_lineage_silently_stale": 91240,
+        "evaluations_incremental": 91241,
+        "evaluations_full": 136900,
+        "seconds_impact_analysis": 0.1436,
+        "seconds_incremental_recompute": 0.7892,
+        "seconds_full_rebuild": 3.505,
+        "status_counts_after": {
+          "contextual": 90080,
+          "blocked": 44384,
+          "unresolved": 2436
+        }
+      }
+    ],
+    "counts_match_archive": true
+  },
+  "not_rerun": [
+    "P2",
+    "SHACL",
+    "SPARQL",
+    "Great Expectations",
+    "OpenLineage",
+    "E7 attribution"
+  ],
+  "browser_checks": {
+    "local_api_execution": true,
+    "new_context_and_orphan": true,
+    "revision_filter": true,
+    "lineage_inspection": true,
+    "evaluation_view": true,
+    "hosted_login_gate_seen": true
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "analysis": "E12 S1",
+  "thresholds": [
+    {
+      "threshold_percent": 0.1,
+      "including_code0": 27794,
+      "excluding_code0_from_numerator": 27794,
+      "total_alerts": 0
+    },
+    {
+      "threshold_percent": 1,
+      "including_code0": 25828,
+      "excluding_code0_from_numerator": 25805,
+      "total_alerts": 0
+    },
+    {
+      "threshold_percent": 5,
+      "including_code0": 15158,
+      "excluding_code0_from_numerator": 15137,
+      "total_alerts": 0
+    },
+    {
+      "threshold_percent": 10,
+      "including_code0": 8176,
+      "excluding_code0_from_numerator": 8159,
+      "total_alerts": 0
+    }
+  ],
+  "by_year": [
+    {
+      "year": 2017,
+      "sum_municipality_gross_TgC": 2251.6601032516382,
+      "national_gross_TgC": 664.0200349817663,
+      "spatial_cancellation_fraction": 0.7050975704446465
+    },
+    {
+      "year": 2018,
+      "sum_municipality_gross_TgC": 2245.441924370275,
+      "national_gross_TgC": 657.3954502240758,
+      "spatial_cancellation_fraction": 0.7072311498733419
+    },
+    {
+      "year": 2019,
+      "sum_municipality_gross_TgC": 2208.1573142922716,
+      "national_gross_TgC": 514.8732044056179,
+      "spatial_cancellation_fraction": 0.7668312845859725
+    },
+    {
+      "year": 2020,
+      "sum_municipality_gross_TgC": 2243.775213226797,
+      "national_gross_TgC": 396.67630990469263,
+      "spatial_cancellation_fraction": 0.8232103164495572
+    },
+    {
+      "year": 2021,
+      "sum_municipality_gross_TgC": 2294.257875325347,
+      "national_gross_TgC": 343.31252535112293,
+      "spatial_cancellation_fraction": 0.8503600972482493
+    }
+  ],
+  "interpretation": "Excluding code 0 from the gross numerator is a sensitivity check. National aggregation can cancel differences between municipalities. Neither quantity establishes a source error or carbon transport."
+}

@@ -1,0 +1,109 @@
+{
+ "X1_rondonia_2020_soil_revision": {
+  "stock_old_TgC": 803.27,
+  "stock_new_TgC": 1114.07,
+  "change_pct": 38.7,
+  "change_TgC": 310.8,
+  "closure_error_tC": 1.7881393432617188e-07,
+  "source_values_reached": 868,
+  "seconds": 0.0,
+  "by_kind_TgC": {
+   "context withdrawn": -0.0,
+   "soil": 316.08,
+   "area": -5.28
+  },
+  "by_class_TgC": {
+   "Forest formation": 170.26,
+   "Pasture": 125.39,
+   "Grassland": 6.52,
+   "Savanna formation": 6.45,
+   "Soybean": 2.99,
+   "River and lake": -2.79
+  },
+  "by_class_share": {
+   "Forest formation": 0.548,
+   "Pasture": 0.403,
+   "Grassland": 0.021,
+   "Savanna formation": 0.021
+  },
+  "municipalities": 52,
+  "top10_share": 0.586,
+  "top3": [
+   [
+    "Porto Velho",
+    61.26
+   ],
+   [
+    "Guajará-Mirim",
+    25.96
+   ],
+   [
+    "Nova Mamoré",
+    17.09
+   ]
+  ],
+  "independent_join_max_deviation_tC": 5.960464477539063e-08
+ },
+ "X2_brazil_2020_soil_revision": {
+  "change_TgC": 1499.31,
+  "change_pct": 3.99,
+  "closure_error_tC": 2.86102294921875e-06,
+  "source_values_reached": 103394,
+  "seconds": 0.71,
+  "by_state_TgC": {
+   "Para": 692.13,
+   "Amazonas": -561.52,
+   "Mato Grosso": -402.69,
+   "Rondonia": 310.8,
+   "Minas Gerais": 244.69,
+   "Roraima": 197.48,
+   "Maranhao": 167.99,
+   "Acre": 146.23
+  },
+  "by_class_TgC": {
+   "Forest formation": 675.53,
+   "Pasture": 602.93,
+   "Savanna formation": 146.0,
+   "River and lake": -144.35,
+   "Mosaic of uses": 137.14,
+   "Grassland": 87.95
+  },
+  "gross_up_TgC": 2500.12,
+  "gross_down_TgC": -1000.81
+ },
+ "X3_sign_flips_2020_2021": {
+  "municipalities": 1669,
+  "positive_to_negative": 1657,
+  "soil_dominates": 1668,
+  "abs_contribution_TgC": {
+   "soil": 569.09,
+   "area": 1.33,
+   "context withdrawn": 0.0,
+   "context added": 0.0
+  },
+  "max_closure_error_tC": 7.078051567077637e-08
+ },
+ "X4_brazil_2021_land_cover_revision": {
+  "change_TgC": 0.11,
+  "change_pct": 0.0003,
+  "closure_error_tC": 1.310283550992608e-06,
+  "by_kind_TgC": {
+   "context added": 2291.28,
+   "context withdrawn": -69.22,
+   "soil": -452.16,
+   "area": -1769.8
+  },
+  "gross_class_flows_TgC": 6478.36,
+  "by_class_TgC": {
+   "Floodable forest": 2217.81,
+   "Forest formation": -1982.75,
+   "Grassland": -810.76,
+   "Wetland": 648.6,
+   "Mosaic of uses": -302.02,
+   "Pasture": 213.86,
+   "Savanna formation": -85.82,
+   "Sugar cane": 79.51
+  },
+  "max_municipal_change_pct": 0.0106
+ }
+}

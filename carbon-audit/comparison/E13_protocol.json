@@ -1,0 +1,39 @@
+{
+  "experiment": "E13",
+  "created_utc": "2026-11-17T12:00:57.864048+00:00",
+  "design": "Retrospective descriptive followup after E11 and E12 results were known. This protocol precedes E13 calculation, not the original study. No new source release is tested.",
+  "input": "E12_municipality_year.csv",
+  "input_sha256": "e6839ff20c86985cd7ab2d03a70b6e571db7741f470e8d25e70c1a06a840c3c0",
+  "partition": "level1",
+  "years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "thresholds_percent": [
+    0.1,
+    1,
+    5,
+    10
+  ],
+  "denominators": {
+    "previous": "before",
+    "symmetric": "(before + after) / 2",
+    "maximum": "max(before, after)"
+  },
+  "primary_threshold_percent": 1,
+  "groups": "Each year separately. Four equal count groups ordered by previous stock then municipality identifier within each year. Group boundaries describe these extracts, not universal stock categories.",
+  "persistence": "Count years with gross >= 1% and net < 1% per municipality under the previous denominator. Also summarize each omission of one year. No independence or prospective validation claim.",
+  "weighting": "For each year report the previous stock share in alerted records and sum(gross)/sum(before). This latter statistic is not the gross computed after national class aggregation.",
+  "verification": "Reproduce E12 level1 counts and verify summary counts and weighted sums using CSV parsing and math.fsum without pandas.",
+  "limits": [
+    "No pixel transition cross-tabulation",
+    "No causal attribution of residual differences",
+    "No map accuracy or confidence interval estimate",
+    "Denominator variants can agree because the two total stocks scarcely differ",
+    "Year and municipality records share sources and are not independent samples",
+    "No decision outcome or usability experiment"
+  ]
+}

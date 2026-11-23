@@ -1,0 +1,15 @@
+import fs from 'node:fs';import path from 'node:path';import {pathToFileURL,fileURLToPath} from 'node:url';
+const root=path.dirname(fileURLToPath(import.meta.url)),runtime=root+'/vendor/runtime';
+const {PGlite}=await import(pathToFileURL(runtime+'/pglite/index.js'));const {uuid_ossp}=await import(pathToFileURL(runtime+'/pglite/contrib/uuid_ossp.js'));
+const provsql={name:'provsql',setup:async(_p,o)=>({emscriptenOpts:o,bundlePath:pathToFileURL(runtime+'/provsql.tar.gz')})};
+const pg=await PGlite.create({extensions:{uuid_ossp,provsql}});await pg.exec('CREATE EXTENSION provsql CASCADE;SET search_path=public,provsql;SET provsql.update_provenance=on;CREATE TABLE facts(key text,value numeric)');await pg.exec("SET provsql.update_provenance=off;INSERT INTO facts VALUES ('soil_forest',40),('soil_pasture',20),('area_forest',10),('area_pasture',5)");await pg.query("SELECT add_provenance('facts')");await pg.exec('SET provsql.update_provenance=on');
+const product="SELECT s.key AS soil_key,a.key AS area_key,s.value*a.value AS stock,provenance() AS token,present(provenance()) AS active FROM facts s JOIN facts a ON (s.key='soil_forest' AND a.key='area_forest') OR (s.key='soil_pasture' AND a.key='area_pasture')";
+const sum="SELECT SUM(s.value*a.value)::text AS total,provenance() AS token FROM facts s JOIN facts a ON (s.key='soil_forest' AND a.key='area_forest') OR (s.key='soil_pasture' AND a.key='area_pasture')";
+const before=(await pg.query(product)).rows.filter(r=>r.active);const token=before[0].token;
+const report={before,where_provenance:(await pg.query('SELECT where_provenance($1::uuid) AS record',[token])).rows,steps:[]};
+async function step(name,expected){const r=(await pg.query(sum)).rows[0];if(Number(r.total)!==expected)throw Error(name+' '+r.total);report.steps.push({name,expected,observed:Number(r.total),token:r.token})}
+await step('baseline',500);await pg.exec("UPDATE facts SET value=44 WHERE key='soil_forest'");await step('numeric_update',540);await pg.exec("DELETE FROM facts WHERE key='soil_pasture'");await step('withdrawal_plain_sum',440);
+report.old_token_gate=(await pg.query('SELECT get_gate_type($1::uuid) AS gate',[token])).rows;
+await pg.query("SELECT undo(provsql) FROM update_provenance WHERE query_type='DELETE' ORDER BY ts DESC LIMIT 1");await step('undo_withdrawal',540);
+report.modifications=(await pg.query('SELECT query_type,query FROM update_provenance')).rows.map(({query_type,query})=>({query_type,query}));report.interpretation='Native update provenance, row provenance and undo work in the tested build. The plain SQL sum after withdrawal is 440, following SQL semantics. The application contract requires retaining a separate orphan record with a null total. That requirement is an adapter policy, not a claim that native SQL arithmetic is wrong.';
+fs.writeFileSync(root+'/native_features.json',JSON.stringify(report,null,2));console.log(JSON.stringify({steps:report.steps,where:report.where_provenance,old_token_gate:report.old_token_gate}));await pg.close();

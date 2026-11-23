@@ -1,0 +1,42 @@
+build S0 3.8 s 70680 datums 35553 derived Counter({'ok': 35433, 'unresolved': 120})
+{"step": "PRIMAP-hist v2.6->v2.7", "source": "primap_hist", "new_version": "v2.7", "derived_values": 35553, "source_diff": {"changed": 7052, "removed": 0, "added": 128, "contract_changed": 0, "unannounced": 0}, "impact": {"stale": 3318, "orphan": 0, "resolvable": 0}, "truly_changed": 3310, "flagged": 3318, "recall": 1.0, "precision": 0.9976, "incremental_equals_full_rebuild": true, "table_level_flagged": 4576, "table_level_precision": 0.7233, "no_lineage_silently_stale": 3310, "evaluations_incremental": 3318, "evaluations_full": 35553, "seconds_impact_analysis": 0.0204, "seconds_incremental_recompute": 0.0291, "seconds_full_rebuild": 1.113, "status_counts_after": {"ok": 35425, "unresolved": 128}}
+   mismatches: []
+{"step": "GWP AR5->AR6", "source": "gwp", "new_version": "AR6", "derived_values": 35553, "source_diff": {"changed": 2, "removed": 0, "added": 0, "contract_changed": 0, "unannounced": 0}, "impact": {"stale": 4688, "orphan": 0, "resolvable": 0}, "truly_changed": 4688, "flagged": 4688, "recall": 1.0, "precision": 1.0, "incremental_equals_full_rebuild": true, "table_level_flagged": 4688, "table_level_precision": 1.0, "no_lineage_silently_stale": 4688, "evaluations_incremental": 4688, "evaluations_full": 35553, "seconds_impact_analysis": 0.0106, "seconds_incremental_recompute": 0.0274, "seconds_full_rebuild": 1.071, "status_counts_after": {"ok": 35425, "unresolved": 128}}
+   mismatches: []
+{"step": "IPCC factors 2006->2019 (2006 regions kept)", "source": "ipcc_factors", "new_version": "2019", "derived_values": 35553, "source_diff": {"changed": 16, "removed": 4, "added": 11, "contract_changed": 0, "unannounced": 0}, "impact": {"stale": 20007, "orphan": 5352, "resolvable": 0}, "truly_changed": 23810, "flagged": 25359, "recall": 1.0, "precision": 0.9389, "incremental_equals_full_rebuild": true, "table_level_flagged": 32417, "table_level_precision": 0.7345, "no_lineage_silently_stale": 23810, "evaluations_incremental": 25359, "evaluations_full": 35553, "seconds_impact_analysis": 0.0302, "seconds_incremental_recompute": 0.1116, "seconds_full_rebuild": 1.048, "status_counts_after": {"unresolved": 5472, "ok": 30081}}
+   mismatches: []
+{"step": "regional scheme 2006->2019 (rewire)", "rewired": 1612, "affected": 5352, "truly_changed": 5344, "recall": 1.0, "precision": 0.9985, "incremental_equals_full_rebuild": true, "mismatches": [], "recomputed": 5352, "evaluations_full": 35553, "seconds": 0.048, "status_counts_after": {"ok": 35425, "unresolved": 128}}
+enteric_ch4|USA|buffalo|2020 absent
+tier1_vs_primap_ch4|BRA|2020 = 0.918022 [share, 1, annual:2020, country] status=ok <- ratio {'expect': [None, ('flux', 'CH4 * gigagram / yr', 'annual:2020', 'country')]}
+  enteric_ch4|BRA|total|2020 = 13127.7 [flux, CH4 * gigagram / a, annual:2020, country] status=ok <- sum
+    enteric_ch4|BRA|dairy|2020 = 1387.99 [flux, CH4 * gigagram / a, annual:2020, country] status=ok <- mul {'k': 1e-06, 'expect': [('count', 'head', 'instant:2020', 'country'), ('factor', 'kg CH4/head/yr', None, 'region')]}
+      heads|BRA|dairy|2020 = 1.59539e+07 [count, head, instant:2020, country] status=ok <- source faostat_livestock version FAOSTAT EMN 2025-09 sha256 
+      ef|enteric|dairy|Latin America = 87 [factor, kg CH4/head/yr, none, region] status=ok <- source ipcc_factors version 2019 sha256 
+    enteric_ch4|BRA|other_cattle|2020 = 11305.4 [flux, CH4 * gigagram / a, annual:2020, country] status=ok <- mul {'k': 1e-06, 'expect': [('count', 'head', 'instant:2020', 'country'), ('factor', 'kg CH4/head/yr', None, 'region')]}
+      heads|BRA|other_cattle|2020 = 2.01882e+08 [count, head, instant:2020, country] status=ok <- source faostat_livestock version FAOSTAT EMN 2025-09 sha256 
+      ef|enteric|other_cattle|Latin America = 56 [factor, kg CH4/head/yr, none, region] status=ok <- source ipcc_factors version 2019 sha256 
+    enteric_ch4|BRA|buffalo|2020 = 102.153 [flux, CH4 * gigagram / a, annual:2020, country] status=ok <- mul {'k': 1e-06, 'expect': [('count', 'head', 'instant:2020', 'country'), ('factor', 'kg CH4/head/yr', None, 'region')]}
+      heads|BRA|buffalo|2020 = 1.50225e+06 [count, head, instant:2020, country] status=ok <- source faostat_livestock version FAOSTAT EMN 2025-09 sha256 
+      ef|enteric|buffalo|Latin America = 68 [factor, kg CH4/head/yr, none, region] status=ok <- source ipcc_factors version 2019 sha256 
+    enteric_ch4|BRA|sheep|2020 = 103.115 [flux, CH4 * gigagram / a, annual:2020, country] status=ok <- mul {'k': 1e-06, 'expect': [('count', 'head', 'instant:2020', 'country'), ('factor', 'kg CH4/head/yr', None, 'region')]}
+      heads|BRA|sheep|2020 = 2.06231e+07 [count, head, instant:2020, country] status=ok <- source faostat_livestock version FAOSTAT EMN 2025-09 sha256 
+      ef|enteric|sheep|low = 5 [factor, kg CH4/head/yr, none, region] status=ok <- source ipcc_factors version 2019 sha256 
+    enteric_ch4|BRA|goats|2020 = 60.5084 [flux, CH4 * gigagram / a, annual:2020, country] status=ok <- mul {'k': 1e-06, 'expect': [('count', 'head', 'instant:2020', 'country'), ('factor', 'kg CH4/head/yr', None, 'region')]}
+      heads|BRA|goats|2020 = 1.21017e+07 [count, head, instant:2020, country] status=ok <- source faostat_livestock version FAOSTAT EMN 2025-09 sha256 
+      ef|enteric|goats|low = 5 [factor, kg CH4/head/yr, none, region] status=ok <- source ipcc_factors version 2019 sha256 
+    enteric_ch4|BRA|swine|2020 = 41.2112 [flux, CH4 * gigagram / a, annual:2020, country] status=ok <- mul {'k': 1e-06, 'expect': [('count', 'head', 'instant:2020', 'country'), ('factor', 'kg CH4/head/yr', None, 'region')]}
+      heads|BRA|swine|2020 = 4.12112e+07 [count, head, instant:2020, country] status=ok <- source faostat_livestock version FAOSTAT EMN 2025-09 sha256 
+      ef|enteric|swine|low = 1 [factor, kg CH4/head/yr, none, region] status=ok <- source ipcc_factors version 2019 sha256 
+    enteric_ch4|BRA|horses|2020 = 107.279 [flux, CH4 * gigagram / a, annual:2020, country] status=ok <- mul {'k': 1e-06, 'expect': [('count', 'head', 'instant:2020', 'country'), ('factor', 'kg CH4/head/yr', None, 'region')]}
+      heads|BRA|horses|2020 = 5.95992e+06 [count, head, instant:2020, country] status=ok <- source faostat_livestock version FAOSTAT EMN 2025-09 sha256 
+      ef|enteric|horses|low = 18 [factor, kg CH4/head/yr, none, region] status=ok <- source ipcc_factors version 2019 sha256 
+    enteric_ch4|BRA|asses|2020 = 7.83923 [flux, CH4 * gigagram / a, annual:2020, country] status=ok <- mul {'k': 1e-06, 'expect': [('count', 'head', 'instant:2020', 'country'), ('factor', 'kg CH4/head/yr', None, 'region')]}
+      heads|BRA|asses|2020 = 783923 [count, head, instant:2020, country] status=ok <- source faostat_livestock version FAOSTAT EMN 2025-09 sha256 
+      ef|enteric|asses|low = 10 [factor, kg CH4/head/yr, none, region] status=ok <- source ipcc_factors version 2019 sha256 
+    enteric_ch4|BRA|mules|2020 = 12.2045 [flux, CH4 * gigagram / a, annual:2020, country] status=ok <- mul {'k': 1e-06, 'expect': [('count', 'head', 'instant:2020', 'country'), ('factor', 'kg CH4/head/yr', None, 'region')]}
+      heads|BRA|mules|2020 = 1.22045e+06 [count, head, instant:2020, country] status=ok <- source faostat_livestock version FAOSTAT EMN 2025-09 sha256 
+      ef|enteric|mules|low = 10 [factor, kg CH4/head/yr, none, region] status=ok <- source ipcc_factors version 2019 sha256 
+  primap|BRA|CH4|3.A|2020 = 14300 [flux, CH4 * gigagram / yr, annual:2020, country] status=ok <- source primap_hist version v2.7 sha256 
+enteric_ch4|NGA|other_cattle|2020 = 956.121 [flux, CH4 * gigagram / a, annual:2020, country] status=ok <- mul {'k': 1e-06, 'expect': [('count', 'head', 'instant:2020', 'country'), ('factor', 'kg CH4/head/yr', None, 'region')]}
+  heads|NGA|other_cattle|2020 = 1.83869e+07 [count, head, instant:2020, country] status=ok <- source faostat_livestock version FAOSTAT EMN 2025-09 sha256 
+  ef|enteric|other_cattle|Africa = 52 [factor, kg CH4/head/yr, none, region] status=ok <- source ipcc_factors version 2019 sha256 

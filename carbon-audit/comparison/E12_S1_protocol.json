@@ -1,0 +1,5 @@
+{
+  "analysis": "E12 S1",
+  "purpose": "Check that code 0 does not account for the common level 1 alert counts. Defined after E12 results were known.",
+  "rule": "Retain the total stock denominator and total difference. Remove abs(delta for code 0) only from the gross class numerator. Keep records and report counts side by side. This is a labelled sensitivity check, not a revision of the primary E12 test."
+}

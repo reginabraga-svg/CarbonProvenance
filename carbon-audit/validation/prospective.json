@@ -1,0 +1,32 @@
+{
+  "origin": "executed_this_session",
+  "experiment": "P3 prospective contexts",
+  "scope": "stocks by class, municipality, state and country for 2017 to 2021",
+  "excludes": "annual stock differences and attribution",
+  "steps": [
+    {
+      "version": "V1",
+      "new_context_outputs": 148,
+      "rewired_sums": 952,
+      "active_outputs": 339993,
+      "retained_outputs": 340818,
+      "rebuild_mismatches": 0,
+      "independent_checks": 27845,
+      "independent_failures": 0,
+      "max_absolute_deviation_tC": 1.1920928955078125e-07,
+      "incremental_seconds": 13.913
+    },
+    {
+      "version": "V2",
+      "new_context_outputs": 28648,
+      "rewired_sums": 21588,
+      "active_outputs": 352608,
+      "retained_outputs": 369466,
+      "rebuild_mismatches": 0,
+      "independent_checks": 27845,
+      "independent_failures": 0,
+      "max_absolute_deviation_tC": 1.1920928955078125e-07,
+      "incremental_seconds": 16.497
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "experiment": "E16",
+  "created_utc": "2026-11-17T12:22:49.682667+00:00",
+  "design": "Retrospective sensitivity of E7 attribution after the original midpoint allocation and 1669 sign reversals were known. Defined before E16 calculation.",
+  "sources": {
+    "brasil_solo_A_beta21_cob71.csv": "9afa5e1641e160b4d304e0719c93483b01d240e33d3c149cdb47199bb6ccb09c",
+    "brasil_solo_B_col3_cob71.csv": "5f617781cbf17ee13cdbe2bca78e3afd2c84e2503a6cb6451e099e9300d55b62"
+  },
+  "years": [
+    2020,
+    2021
+  ],
+  "allocations": {
+    "midpoint": {
+      "soil": "(s1-s0)*(a0+a1)/2",
+      "area": "(a1-a0)*(s0+s1)/2"
+    },
+    "soil_first": {
+      "soil": "(s1-s0)*a0",
+      "area": "(a1-a0)*s1"
+    },
+    "area_first": {
+      "soil": "(s1-s0)*a1",
+      "area": "(a1-a0)*s0"
+    }
+  },
+  "contexts": "Match municipality, year and original class code. Retained contexts get both-factor attribution. Added or withdrawn contexts enter as whole stock contributions, with no factor attribution.",
+  "target": "Effect of the source revision on the 2020 to 2021 municipality stock difference. Subtract the 2020 contributions from the 2021 contributions.",
+  "dominance_rule": "Absolute soil contribution exceeds sum of absolute area, added-context and withdrawn-context contributions, as in E7.",
+  "checks": [
+    "Closure for each municipality-year and annual-difference target under each convention",
+    "Reproduce 1669 sign reversals and midpoint dominance count from E7",
+    "Independent source CSV parser and math.fsum for final target contributions"
+  ],
+  "limits": [
+    "Allocation order is an accounting convention, not a physical cause",
+    "No new prediction or emissions inventory",
+    "The same extracted maps are reused",
+    "No probability sample or causal identification"
+  ]
+}
