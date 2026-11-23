@@ -1,0 +1,63 @@
+{
+  "archive": "Article_C_data_20261123.zip",
+  "archive_bytes": 54109202,
+  "archive_sha256": "3da656cc3a09e079b97d6177812c11bbb8be7d97d96745e27bb7e2bb157e9fae",
+  "files": {
+    "carbon-audit/replication/data/contextos_versoes.csv": {
+      "bytes": 7928,
+      "sha256": "c11c899a03e7471150ca033fb41234ff63edf5261b213169d96ed244f744ce05"
+    },
+    "carbon-audit/replication/data/crop_emission_rate.xls": {
+      "bytes": 2741248,
+      "sha256": "5f4c16a13f39bbe0d9d3ee12ffebbb1f685ec5fde4739d134be57630b3eb5146"
+    },
+    "carbon-audit/replication/data/gee_solo_2021_versoes.csv": {
+      "bytes": 13441,
+      "sha256": "97fbd6c175bbb8e150c702041ece5bde5fdd25ba7f615b3de3b3555f9a3e22a7"
+    },
+    "carbon-audit/replication/data/carbofarm/data_integration_all_areas_final.csv": {
+      "bytes": 4717546,
+      "sha256": "bc32cbd3f9e70cb8f66b2ad4e1164bfe81acf4e2421727912562b1ba936b43c5"
+    },
+    "carbon-audit/replication/data/faostat/emn_cache.csv": {
+      "bytes": 2102942,
+      "sha256": "31bc3957a7e90e0d2e8fc5dfd9a81695fdbc7cdb5ee669069ca40e420d14d435"
+    },
+    "carbon-audit/replication/data/faostat/emn_cache_1961_2022.csv": {
+      "bytes": 15562505,
+      "sha256": "2181dfddcb39058a6780e5499cd20d6e8ea47c515bfcddb4f4e7c9a5fabc227b"
+    },
+    "carbon-audit/replication/data/faostat/emn_cache_1990_2022.csv": {
+      "bytes": 8699806,
+      "sha256": "102cb31697a136a06e816ab6b7456bd4f6b252488749d0fc0c8827bf089ffe32"
+    },
+    "carbon-audit/replication/data/faostat/emn_cache_2003_2022.csv": {
+      "bytes": 5293581,
+      "sha256": "8f1549efc62389b96ef51405051850892c6c05bf10e76f618ccc2374e320c1a6"
+    },
+    "carbon-audit/replication/data/mapbiomas_brasil/brasil_solo_A_beta21_cob71.csv": {
+      "bytes": 33490519,
+      "sha256": "9afa5e1641e160b4d304e0719c93483b01d240e33d3c149cdb47199bb6ccb09c"
+    },
+    "carbon-audit/replication/data/mapbiomas_brasil/brasil_solo_B_col3_cob71.csv": {
+      "bytes": 32980868,
+      "sha256": "5f617781cbf17ee13cdbe2bca78e3afd2c84e2503a6cb6451e099e9300d55b62"
+    },
+    "carbon-audit/replication/data/mapbiomas_brasil/brasil_solo_C_col3_cob10.csv": {
+      "bytes": 33457289,
+      "sha256": "f200f6961c6958e7edcf51de3ac8b5dec26c46cacc7cf9e7b10225d7c000ff56"
+    },
+    "carbon-audit/replication/data/primap/changes_v2.7_to_v2.6.xlsx": {
+      "bytes": 1381820,
+      "sha256": "b3178e49f4451522d1fb07a782badf0baecb2cb94cbb7317cae20627575f8caf"
+    },
+    "carbon-audit/replication/data/primap/Guetschow_et_al_2024a-PRIMAP-hist_v2_6_final_13-Sep-2024.csv": {
+      "bytes": 73493494,
+      "sha256": "7cb15c6da98626cbb61d4387758b90aa9c404f1b1583a26fa0ab44677584b051"
+    },
+    "carbon-audit/replication/data/primap/Guetschow_et_al_2025a-PRIMAP-hist_v2_7_final_22-Aug-2025.csv": {
+      "bytes": 75304188,
+      "sha256": "74699e3c18fef2e4b57cf7a61178e8f57a18b53d6a07ced5bbcb9315002a384e"
+    }
+  }
+}

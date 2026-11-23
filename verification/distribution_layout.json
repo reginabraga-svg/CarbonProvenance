@@ -1,0 +1,15 @@
+{
+  "manuscript_in_repository": false,
+  "manuscript_in_data_archive": false,
+  "files_over_limit": 5,
+  "source_files_in_release_asset": 14,
+  "source_data_contents_changed": false,
+  "archive": "Article_C_data_20261123.zip",
+  "archive_sha256": "3da656cc3a09e079b97d6177812c11bbb8be7d97d96745e27bb7e2bb157e9fae",
+  "restoration_script": "restore_data.py",
+  "restoration_test": {
+    "status": "passed",
+    "files_verified": 14,
+    "repeat_with_existing_files": "passed"
+  }
+}

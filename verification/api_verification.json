@@ -1,0 +1,7 @@
+{
+  "health": 200,
+  "dashboard": 200,
+  "withdrawal_plan": 200,
+  "orphan_outputs": 4,
+  "unsupported_median": 400
+}

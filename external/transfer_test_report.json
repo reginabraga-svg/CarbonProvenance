@@ -1,0 +1,151 @@
+{
+  "executed_at": "2026-11-16T17:38:50.512990+00:00",
+  "source_manifest": {
+    "noaa_mlo.csv": {
+      "url": "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_mm_mlo.csv",
+      "downloaded_at": "2026-11-16T17:36:02.151652+00:00",
+      "bytes": 38776,
+      "sha256": "d895fb5b4a59fb5e4cd98e69b7667fe5bef595c6581f630852b12cb41c07f675",
+      "headers": {
+        "Date": "Mon, 16 Nov 2026 17:36:01 GMT",
+        "Server": "Apache/2.4.62 (Red Hat Enterprise Linux) OpenSSL/3.5.9 mod_qos/11.74",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Last-Modified": "Fri, 09 Oct 2026 19:23:07 GMT",
+        "ETag": "\"9778-65d6d4735dc61\"",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "38776",
+        "Access-Control-Allow-Origin": "*",
+        "Connection": "close",
+        "Content-Type": "text/csv"
+      }
+    },
+    "noaa_global.csv": {
+      "url": "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_mm_gl.csv",
+      "downloaded_at": "2026-11-16T17:36:02.181786+00:00",
+      "bytes": 24763,
+      "sha256": "761c9237cf82fda669dc2218b89ea68d7cbe59b7c1a80f5625665b2101743708",
+      "headers": {
+        "Date": "Mon, 16 Nov 2026 17:36:01 GMT",
+        "Server": "Apache/2.4.62 (Red Hat Enterprise Linux) OpenSSL/3.5.9 mod_qos/11.74",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Last-Modified": "Fri, 09 Oct 2026 19:23:07 GMT",
+        "ETag": "\"60bb-65d6d4735bedc\"",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "24763",
+        "Access-Control-Allow-Origin": "*",
+        "Connection": "close",
+        "Content-Type": "text/csv"
+      }
+    },
+    "wdi_forest.json": {
+      "url": "https://api.worldbank.org/v2/country/BRA;USA;CHN;IND;DEU;ZAF;CAN;AUS;IDN;FRA;ARG;JPN;NZL/indicator/AG.LND.FRST.K2?date=2015:2023&format=json&per_page=1000",
+      "error": "The read operation timed out"
+    },
+    "wdi_land.json": {
+      "url": "https://api.worldbank.org/v2/country/BRA;USA;CHN;IND;DEU;ZAF;CAN;AUS;IDN;FRA;ARG;JPN;NZL/indicator/AG.LND.TOTL.K2?date=2015:2023&format=json&per_page=1000",
+      "error": "The read operation timed out"
+    }
+  },
+  "controlled_changes_are_publisher_revisions": false,
+  "datasets": [
+    {
+      "dataset": "noaa",
+      "baseline_source_values": 216,
+      "baseline_outputs": 135,
+      "baseline": {
+        "comparisons": 135,
+        "max_absolute_error": 5.684341886080802e-14,
+        "failures": []
+      },
+      "cases": [
+        {
+          "name": "numeric_change",
+          "expected_affected": 3,
+          "metrics": {
+            "changed": 3,
+            "flagged": 3,
+            "recall": 1.0,
+            "precision": 1.0,
+            "new_outputs": 0,
+            "removed_outputs": 0
+          },
+          "failures": []
+        },
+        {
+          "name": "key_withdrawal",
+          "expected_affected": 3,
+          "metrics": {
+            "changed": 3,
+            "flagged": 3,
+            "recall": 1.0,
+            "precision": 1.0,
+            "new_outputs": 0,
+            "removed_outputs": 0
+          },
+          "failures": []
+        },
+        {
+          "name": "unit_mismatch",
+          "expected_affected": 3,
+          "metrics": {
+            "changed": 3,
+            "flagged": 3,
+            "recall": 1.0,
+            "precision": 1.0,
+            "new_outputs": 0,
+            "removed_outputs": 0
+          },
+          "failures": []
+        },
+        {
+          "name": "duplicate_key_rejection",
+          "failures": []
+        },
+        {
+          "name": "unsupported_operation_rejection",
+          "failures": []
+        }
+      ],
+      "numeric_reference": {
+        "comparisons": 135,
+        "max_absolute_error": 5.684341886080802e-14,
+        "failures": []
+      },
+      "context_addition": {
+        "comparisons": 150,
+        "max_absolute_error": 5.684341886080802e-14,
+        "failures": [],
+        "new_outputs": 15
+      },
+      "excluded_average_values": []
+    }
+  ],
+  "limitations": [
+    "World Bank acquisition did not complete. No World Bank transfer result is claimed.",
+    "Test-copy changes are controlled perturbations, not historical publisher revisions.",
+    "Source adapters and semantic declarations were written for these cases.",
+    "NOAA concentrations are not emissions inventories. Means use the twelve reported monthly values.",
+    "No participant study or proof of generality for arbitrary datasets follows from these tests."
+  ],
+  "frozen_hash_check": {
+    "outputs\\carbon-audit\\src\\audit.py": true,
+    "outputs\\carbon-audit\\replication\\code\\engine.py": true,
+    "outputs\\carbon-provenance-lab\\dist\\app.js": true
+  },
+  "engine_changes_required": false,
+  "all_assertions_passed": true,
+  "failures": [],
+  "http_tests": {
+    "valid_plan_status": 200,
+    "matches_direct_engine_result": true,
+    "unsupported_operation_status": 400,
+    "error": "unsupported operation: median"
+  },
+  "browser_tests": {
+    "noaa_plan_executed": true,
+    "source_withdrawal_trace_inspected": true,
+    "source_withdrawal_explained_as_controlled_test": true
+  }
+}

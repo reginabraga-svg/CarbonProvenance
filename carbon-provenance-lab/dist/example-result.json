@@ -1,0 +1,1278 @@
+{
+  "schema_version": 1,
+  "origin": "local_execution",
+  "title": "Soil stock demonstration",
+  "source_count": 2,
+  "value_count": 10,
+  "status_counts": {
+    "ok": 2,
+    "orphan": 2
+  },
+  "values": [
+    {
+      "key": "soil|forest",
+      "value": 44.0,
+      "status": "ok",
+      "reason": "",
+      "contract": {
+        "qkind": "stock",
+        "unit": "t C/ha",
+        "period": "instant:2021",
+        "support": "municipality_class"
+      },
+      "kind": "source",
+      "source": "soil",
+      "version": "4",
+      "operation": null,
+      "inputs": []
+    },
+    {
+      "key": "soil|pasture",
+      "value": null,
+      "status": "orphan",
+      "reason": "soil 4 no longer provides this key",
+      "contract": {
+        "qkind": "stock",
+        "unit": "t C/ha",
+        "period": "instant:2021",
+        "support": "municipality_class"
+      },
+      "kind": "source",
+      "source": "soil",
+      "version": "4",
+      "operation": null,
+      "inputs": []
+    },
+    {
+      "key": "area|forest",
+      "value": 10.0,
+      "status": "ok",
+      "reason": "",
+      "contract": {
+        "qkind": "area",
+        "unit": "ha",
+        "period": "instant:2021",
+        "support": "municipality_class"
+      },
+      "kind": "source",
+      "source": "area",
+      "version": "2",
+      "operation": null,
+      "inputs": []
+    },
+    {
+      "key": "area|pasture",
+      "value": 5.0,
+      "status": "ok",
+      "reason": "",
+      "contract": {
+        "qkind": "area",
+        "unit": "ha",
+        "period": "instant:2021",
+        "support": "municipality_class"
+      },
+      "kind": "source",
+      "source": "area",
+      "version": "2",
+      "operation": null,
+      "inputs": []
+    },
+    {
+      "key": "stock|forest",
+      "value": 440.0,
+      "status": "ok",
+      "reason": "",
+      "contract": {
+        "qkind": "stock",
+        "unit": "t C",
+        "period": "instant:2021",
+        "support": "municipality_class"
+      },
+      "kind": "derived",
+      "source": null,
+      "version": null,
+      "operation": "mul",
+      "inputs": [
+        "soil|forest",
+        "area|forest"
+      ]
+    },
+    {
+      "key": "stock|pasture",
+      "value": null,
+      "status": "orphan",
+      "reason": "orphan: soil|pasture",
+      "contract": {
+        "qkind": "stock",
+        "unit": "t C",
+        "period": "instant:2021",
+        "support": "municipality_class"
+      },
+      "kind": "derived",
+      "source": null,
+      "version": null,
+      "operation": "mul",
+      "inputs": [
+        "soil|pasture",
+        "area|pasture"
+      ]
+    },
+    {
+      "key": "total",
+      "value": null,
+      "status": "orphan",
+      "reason": "orphan: stock|pasture",
+      "contract": {
+        "qkind": "stock",
+        "unit": "t C",
+        "period": "instant:2021",
+        "support": "municipality"
+      },
+      "kind": "derived",
+      "source": null,
+      "version": null,
+      "operation": "sum",
+      "inputs": [
+        "stock|forest",
+        "stock|pasture",
+        "stock|wetland"
+      ]
+    },
+    {
+      "key": "soil|wetland",
+      "value": 30.0,
+      "status": "ok",
+      "reason": "",
+      "contract": {
+        "qkind": "stock",
+        "unit": "t C/ha",
+        "period": "instant:2021",
+        "support": "municipality_class"
+      },
+      "kind": "source",
+      "source": "soil",
+      "version": "4",
+      "operation": null,
+      "inputs": []
+    },
+    {
+      "key": "area|wetland",
+      "value": 2.0,
+      "status": "ok",
+      "reason": "",
+      "contract": {
+        "qkind": "area",
+        "unit": "ha",
+        "period": "instant:2021",
+        "support": "municipality_class"
+      },
+      "kind": "source",
+      "source": "area",
+      "version": "2",
+      "operation": null,
+      "inputs": []
+    },
+    {
+      "key": "stock|wetland",
+      "value": 60.0,
+      "status": "ok",
+      "reason": "",
+      "contract": {
+        "qkind": "stock",
+        "unit": "t C",
+        "period": "instant:2021",
+        "support": "municipality_class"
+      },
+      "kind": "derived",
+      "source": null,
+      "version": null,
+      "operation": "mul",
+      "inputs": [
+        "soil|wetland",
+        "area|wetland"
+      ]
+    }
+  ],
+  "sources": {
+    "soil": {
+      "version": "4",
+      "sha256": "e3f0ddc6a5c7d4dc80676f7251842b3fc4789729d6d80d80117d6f9d04012033",
+      "published": "",
+      "note": ""
+    },
+    "area": {
+      "version": "2",
+      "sha256": "68a9616d146b2b0d76ec1c2117028090da881051b75796d98147bdb43c80fe45",
+      "published": "",
+      "note": ""
+    }
+  },
+  "revisions": [
+    {
+      "name": "Revision of soil means",
+      "metrics": {
+        "changed": 3,
+        "flagged": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "new_outputs": 0,
+        "removed_outputs": 0
+      },
+      "events": [
+        {
+          "source": "soil",
+          "version": "2",
+          "diff": {
+            "changed": 2,
+            "removed": 0,
+            "added": 0,
+            "contract_changed": 0,
+            "unannounced": 0
+          },
+          "impact": {
+            "stale": 3,
+            "orphan": 0,
+            "resolvable": 0
+          }
+        }
+      ],
+      "before": {
+        "soil|forest": {
+          "key": "soil|forest",
+          "value": 40.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C/ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "soil",
+          "version": "1",
+          "operation": null,
+          "inputs": []
+        },
+        "soil|pasture": {
+          "key": "soil|pasture",
+          "value": 20.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C/ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "soil",
+          "version": "1",
+          "operation": null,
+          "inputs": []
+        },
+        "area|forest": {
+          "key": "area|forest",
+          "value": 10.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "area",
+            "unit": "ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "area",
+          "version": "1",
+          "operation": null,
+          "inputs": []
+        },
+        "area|pasture": {
+          "key": "area|pasture",
+          "value": 5.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "area",
+            "unit": "ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "area",
+          "version": "1",
+          "operation": null,
+          "inputs": []
+        },
+        "stock|forest": {
+          "key": "stock|forest",
+          "value": 400.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "derived",
+          "source": null,
+          "version": null,
+          "operation": "mul",
+          "inputs": [
+            "soil|forest",
+            "area|forest"
+          ]
+        },
+        "stock|pasture": {
+          "key": "stock|pasture",
+          "value": 100.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "derived",
+          "source": null,
+          "version": null,
+          "operation": "mul",
+          "inputs": [
+            "soil|pasture",
+            "area|pasture"
+          ]
+        },
+        "total": {
+          "key": "total",
+          "value": 500.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C",
+            "period": "instant:2021",
+            "support": "municipality"
+          },
+          "kind": "derived",
+          "source": null,
+          "version": null,
+          "operation": "sum",
+          "inputs": [
+            "stock|forest",
+            "stock|pasture"
+          ]
+        }
+      },
+      "after": {
+        "soil|forest": {
+          "key": "soil|forest",
+          "value": 44.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C/ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "soil",
+          "version": "2",
+          "operation": null,
+          "inputs": []
+        },
+        "soil|pasture": {
+          "key": "soil|pasture",
+          "value": 18.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C/ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "soil",
+          "version": "2",
+          "operation": null,
+          "inputs": []
+        },
+        "area|forest": {
+          "key": "area|forest",
+          "value": 10.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "area",
+            "unit": "ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "area",
+          "version": "1",
+          "operation": null,
+          "inputs": []
+        },
+        "area|pasture": {
+          "key": "area|pasture",
+          "value": 5.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "area",
+            "unit": "ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "area",
+          "version": "1",
+          "operation": null,
+          "inputs": []
+        },
+        "stock|forest": {
+          "key": "stock|forest",
+          "value": 440.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "derived",
+          "source": null,
+          "version": null,
+          "operation": "mul",
+          "inputs": [
+            "soil|forest",
+            "area|forest"
+          ]
+        },
+        "stock|pasture": {
+          "key": "stock|pasture",
+          "value": 90.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "derived",
+          "source": null,
+          "version": null,
+          "operation": "mul",
+          "inputs": [
+            "soil|pasture",
+            "area|pasture"
+          ]
+        },
+        "total": {
+          "key": "total",
+          "value": 530.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C",
+            "period": "instant:2021",
+            "support": "municipality"
+          },
+          "kind": "derived",
+          "source": null,
+          "version": null,
+          "operation": "sum",
+          "inputs": [
+            "stock|forest",
+            "stock|pasture"
+          ]
+        }
+      },
+      "flagged": [
+        "stock|forest",
+        "stock|pasture",
+        "total"
+      ]
+    },
+    {
+      "name": "Addition of a land cover class",
+      "metrics": {
+        "changed": 2,
+        "flagged": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "new_outputs": 1,
+        "removed_outputs": 0
+      },
+      "events": [
+        {
+          "source": "soil",
+          "version": "3",
+          "diff": {
+            "changed": 0,
+            "removed": 0,
+            "added": 1,
+            "contract_changed": 0,
+            "unannounced": 0
+          },
+          "impact": {
+            "stale": 0,
+            "orphan": 0,
+            "resolvable": 0
+          }
+        },
+        {
+          "source": "area",
+          "version": "2",
+          "diff": {
+            "changed": 0,
+            "removed": 0,
+            "added": 1,
+            "contract_changed": 0,
+            "unannounced": 0
+          },
+          "impact": {
+            "stale": 0,
+            "orphan": 0,
+            "resolvable": 0
+          }
+        }
+      ],
+      "before": {
+        "soil|forest": {
+          "key": "soil|forest",
+          "value": 44.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C/ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "soil",
+          "version": "2",
+          "operation": null,
+          "inputs": []
+        },
+        "soil|pasture": {
+          "key": "soil|pasture",
+          "value": 18.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C/ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "soil",
+          "version": "2",
+          "operation": null,
+          "inputs": []
+        },
+        "area|forest": {
+          "key": "area|forest",
+          "value": 10.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "area",
+            "unit": "ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "area",
+          "version": "1",
+          "operation": null,
+          "inputs": []
+        },
+        "area|pasture": {
+          "key": "area|pasture",
+          "value": 5.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "area",
+            "unit": "ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "area",
+          "version": "1",
+          "operation": null,
+          "inputs": []
+        },
+        "stock|forest": {
+          "key": "stock|forest",
+          "value": 440.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "derived",
+          "source": null,
+          "version": null,
+          "operation": "mul",
+          "inputs": [
+            "soil|forest",
+            "area|forest"
+          ]
+        },
+        "stock|pasture": {
+          "key": "stock|pasture",
+          "value": 90.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "derived",
+          "source": null,
+          "version": null,
+          "operation": "mul",
+          "inputs": [
+            "soil|pasture",
+            "area|pasture"
+          ]
+        },
+        "total": {
+          "key": "total",
+          "value": 530.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C",
+            "period": "instant:2021",
+            "support": "municipality"
+          },
+          "kind": "derived",
+          "source": null,
+          "version": null,
+          "operation": "sum",
+          "inputs": [
+            "stock|forest",
+            "stock|pasture"
+          ]
+        }
+      },
+      "after": {
+        "soil|forest": {
+          "key": "soil|forest",
+          "value": 44.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C/ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "soil",
+          "version": "3",
+          "operation": null,
+          "inputs": []
+        },
+        "soil|pasture": {
+          "key": "soil|pasture",
+          "value": 18.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C/ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "soil",
+          "version": "3",
+          "operation": null,
+          "inputs": []
+        },
+        "area|forest": {
+          "key": "area|forest",
+          "value": 10.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "area",
+            "unit": "ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "area",
+          "version": "2",
+          "operation": null,
+          "inputs": []
+        },
+        "area|pasture": {
+          "key": "area|pasture",
+          "value": 5.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "area",
+            "unit": "ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "area",
+          "version": "2",
+          "operation": null,
+          "inputs": []
+        },
+        "stock|forest": {
+          "key": "stock|forest",
+          "value": 440.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "derived",
+          "source": null,
+          "version": null,
+          "operation": "mul",
+          "inputs": [
+            "soil|forest",
+            "area|forest"
+          ]
+        },
+        "stock|pasture": {
+          "key": "stock|pasture",
+          "value": 90.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "derived",
+          "source": null,
+          "version": null,
+          "operation": "mul",
+          "inputs": [
+            "soil|pasture",
+            "area|pasture"
+          ]
+        },
+        "total": {
+          "key": "total",
+          "value": 590.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C",
+            "period": "instant:2021",
+            "support": "municipality"
+          },
+          "kind": "derived",
+          "source": null,
+          "version": null,
+          "operation": "sum",
+          "inputs": [
+            "stock|forest",
+            "stock|pasture",
+            "stock|wetland"
+          ]
+        },
+        "soil|wetland": {
+          "key": "soil|wetland",
+          "value": 30.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C/ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "soil",
+          "version": "3",
+          "operation": null,
+          "inputs": []
+        },
+        "area|wetland": {
+          "key": "area|wetland",
+          "value": 2.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "area",
+            "unit": "ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "area",
+          "version": "2",
+          "operation": null,
+          "inputs": []
+        },
+        "stock|wetland": {
+          "key": "stock|wetland",
+          "value": 60.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "derived",
+          "source": null,
+          "version": null,
+          "operation": "mul",
+          "inputs": [
+            "soil|wetland",
+            "area|wetland"
+          ]
+        }
+      },
+      "flagged": [
+        "stock|wetland",
+        "total"
+      ]
+    },
+    {
+      "name": "Withdrawal of a source key",
+      "metrics": {
+        "changed": 2,
+        "flagged": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "new_outputs": 0,
+        "removed_outputs": 0
+      },
+      "events": [
+        {
+          "source": "soil",
+          "version": "4",
+          "diff": {
+            "changed": 0,
+            "removed": 1,
+            "added": 0,
+            "contract_changed": 0,
+            "unannounced": 0
+          },
+          "impact": {
+            "stale": 0,
+            "orphan": 2,
+            "resolvable": 0
+          }
+        }
+      ],
+      "before": {
+        "soil|forest": {
+          "key": "soil|forest",
+          "value": 44.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C/ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "soil",
+          "version": "3",
+          "operation": null,
+          "inputs": []
+        },
+        "soil|pasture": {
+          "key": "soil|pasture",
+          "value": 18.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C/ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "soil",
+          "version": "3",
+          "operation": null,
+          "inputs": []
+        },
+        "area|forest": {
+          "key": "area|forest",
+          "value": 10.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "area",
+            "unit": "ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "area",
+          "version": "2",
+          "operation": null,
+          "inputs": []
+        },
+        "area|pasture": {
+          "key": "area|pasture",
+          "value": 5.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "area",
+            "unit": "ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "area",
+          "version": "2",
+          "operation": null,
+          "inputs": []
+        },
+        "stock|forest": {
+          "key": "stock|forest",
+          "value": 440.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "derived",
+          "source": null,
+          "version": null,
+          "operation": "mul",
+          "inputs": [
+            "soil|forest",
+            "area|forest"
+          ]
+        },
+        "stock|pasture": {
+          "key": "stock|pasture",
+          "value": 90.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "derived",
+          "source": null,
+          "version": null,
+          "operation": "mul",
+          "inputs": [
+            "soil|pasture",
+            "area|pasture"
+          ]
+        },
+        "total": {
+          "key": "total",
+          "value": 590.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C",
+            "period": "instant:2021",
+            "support": "municipality"
+          },
+          "kind": "derived",
+          "source": null,
+          "version": null,
+          "operation": "sum",
+          "inputs": [
+            "stock|forest",
+            "stock|pasture",
+            "stock|wetland"
+          ]
+        },
+        "soil|wetland": {
+          "key": "soil|wetland",
+          "value": 30.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C/ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "soil",
+          "version": "3",
+          "operation": null,
+          "inputs": []
+        },
+        "area|wetland": {
+          "key": "area|wetland",
+          "value": 2.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "area",
+            "unit": "ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "area",
+          "version": "2",
+          "operation": null,
+          "inputs": []
+        },
+        "stock|wetland": {
+          "key": "stock|wetland",
+          "value": 60.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "derived",
+          "source": null,
+          "version": null,
+          "operation": "mul",
+          "inputs": [
+            "soil|wetland",
+            "area|wetland"
+          ]
+        }
+      },
+      "after": {
+        "soil|forest": {
+          "key": "soil|forest",
+          "value": 44.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C/ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "soil",
+          "version": "4",
+          "operation": null,
+          "inputs": []
+        },
+        "soil|pasture": {
+          "key": "soil|pasture",
+          "value": null,
+          "status": "orphan",
+          "reason": "soil 4 no longer provides this key",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C/ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "soil",
+          "version": "4",
+          "operation": null,
+          "inputs": []
+        },
+        "area|forest": {
+          "key": "area|forest",
+          "value": 10.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "area",
+            "unit": "ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "area",
+          "version": "2",
+          "operation": null,
+          "inputs": []
+        },
+        "area|pasture": {
+          "key": "area|pasture",
+          "value": 5.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "area",
+            "unit": "ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "area",
+          "version": "2",
+          "operation": null,
+          "inputs": []
+        },
+        "stock|forest": {
+          "key": "stock|forest",
+          "value": 440.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "derived",
+          "source": null,
+          "version": null,
+          "operation": "mul",
+          "inputs": [
+            "soil|forest",
+            "area|forest"
+          ]
+        },
+        "stock|pasture": {
+          "key": "stock|pasture",
+          "value": null,
+          "status": "orphan",
+          "reason": "orphan: soil|pasture",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "derived",
+          "source": null,
+          "version": null,
+          "operation": "mul",
+          "inputs": [
+            "soil|pasture",
+            "area|pasture"
+          ]
+        },
+        "total": {
+          "key": "total",
+          "value": null,
+          "status": "orphan",
+          "reason": "orphan: stock|pasture",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C",
+            "period": "instant:2021",
+            "support": "municipality"
+          },
+          "kind": "derived",
+          "source": null,
+          "version": null,
+          "operation": "sum",
+          "inputs": [
+            "stock|forest",
+            "stock|pasture",
+            "stock|wetland"
+          ]
+        },
+        "soil|wetland": {
+          "key": "soil|wetland",
+          "value": 30.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C/ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "soil",
+          "version": "4",
+          "operation": null,
+          "inputs": []
+        },
+        "area|wetland": {
+          "key": "area|wetland",
+          "value": 2.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "area",
+            "unit": "ha",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "source",
+          "source": "area",
+          "version": "2",
+          "operation": null,
+          "inputs": []
+        },
+        "stock|wetland": {
+          "key": "stock|wetland",
+          "value": 60.0,
+          "status": "ok",
+          "reason": "",
+          "contract": {
+            "qkind": "stock",
+            "unit": "t C",
+            "period": "instant:2021",
+            "support": "municipality_class"
+          },
+          "kind": "derived",
+          "source": null,
+          "version": null,
+          "operation": "mul",
+          "inputs": [
+            "soil|wetland",
+            "area|wetland"
+          ]
+        }
+      },
+      "flagged": [
+        "stock|pasture",
+        "total"
+      ]
+    }
+  ],
+  "limits": [
+    "Contracts and dependencies require a declaration.",
+    "A version comparison does not determine whether a numeric revision contains an error.",
+    "Change attribution requires rules for each operation."
+  ]
+}

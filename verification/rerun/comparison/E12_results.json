@@ -1,0 +1,554 @@
+{
+  "experiment": "E12",
+  "protocol_hash": "3b8670e28af237c8d5ad646925ceae1a39718eef5127a62a206b5d025c63a53e",
+  "observed_codes": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    9,
+    11,
+    12,
+    13,
+    15,
+    20,
+    21,
+    23,
+    24,
+    25,
+    29,
+    30,
+    31,
+    32,
+    33,
+    35,
+    39,
+    40,
+    41,
+    46,
+    47,
+    48,
+    49,
+    50,
+    62,
+    75
+  ],
+  "source_hashes": {
+    "V1": "5f617781cbf17ee13cdbe2bca78e3afd2c84e2503a6cb6451e099e9300d55b62",
+    "V2": "f200f6961c6958e7edcf51de3ac8b5dec26c46cacc7cf9e7b10225d7c000ff56"
+  },
+  "scenarios": [
+    {
+      "name": "original_codes",
+      "eligible": 27840,
+      "zero_baseline_exclusions": 5,
+      "threshold_results": [
+        {
+          "threshold_percent": 0.1,
+          "total_alerts": 0,
+          "class_alerts": 27840,
+          "class_without_total": 27840,
+          "eligible": 27840
+        },
+        {
+          "threshold_percent": 1,
+          "total_alerts": 0,
+          "class_alerts": 27685,
+          "class_without_total": 27685,
+          "eligible": 27840
+        },
+        {
+          "threshold_percent": 5,
+          "total_alerts": 0,
+          "class_alerts": 24167,
+          "class_without_total": 24167,
+          "eligible": 27840
+        },
+        {
+          "threshold_percent": 10,
+          "total_alerts": 0,
+          "class_alerts": 17816,
+          "class_without_total": 17816,
+          "eligible": 27840
+        }
+      ],
+      "by_year": [
+        {
+          "year": 2017,
+          "national_net_TgC": 0.1076087492621392,
+          "national_gross_TgC": 6554.885208523284,
+          "national_gross_percent": 16.77441533768581,
+          "median_municipality_gross_percent": 12.505601422701284,
+          "groups": {
+            "0": 0.3333660586906558,
+            "11": 687.807426865283,
+            "12": -852.7650677480864,
+            "13": -0.9065365141011711,
+            "15": 52.48390719065353,
+            "20": 66.73689275999601,
+            "21": -316.52491642489406,
+            "23": -0.6901468755335874,
+            "24": -10.090946092486648,
+            "25": -10.880904126149964,
+            "29": -12.614477101908214,
+            "3": -2044.446190863758,
+            "30": -1.6883170726780583,
+            "31": 0.4343866549362991,
+            "32": 0.5372895808052605,
+            "33": 22.33464118206315,
+            "35": 11.443251393044259,
+            "39": -2.5874466215817433,
+            "4": -18.098863701345337,
+            "40": 3.0912512769409646,
+            "41": 4.022517554914296,
+            "46": 0.4168931005158047,
+            "47": 1.8569120093330567,
+            "48": -4.7654998838011045,
+            "49": -1.319316368286415,
+            "5": 2.0577851344543285,
+            "50": 37.592467206974455,
+            "6": 2370.76801376876,
+            "62": -0.010170492400602835,
+            "75": 0.06468432648001532,
+            "9": 15.51472257242884
+          },
+          "national_gross_retained_fraction": 1.0
+        },
+        {
+          "year": 2018,
+          "national_net_TgC": 0.10882910232950002,
+          "national_gross_TgC": 6663.089897675381,
+          "national_gross_percent": 17.07033911785773,
+          "median_municipality_gross_percent": 12.933659152338798,
+          "groups": {
+            "0": 0.32224846973634597,
+            "11": 682.2105948745868,
+            "12": -863.014141016418,
+            "13": -0.9412595344030237,
+            "15": 93.68495121453388,
+            "20": 69.10508337534253,
+            "21": -341.3609635236298,
+            "23": -0.7408759646853038,
+            "24": -10.2519606955593,
+            "25": -12.518291225350003,
+            "29": -12.787341147968192,
+            "3": -2052.112936740013,
+            "30": -1.7273244286367178,
+            "31": 0.5737924898108833,
+            "32": 0.4684805953174305,
+            "33": 37.18957160751045,
+            "35": 11.951599565954037,
+            "39": -3.622943832926825,
+            "4": -26.156263364596292,
+            "40": 2.224568022478278,
+            "41": 7.460872087441385,
+            "46": 0.4897042495290657,
+            "47": 1.8644409652895788,
+            "48": -4.677506454445128,
+            "49": -1.5674175202751717,
+            "5": 2.137037455729632,
+            "50": 37.36225193678006,
+            "6": 2368.3661072653,
+            "62": -0.011308837618978716,
+            "75": 0.1344545168345623,
+            "9": 16.05360469668064
+          },
+          "national_gross_retained_fraction": 1.0
+        },
+        {
+          "year": 2019,
+          "national_net_TgC": 0.10713573682678118,
+          "national_gross_TgC": 6816.761821768756,
+          "national_gross_percent": 17.461703274191745,
+          "median_municipality_gross_percent": 13.5965756908741,
+          "groups": {
+            "0": 0.46360540683400253,
+            "11": 689.7364051574137,
+            "12": -860.6374032608531,
+            "13": -0.9113500053630297,
+            "15": 172.7925633798851,
+            "20": 78.05195028731495,
+            "21": -362.7933241461434,
+            "23": -0.6453324454350728,
+            "24": -10.071510092080525,
+            "25": -11.848048686569138,
+            "29": -12.84165146740451,
+            "3": -2090.246749949084,
+            "30": -1.7831824664987406,
+            "31": 0.7374159218520797,
+            "32": 0.38544602708696585,
+            "33": 19.805599362602297,
+            "35": 11.829581482975174,
+            "39": -5.024116262491334,
+            "4": -41.97006769666511,
+            "40": 12.696716531811765,
+            "41": -3.335153986627646,
+            "46": 0.4530013468608312,
+            "47": 1.607907830898101,
+            "48": -4.572385021416877,
+            "49": -1.6381432209306117,
+            "5": 2.2482573051849184,
+            "50": 36.87144257369057,
+            "6": 2368.090252941429,
+            "62": -0.008924308401152721,
+            "75": 0.19756022939890122,
+            "9": 12.466772967552895
+          },
+          "national_gross_retained_fraction": 1.0
+        },
+        {
+          "year": 2020,
+          "national_net_TgC": 0.10962543144182675,
+          "national_gross_TgC": 6789.854171287786,
+          "national_gross_percent": 17.390981604394938,
+          "median_municipality_gross_percent": 13.473372250765841,
+          "groups": {
+            "0": 0.5472977566476721,
+            "11": 682.6082207666066,
+            "12": -852.5994772980914,
+            "13": -0.9054081093985894,
+            "15": 171.57244259632185,
+            "20": 83.52848810733332,
+            "21": -303.6148943900243,
+            "23": -0.680054914928879,
+            "24": -9.635095843305594,
+            "25": -12.405526820378924,
+            "29": -12.991166575411297,
+            "3": -2126.690346975464,
+            "30": -1.526726936249574,
+            "31": 0.6791376293309851,
+            "32": 0.35421600743533777,
+            "33": 15.177020196512093,
+            "35": 12.003439136132151,
+            "39": -2.407066943940733,
+            "4": -60.859633852736025,
+            "40": -4.98290709684561,
+            "41": 7.6109461649584205,
+            "46": 0.3345737783114407,
+            "47": 1.2906833433950493,
+            "48": -3.76091720508988,
+            "49": -1.7975749876101523,
+            "5": 2.4053203729255346,
+            "50": 36.52921080011051,
+            "6": 2368.931747528461,
+            "62": -0.015474978697130508,
+            "75": 0.25317129744485445,
+            "9": 11.155982877686817
+          },
+          "national_gross_retained_fraction": 1.0
+        },
+        {
+          "year": 2021,
+          "national_net_TgC": 0.10540269334262423,
+          "national_gross_TgC": 6478.359675323947,
+          "national_gross_percent": 17.326763612153588,
+          "median_municipality_gross_percent": 13.957122203896745,
+          "groups": {
+            "0": 0.6183406993926125,
+            "11": 648.5950886866281,
+            "12": -810.7572772395262,
+            "13": -0.9385439719565033,
+            "15": 213.86165660592312,
+            "20": 79.5131934377287,
+            "21": -302.02224229150556,
+            "23": -0.7025364135282866,
+            "24": -11.06139744820739,
+            "25": -18.32744367421429,
+            "29": -13.047379320184211,
+            "3": -1982.749609719249,
+            "30": -1.4356527276323394,
+            "31": 0.6716752552844667,
+            "32": 0.3824742981071788,
+            "33": 12.21634339370055,
+            "35": 12.19351996949566,
+            "39": -1.0366986453551388,
+            "4": -85.82067185473434,
+            "40": -5.9047555163300816,
+            "41": 2.4104176475796524,
+            "46": 0.8098201997826,
+            "47": 1.4392114813288548,
+            "48": -3.7415126075066674,
+            "49": -1.5651811498364783,
+            "5": 2.342008807860728,
+            "50": 35.30624128187752,
+            "6": 2217.805522150159,
+            "62": -0.016233735535401573,
+            "75": 0.3828651997463201,
+            "9": 10.684159894049651
+          },
+          "national_gross_retained_fraction": 1.0
+        }
+      ],
+      "municipality_gross_sum_TgC": 46128.95667852667,
+      "median_gross_percent": 13.25063637617967
+    },
+    {
+      "name": "shared_cut",
+      "eligible": 27840,
+      "zero_baseline_exclusions": 5,
+      "threshold_results": [
+        {
+          "threshold_percent": 0.1,
+          "total_alerts": 0,
+          "class_alerts": 27825,
+          "class_without_total": 27825,
+          "eligible": 27840
+        },
+        {
+          "threshold_percent": 1,
+          "total_alerts": 0,
+          "class_alerts": 27130,
+          "class_without_total": 27130,
+          "eligible": 27840
+        },
+        {
+          "threshold_percent": 5,
+          "total_alerts": 0,
+          "class_alerts": 21913,
+          "class_without_total": 21913,
+          "eligible": 27840
+        },
+        {
+          "threshold_percent": 10,
+          "total_alerts": 0,
+          "class_alerts": 14567,
+          "class_without_total": 14567,
+          "eligible": 27840
+        }
+      ],
+      "by_year": [
+        {
+          "year": 2017,
+          "national_net_TgC": 0.10760874926236999,
+          "national_gross_TgC": 960.4264967018529,
+          "national_gross_percent": 2.4577994037251623,
+          "median_municipality_gross_percent": 9.92277269616745,
+          "groups": {
+            "agriculture": 80.20460109696094,
+            "aquaculture": 0.4343866549362991,
+            "forest": 308.96142796982423,
+            "forest_plantation": 15.51472257242884,
+            "mosaic_of_uses": -316.52491642489406,
+            "nonforest": -140.348897711033,
+            "nonvegetated": -23.28562984036824,
+            "pasture": 52.48390719065353,
+            "river_lake_ocean": 22.33464118206315,
+            "unmapped": 0.3333660586906558
+          },
+          "national_gross_retained_fraction": 0.146520719455623
+        },
+        {
+          "year": 2018,
+          "national_net_TgC": 0.10882910232986596,
+          "national_gross_TgC": 1046.4415803285929,
+          "national_gross_percent": 2.6809052432968263,
+          "median_municipality_gross_percent": 10.173895376667108,
+          "groups": {
+            "agriculture": 84.78450914104396,
+            "aquaculture": 0.5737924898108833,
+            "forest": 290.66652709614516,
+            "forest_plantation": 16.05360469668064,
+            "mosaic_of_uses": -341.3609635236298,
+            "nonforest": -156.7014142921049,
+            "nonvegetated": -25.10399779739676,
+            "pasture": 93.68495121453388,
+            "river_lake_ocean": 37.18957160751045,
+            "unmapped": 0.32224846973634597
+          },
+          "national_gross_retained_fraction": 0.1570504970514769
+        },
+        {
+          "year": 2019,
+          "national_net_TgC": 0.10713573682689662,
+          "national_gross_TgC": 1068.7890329023417,
+          "national_gross_percent": 2.7377921428401266,
+          "median_municipality_gross_percent": 10.735377248613435,
+          "groups": {
+            "agriculture": 91.69857790092381,
+            "aquaculture": 0.7374159218520797,
+            "forest": 236.48354937993395,
+            "forest_plantation": 12.466772967552895,
+            "mosaic_of_uses": -362.7933241461434,
+            "nonforest": -147.3971109754294,
+            "nonvegetated": -24.150513461184573,
+            "pasture": 172.7925633798851,
+            "river_lake_ocean": 19.805599362602297,
+            "unmapped": 0.46360540683400253
+          },
+          "national_gross_retained_fraction": 0.15678837853616268
+        },
+        {
+          "year": 2020,
+          "national_net_TgC": 0.10962543144132161,
+          "national_gross_TgC": 949.3366894638241,
+          "national_gross_percent": 2.4315539754385087,
+          "median_municipality_gross_percent": 10.601750878019288,
+          "groups": {
+            "agriculture": 93.60176430555703,
+            "aquaculture": 0.6791376293309851,
+            "forest": 181.98951208557622,
+            "forest_plantation": 11.155982877686817,
+            "mosaic_of_uses": -303.6148943900243,
+            "nonforest": -147.0044044087489,
+            "nonvegetated": -23.994233217418117,
+            "pasture": 171.57244259632185,
+            "river_lake_ocean": 15.177020196512093,
+            "unmapped": 0.5472977566476721
+          },
+          "national_gross_retained_fraction": 0.13981694827530733
+        },
+        {
+          "year": 2021,
+          "national_net_TgC": 0.10540269334280991,
+          "national_gross_TgC": 947.3570099341342,
+          "national_gross_percent": 2.533763450950194,
+          "median_municipality_gross_percent": 11.027826421310088,
+          "groups": {
+            "agriculture": 85.6669622311882,
+            "aquaculture": 0.6716752552844667,
+            "forest": 150.0120682341999,
+            "forest_plantation": 10.684159894049651,
+            "mosaic_of_uses": -302.02224229150556,
+            "nonforest": -140.45939626505407,
+            "nonvegetated": -31.144165063835985,
+            "pasture": 213.86165660592312,
+            "river_lake_ocean": 12.21634339370055,
+            "unmapped": 0.6183406993926125
+          },
+          "national_gross_retained_fraction": 0.14623408662266998
+        }
+      ],
+      "municipality_gross_sum_TgC": 14577.74470658503,
+      "median_gross_percent": 10.451640166024887
+    },
+    {
+      "name": "level1",
+      "eligible": 27840,
+      "zero_baseline_exclusions": 5,
+      "threshold_results": [
+        {
+          "threshold_percent": 0.1,
+          "total_alerts": 0,
+          "class_alerts": 27794,
+          "class_without_total": 27794,
+          "eligible": 27840
+        },
+        {
+          "threshold_percent": 1,
+          "total_alerts": 0,
+          "class_alerts": 25828,
+          "class_without_total": 25828,
+          "eligible": 27840
+        },
+        {
+          "threshold_percent": 5,
+          "total_alerts": 0,
+          "class_alerts": 15158,
+          "class_without_total": 15158,
+          "eligible": 27840
+        },
+        {
+          "threshold_percent": 10,
+          "total_alerts": 0,
+          "class_alerts": 8176,
+          "class_without_total": 8176,
+          "eligible": 27840
+        }
+      ],
+      "by_year": [
+        {
+          "year": 2017,
+          "national_net_TgC": 0.10760874926238508,
+          "national_gross_TgC": 664.0200349817663,
+          "national_gross_percent": 1.6992742824611808,
+          "median_municipality_gross_percent": 5.498939338448868,
+          "groups": {
+            "farming": -168.32168556485072,
+            "forest": 308.96142796982423,
+            "nonforest": -140.348897711033,
+            "nonvegetated": -23.28562984036824,
+            "unmapped": 0.3333660586906558,
+            "water": 22.76902783699945
+          },
+          "national_gross_retained_fraction": 0.1013015505013489
+        },
+        {
+          "year": 2018,
+          "national_net_TgC": 0.10882910232988,
+          "national_gross_TgC": 657.3954502240758,
+          "national_gross_percent": 1.684198088604036,
+          "median_municipality_gross_percent": 5.541654316899175,
+          "groups": {
+            "farming": -146.8378984713713,
+            "forest": 290.66652709614516,
+            "nonforest": -156.7014142921049,
+            "nonvegetated": -25.10399779739676,
+            "unmapped": 0.32224846973634597,
+            "water": 37.763364097321336
+          },
+          "national_gross_retained_fraction": 0.098662251345795
+        },
+        {
+          "year": 2019,
+          "national_net_TgC": 0.10713573682679237,
+          "national_gross_TgC": 514.8732044056179,
+          "national_gross_percent": 1.3188906043999609,
+          "median_municipality_gross_percent": 5.461033039126868,
+          "groups": {
+            "farming": -85.83540989778157,
+            "forest": 236.48354937993395,
+            "nonforest": -147.3971109754294,
+            "nonvegetated": -24.150513461184573,
+            "unmapped": 0.46360540683400253,
+            "water": 20.543015284454377
+          },
+          "national_gross_retained_fraction": 0.07553046708503348
+        },
+        {
+          "year": 2020,
+          "national_net_TgC": 0.10962543144133315,
+          "national_gross_TgC": 396.67630990469263,
+          "national_gross_percent": 1.0160145173108137,
+          "median_municipality_gross_percent": 5.736728583741334,
+          "groups": {
+            "farming": -27.28470461045862,
+            "forest": 181.98951208557622,
+            "nonforest": -147.0044044087489,
+            "nonvegetated": -23.994233217418117,
+            "unmapped": 0.5472977566476721,
+            "water": 15.856157825843077
+          },
+          "national_gross_retained_fraction": 0.05842191892457945
+        },
+        {
+          "year": 2021,
+          "national_net_TgC": 0.10540269334281235,
+          "national_gross_TgC": 343.31252535112293,
+          "national_gross_percent": 0.918210051613558,
+          "median_municipality_gross_percent": 6.047179958281104,
+          "groups": {
+            "farming": 8.190536439655354,
+            "forest": 150.0120682341999,
+            "nonforest": -140.45939626505407,
+            "nonvegetated": -31.144165063835985,
+            "unmapped": 0.6183406993926125,
+            "water": 12.888018648985017
+          },
+          "national_gross_retained_fraction": 0.052993742638093914
+        }
+      ],
+      "municipality_gross_sum_TgC": 11243.29243046633,
+      "median_gross_percent": 5.660783350997153
+    }
+  ],
+  "checks": {
+    "independent_group_checks": 1330447,
+    "max_absolute_group_difference_tC": 1.1920928955078125e-07,
+    "mass_preserved": true,
+    "net_difference_preserved": true,
+    "gross_nonincreasing": true,
+    "E11_alerts_reproduced": true
+  },
+  "limits": "The two maps are declared common aggregations based on the official hierarchy, not an official pixel transition crosswalk. No assumption that all new class 6 pixels previously belonged to class 3. The residual cannot be attributed uniquely to algorithm changes, boundary changes or class definition changes without spatial cross-tabulation."
+}

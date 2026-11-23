@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1170" viewBox="0 0 1800 1170"><rect width="1800" height="1170" fill="white"/>
+<text x="35" y="70" font-family="Arial" font-size="40" font-weight="700" fill="#163958">System architecture for source revision assessment</text>
+<text x="35" y="116" font-family="Arial" font-size="26" font-weight="400" fill="#59718b">Declarations, execution components and result inspection</text>
+<rect x="35" y="155" width="425" height="900" rx="18" fill="#edf4fd" stroke="#b9cee8" stroke-width="2"/>
+<text x="59" y="207" font-family="Arial" font-size="29" font-weight="700" fill="#163958">Maintainer declarations</text>
+<rect x="495" y="155" width="765" height="900" rx="18" fill="#edf4fd" stroke="#b9cee8" stroke-width="2"/>
+<text x="519" y="207" font-family="Arial" font-size="29" font-weight="700" fill="#163958">Local execution</text>
+<rect x="1300" y="155" width="465" height="900" rx="18" fill="#edf4fd" stroke="#b9cee8" stroke-width="2"/>
+<text x="1324" y="207" font-family="Arial" font-size="29" font-weight="700" fill="#163958">Result inspection</text>
+<rect x="65" y="260" width="365" height="170" rx="14" fill="white" stroke="#b9cee8" stroke-width="2"/>
+<rect x="85" y="286" width="42" height="30.24" rx="7" fill="#edf4fd" stroke="#275f9e" stroke-width="2"/>
+<polyline points="93,297 119,297" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="93,307 119,307" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="93,317 119,317" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="145" y="310" font-family="Arial" font-size="27" font-weight="700" fill="#163958">Source release</text>
+<text x="89" y="371" font-family="Arial" font-size="25" font-weight="400" fill="#59718b">CSV keys and values</text>
+<text x="89" y="408" font-family="Arial" font-size="25" font-weight="400" fill="#59718b">Release identifier</text>
+<rect x="65" y="505" width="365" height="170" rx="14" fill="white" stroke="#b9cee8" stroke-width="2"/>
+<rect x="90" y="525" width="31.5" height="42" rx="3" fill="#edf4fd" stroke="#275f9e" stroke-width="2"/>
+<polyline points="98,538 119,538" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="98,548 119,548" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="98,558 119,558" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="145" y="554" font-family="Arial" font-size="26" font-weight="700" fill="#163958">Contracts and plan</text>
+<text x="89" y="615" font-family="Arial" font-size="24" font-weight="400" fill="#59718b">Quantity, unit and period</text>
+<text x="89" y="652" font-family="Arial" font-size="24" font-weight="400" fill="#59718b">Support and dependencies</text>
+<rect x="65" y="780" width="365" height="155" rx="14" fill="white" stroke="#b9cee8" stroke-width="2"/>
+<polyline points="90,806 121,821 92,836" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="90,806 92,836" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="90" cy="806" r="5" fill="white" stroke="#275f9e" stroke-width="2"/>
+<circle cx="121" cy="821" r="5" fill="white" stroke="#275f9e" stroke-width="2"/>
+<circle cx="92" cy="836" r="5" fill="white" stroke="#275f9e" stroke-width="2"/>
+<text x="145" y="829" font-family="Arial" font-size="26" font-weight="700" fill="#163958">Category mappings</text>
+<text x="89" y="890" font-family="Arial" font-size="24" font-weight="400" fill="#59718b">Class correspondences</text>
+<text x="89" y="927" font-family="Arial" font-size="24" font-weight="400" fill="#59718b">Changes to sum inputs</text>
+<rect x="530" y="260" width="325" height="170" rx="14" fill="white" stroke="#b9cee8" stroke-width="2"/>
+<rect x="550" y="286" width="42" height="30.24" rx="7" fill="#edf4fd" stroke="#275f9e" stroke-width="2"/>
+<polyline points="558,297 584,297" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="558,307 584,307" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="558,317 584,317" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="610" y="309" font-family="Arial" font-size="26" font-weight="700" fill="#163958">CSV adapter</text>
+<text x="554" y="370" font-family="Arial" font-size="24" font-weight="400" fill="#59718b">Read and validate rows</text>
+<text x="554" y="407" font-family="Arial" font-size="24" font-weight="400" fill="#59718b">Reject duplicate keys</text>
+<rect x="900" y="260" width="325" height="170" rx="14" fill="white" stroke="#b9cee8" stroke-width="2"/>
+<circle cx="941" cy="301" r="19" fill="#edf4fd" stroke="#275f9e" stroke-width="2"/>
+<polyline points="941,290 941,302 951,307" fill="none" stroke="#275f9e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="980" y="309" font-family="Arial" font-size="26" font-weight="700" fill="#163958">Version registry</text>
+<text x="924" y="370" font-family="Arial" font-size="24" font-weight="400" fill="#59718b">Source and version</text>
+<text x="924" y="407" font-family="Arial" font-size="24" font-weight="400" fill="#59718b">Content hash</text>
+<rect x="530" y="505" width="325" height="170" rx="14" fill="white" stroke="#b9cee8" stroke-width="2"/>
+<circle cx="571" cy="546" r="19" fill="#edf4fd" stroke="#275f9e" stroke-width="2"/>
+<polyline points="560,547 568,555 582,538" fill="none" stroke="#275f9e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="610" y="554" font-family="Arial" font-size="26" font-weight="700" fill="#163958">Contract checks</text>
+<text x="554" y="615" font-family="Arial" font-size="24" font-weight="400" fill="#59718b">Input requirements</text>
+<text x="554" y="652" font-family="Arial" font-size="24" font-weight="400" fill="#59718b">Operation constraints</text>
+<rect x="900" y="505" width="325" height="170" rx="14" fill="white" stroke="#b9cee8" stroke-width="2"/>
+<polyline points="925,531 956,546 927,561" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="925,531 927,561" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="925" cy="531" r="5" fill="white" stroke="#275f9e" stroke-width="2"/>
+<circle cx="956" cy="546" r="5" fill="white" stroke="#275f9e" stroke-width="2"/>
+<circle cx="927" cy="561" r="5" fill="white" stroke="#275f9e" stroke-width="2"/>
+<text x="980" y="554" font-family="Arial" font-size="26" font-weight="700" fill="#163958">Derivation graph</text>
+<text x="924" y="615" font-family="Arial" font-size="24" font-weight="400" fill="#59718b">Operations and inputs</text>
+<text x="924" y="652" font-family="Arial" font-size="24" font-weight="400" fill="#59718b">Cycle checks and order</text>
+<rect x="530" y="780" width="325" height="155" rx="14" fill="white" stroke="#b9cee8" stroke-width="2"/>
+<rect x="554" y="800" width="34" height="44" rx="5" fill="#edf4fd" stroke="#275f9e" stroke-width="2"/>
+<rect x="560" y="807" width="22" height="9" rx="1" fill="white" stroke="#275f9e" stroke-width="1"/>
+<circle cx="562" cy="825" r="2" fill="#275f9e" stroke="#275f9e" stroke-width="1"/>
+<circle cx="562" cy="835" r="2" fill="#275f9e" stroke="#275f9e" stroke-width="1"/>
+<circle cx="573" cy="825" r="2" fill="#275f9e" stroke="#275f9e" stroke-width="1"/>
+<circle cx="573" cy="835" r="2" fill="#275f9e" stroke="#275f9e" stroke-width="1"/>
+<text x="610" y="829" font-family="Arial" font-size="26" font-weight="700" fill="#163958">Impact engine</text>
+<text x="554" y="890" font-family="Arial" font-size="24" font-weight="400" fill="#59718b">Compare and propagate</text>
+<text x="554" y="927" font-family="Arial" font-size="24" font-weight="400" fill="#59718b">Recompute dependents</text>
+<rect x="900" y="780" width="325" height="155" rx="14" fill="white" stroke="#b9cee8" stroke-width="2"/>
+<rect x="925" y="800" width="31.5" height="42" rx="3" fill="#edf4fd" stroke="#275f9e" stroke-width="2"/>
+<polyline points="933,813 954,813" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="933,823 954,823" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="933,833 954,833" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="980" y="829" font-family="Arial" font-size="26" font-weight="700" fill="#163958">Audit record</text>
+<text x="924" y="890" font-family="Arial" font-size="24" font-weight="400" fill="#59718b">Status and reason</text>
+<text x="924" y="927" font-family="Arial" font-size="24" font-weight="400" fill="#59718b">Before and after values</text>
+<rect x="530" y="975" width="695" height="55" rx="14" fill="white" stroke="#b9cee8" stroke-width="2"/>
+<rect x="554" y="983" width="22.5" height="30" rx="3" fill="#edf4fd" stroke="#275f9e" stroke-width="2"/>
+<polyline points="562,996 571,996" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="562,1006 571,1006" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="562,1016 571,1016" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="605" y="1015" font-family="Arial" font-size="26" font-weight="700" fill="#233e58">Local API     JSON plan in     JSON record out</text>
+<rect x="1330" y="375" width="405" height="225" rx="14" fill="white" stroke="#b9cee8" stroke-width="2"/>
+<rect x="1350" y="398" width="42" height="29" rx="3" fill="#edf4fd" stroke="#275f9e" stroke-width="2"/>
+<polyline points="1371,427 1371,437 1359,437 1383,437" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1410" y="425" font-family="Arial" font-size="27" font-weight="700" fill="#163958">Local dashboard</text>
+<text x="1354" y="486" font-family="Arial" font-size="25" font-weight="400" fill="#59718b">Execute a plan through the API</text>
+<text x="1354" y="523" font-family="Arial" font-size="25" font-weight="400" fill="#59718b">Inspect contracts and sources</text>
+<text x="1354" y="560" font-family="Arial" font-size="25" font-weight="400" fill="#59718b">Export result records</text>
+<rect x="1330" y="755" width="405" height="225" rx="14" fill="white" stroke="#b9cee8" stroke-width="2"/>
+<rect x="1350" y="778" width="42" height="29" rx="3" fill="#edf4fd" stroke="#275f9e" stroke-width="2"/>
+<polyline points="1371,807 1371,817 1359,817 1383,817" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1410" y="805" font-family="Arial" font-size="27" font-weight="700" fill="#163958">Hosted dashboard</text>
+<text x="1354" y="866" font-family="Arial" font-size="25" font-weight="400" fill="#59718b">Inspect result records</text>
+<text x="1354" y="903" font-family="Arial" font-size="25" font-weight="400" fill="#59718b">Import JSON results</text>
+<text x="1354" y="940" font-family="Arial" font-size="25" font-weight="400" fill="#59718b">No Python execution</text>
+<polyline points="430,345 530,345" fill="none" stroke="#275f9e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="530,345 517.7138441335347,351.71195754045885 517.7138441335347,338.28804245954115" fill="#275f9e"/>
+<polyline points="855,345 900,345" fill="none" stroke="#275f9e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="900,345 887.7138441335347,351.71195754045885 887.7138441335347,338.28804245954115" fill="#275f9e"/>
+<polyline points="430,590 530,590" fill="none" stroke="#275f9e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="530,590 517.7138441335347,596.7119575404588 517.7138441335347,583.2880424595412" fill="#275f9e"/>
+<polyline points="1060,430 1060,505" fill="none" stroke="#275f9e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1060,505 1053.2880424595412,492.7138441335348 1066.7119575404588,492.7138441335348" fill="#275f9e"/>
+<polyline points="855,590 900,590" fill="none" stroke="#275f9e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="900,590 887.7138441335347,596.7119575404588 887.7138441335347,583.2880424595412" fill="#275f9e"/>
+<polyline points="430,857 475,857 475,465 1060,465 1060,505" fill="none" stroke="#275f9e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1060,505 1053.2880424595412,492.7138441335348 1066.7119575404588,492.7138441335348" fill="#275f9e"/>
+<polyline points="690,675 690,780" fill="none" stroke="#275f9e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="690,780 683.2880424595412,767.7138441335347 696.7119575404588,767.7138441335347" fill="#275f9e"/>
+<polyline points="1060,675 1060,720 690,720 690,780" fill="none" stroke="#275f9e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="690,780 683.2880424595412,767.7138441335347 696.7119575404588,767.7138441335347" fill="#275f9e"/>
+<polyline points="855,857 900,857" fill="none" stroke="#275f9e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="900,857 887.7138441335347,863.7119575404588 887.7138441335347,850.2880424595412" fill="#275f9e"/>
+<polyline points="1060,935 1060,975" fill="none" stroke="#275f9e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1060,975 1053.2880424595412,962.7138441335347 1066.7119575404588,962.7138441335347" fill="#275f9e"/>
+<polyline points="1225,1002 1280,1002 1280,487 1330,487" fill="none" stroke="#275f9e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1330,487 1317.7138441335348,493.71195754045885 1317.7138441335348,480.28804245954115" fill="#275f9e"/>
+<polyline points="1225,857 1330,857" fill="none" stroke="#275f9e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1330,857 1317.7138441335348,863.7119575404588 1317.7138441335348,850.2880424595412" fill="#275f9e"/>
+<text x="35" y="1127" font-family="Arial" font-size="27" font-weight="400" fill="#59718b">Contracts and mappings are declarations. The engine does not infer source meaning.</text>
+</svg>

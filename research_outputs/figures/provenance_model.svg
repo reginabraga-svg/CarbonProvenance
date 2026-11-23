@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1040" viewBox="0 0 1800 1040"><rect width="1800" height="1040" fill="white"/>
+<text x="45" y="76" font-family="Arial" font-size="41" font-weight="700" fill="#163958">Value provenance and source revision assessment</text>
+<text x="45" y="120" font-family="Arial" font-size="26" font-weight="400" fill="#59718b">Sources, input requirements and derivation records</text>
+<rect x="45" y="180" width="440" height="740" rx="18" fill="#edf4fd" stroke="#b9cee8" stroke-width="2"/>
+<text x="69" y="232" font-family="Arial" font-size="29" font-weight="700" fill="#163958">Source releases</text>
+<rect x="65" y="260" width="400" height="105" rx="11" fill="white" stroke="#b9cee8" stroke-width="2"/>
+<circle cx="103" cy="306" r="20" fill="#edf4fd" stroke="#275f9e" stroke-width="2"/>
+<polyline points="83,306 123,306" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="103,286 94,306 103,326 112,306 103,286" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="143" y="305" font-family="Arial" font-size="29" font-weight="700" fill="#233e58">MapBiomas</text>
+<text x="143" y="341" font-family="Arial" font-size="23" font-weight="400" fill="#59718b">Soil carbon and land cover</text>
+<rect x="65" y="386" width="400" height="105" rx="11" fill="white" stroke="#b9cee8" stroke-width="2"/>
+<rect x="82" y="417" width="42" height="30.24" rx="7" fill="#edf4fd" stroke="#275f9e" stroke-width="2"/>
+<polyline points="90,428 116,428" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="90,438 116,438" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="90,448 116,448" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="143" y="431" font-family="Arial" font-size="29" font-weight="700" fill="#233e58">PRIMAP-hist</text>
+<text x="143" y="467" font-family="Arial" font-size="23" font-weight="400" fill="#59718b">National emissions series</text>
+<rect x="65" y="512" width="400" height="105" rx="11" fill="white" stroke="#b9cee8" stroke-width="2"/>
+<rect x="82" y="543" width="42" height="30.24" rx="7" fill="#edf4fd" stroke="#275f9e" stroke-width="2"/>
+<polyline points="90,554 116,554" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="90,564 116,564" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="90,574 116,574" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="143" y="557" font-family="Arial" font-size="29" font-weight="700" fill="#233e58">FAOSTAT</text>
+<text x="143" y="593" font-family="Arial" font-size="23" font-weight="400" fill="#59718b">Livestock activity data</text>
+<rect x="65" y="638" width="400" height="105" rx="11" fill="white" stroke="#b9cee8" stroke-width="2"/>
+<rect x="87" y="663" width="31.5" height="42" rx="3" fill="#edf4fd" stroke="#275f9e" stroke-width="2"/>
+<polyline points="95,676 116,676" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="95,686 116,686" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="95,696 116,696" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="143" y="683" font-family="Arial" font-size="29" font-weight="700" fill="#233e58">IPCC factors</text>
+<text x="143" y="719" font-family="Arial" font-size="23" font-weight="400" fill="#59718b">Tier 1 emission factors</text>
+<rect x="65" y="764" width="400" height="105" rx="11" fill="white" stroke="#b9cee8" stroke-width="2"/>
+<rect x="86" y="789" width="34" height="44" rx="5" fill="#edf4fd" stroke="#275f9e" stroke-width="2"/>
+<rect x="92" y="796" width="22" height="9" rx="1" fill="white" stroke="#275f9e" stroke-width="1"/>
+<circle cx="94" cy="814" r="2" fill="#275f9e" stroke="#275f9e" stroke-width="1"/>
+<circle cx="94" cy="824" r="2" fill="#275f9e" stroke="#275f9e" stroke-width="1"/>
+<circle cx="105" cy="814" r="2" fill="#275f9e" stroke="#275f9e" stroke-width="1"/>
+<circle cx="105" cy="824" r="2" fill="#275f9e" stroke="#275f9e" stroke-width="1"/>
+<text x="143" y="809" font-family="Arial" font-size="29" font-weight="700" fill="#233e58">GWP values</text>
+<text x="143" y="845" font-family="Arial" font-size="23" font-weight="400" fill="#59718b">AR5 and AR6 coefficients</text>
+<rect x="565" y="290" width="570" height="500" rx="14" fill="white" stroke="#b9cee8" stroke-width="2"/>
+<polyline points="590,316 621,331 592,346" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="590,316 592,346" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="590" cy="316" r="5" fill="white" stroke="#275f9e" stroke-width="2"/>
+<circle cx="621" cy="331" r="5" fill="white" stroke="#275f9e" stroke-width="2"/>
+<circle cx="592" cy="346" r="5" fill="white" stroke="#275f9e" stroke-width="2"/>
+<text x="645" y="344" font-family="Arial" font-size="31" font-weight="700" fill="#163958">Value provenance record</text>
+<text x="589" y="405" font-family="Arial" font-size="29" font-weight="400" fill="#59718b">Key and numeric value</text>
+<text x="589" y="442" font-family="Arial" font-size="29" font-weight="400" fill="#59718b">Quantity, unit, period and support</text>
+<text x="589" y="479" font-family="Arial" font-size="29" font-weight="400" fill="#59718b">Operation and input keys</text>
+<text x="589" y="516" font-family="Arial" font-size="29" font-weight="400" fill="#59718b">Source and version identifiers</text>
+<text x="589" y="553" font-family="Arial" font-size="29" font-weight="400" fill="#59718b">Status and reason</text>
+<rect x="1225" y="180" width="530" height="235" rx="14" fill="white" stroke="#b9cee8" stroke-width="2"/>
+<polyline points="1250,206 1281,221 1252,236" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1250,206 1252,236" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1250" cy="206" r="5" fill="white" stroke="#275f9e" stroke-width="2"/>
+<circle cx="1281" cy="221" r="5" fill="white" stroke="#275f9e" stroke-width="2"/>
+<circle cx="1252" cy="236" r="5" fill="white" stroke="#275f9e" stroke-width="2"/>
+<text x="1305" y="232" font-family="Arial" font-size="29" font-weight="700" fill="#163958">Revision impact analysis</text>
+<text x="1249" y="293" font-family="Arial" font-size="27" font-weight="400" fill="#59718b">Changed values and contracts</text>
+<text x="1249" y="330" font-family="Arial" font-size="27" font-weight="400" fill="#59718b">Withdrawn keys and added keys</text>
+<text x="1249" y="367" font-family="Arial" font-size="27" font-weight="400" fill="#59718b">Stale, orphan and resolvable outputs</text>
+<rect x="1225" y="475" width="530" height="200" rx="14" fill="white" stroke="#b9cee8" stroke-width="2"/>
+<rect x="1249" y="495" width="34" height="44" rx="5" fill="#edf4fd" stroke="#275f9e" stroke-width="2"/>
+<rect x="1255" y="502" width="22" height="9" rx="1" fill="white" stroke="#275f9e" stroke-width="1"/>
+<circle cx="1257" cy="520" r="2" fill="#275f9e" stroke="#275f9e" stroke-width="1"/>
+<circle cx="1257" cy="530" r="2" fill="#275f9e" stroke="#275f9e" stroke-width="1"/>
+<circle cx="1268" cy="520" r="2" fill="#275f9e" stroke="#275f9e" stroke-width="1"/>
+<circle cx="1268" cy="530" r="2" fill="#275f9e" stroke="#275f9e" stroke-width="1"/>
+<text x="1305" y="527" font-family="Arial" font-size="29" font-weight="700" fill="#163958">Dependent output update</text>
+<text x="1249" y="588" font-family="Arial" font-size="27" font-weight="400" fill="#59718b">Recompute the affected outputs</text>
+<text x="1249" y="625" font-family="Arial" font-size="27" font-weight="400" fill="#59718b">Check agreement with reconstruction</text>
+<rect x="1225" y="735" width="530" height="220" rx="14" fill="white" stroke="#b9cee8" stroke-width="2"/>
+<rect x="1250" y="755" width="31.5" height="42" rx="3" fill="#edf4fd" stroke="#275f9e" stroke-width="2"/>
+<polyline points="1258,768 1279,768" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1258,778 1279,778" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1258,788 1279,788" fill="none" stroke="#275f9e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1305" y="787" font-family="Arial" font-size="29" font-weight="700" fill="#163958">Record exports</text>
+<text x="1249" y="848" font-family="Arial" font-size="27" font-weight="400" fill="#59718b">PROV O and SPARQL</text>
+<text x="1249" y="885" font-family="Arial" font-size="27" font-weight="400" fill="#59718b">Relational lineage and SQL</text>
+<text x="1249" y="922" font-family="Arial" font-size="27" font-weight="400" fill="#59718b">Contract audit through SHACL</text>
+<polyline points="485,555 565,555" fill="none" stroke="#275f9e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="565,555 552.7138441335347,561.7119575404588 552.7138441335347,548.2880424595412" fill="#275f9e"/>
+<polyline points="1135,420 1178,420 1178,295 1225,295" fill="none" stroke="#275f9e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1225,295 1212.7138441335348,301.71195754045885 1212.7138441335348,288.28804245954115" fill="#275f9e"/>
+<polyline points="1490,415 1490,475" fill="none" stroke="#275f9e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1490,475 1483.2880424595412,462.7138441335348 1496.7119575404588,462.7138441335348" fill="#275f9e"/>
+<polyline points="1135,665 1178,665 1178,845 1225,845" fill="none" stroke="#275f9e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1225,845 1212.7138441335348,851.7119575404588 1212.7138441335348,838.2880424595412" fill="#275f9e"/>
+<text x="45" y="1010" font-family="Arial" font-size="27" font-weight="400" fill="#59718b">Input meaning and operation requirements must be declared before the assessment.</text>
+</svg>

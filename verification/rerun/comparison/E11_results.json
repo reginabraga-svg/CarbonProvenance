@@ -1,0 +1,78 @@
+{
+  "experiment": "E11",
+  "protocol_hash": "4560e86a0a56ec1c914cb14dc3d0ff469cd6da189848ed00f8433e68f78e5774",
+  "comparison_units": 27840,
+  "zero_baseline_exclusions": 5,
+  "source_comparison_units": 27845,
+  "threshold_results": [
+    {
+      "threshold_percent": 0.1,
+      "total_alerts": 0,
+      "class_alerts": 27840,
+      "class_alerts_without_total_alert": 27840,
+      "comparisons": 27840
+    },
+    {
+      "threshold_percent": 1,
+      "total_alerts": 0,
+      "class_alerts": 27685,
+      "class_alerts_without_total_alert": 27685,
+      "comparisons": 27840
+    },
+    {
+      "threshold_percent": 5,
+      "total_alerts": 0,
+      "class_alerts": 24167,
+      "class_alerts_without_total_alert": 24167,
+      "comparisons": 27840
+    },
+    {
+      "threshold_percent": 10,
+      "total_alerts": 0,
+      "class_alerts": 17816,
+      "class_alerts_without_total_alert": 17816,
+      "comparisons": 27840
+    }
+  ],
+  "by_year": [
+    {
+      "year": 2017,
+      "comparisons": 5568,
+      "max_net_percent": 0.010665109348690466,
+      "median_gross_class_percent": 12.505601422701286,
+      "median_offsetting_percent": 6.25277229517653
+    },
+    {
+      "year": 2018,
+      "comparisons": 5568,
+      "max_net_percent": 0.010692448688960465,
+      "median_gross_class_percent": 12.933659152338796,
+      "median_offsetting_percent": 6.466800649631432
+    },
+    {
+      "year": 2019,
+      "comparisons": 5568,
+      "max_net_percent": 0.010550530720408123,
+      "median_gross_class_percent": 13.5965756908741,
+      "median_offsetting_percent": 6.798230180551164
+    },
+    {
+      "year": 2020,
+      "comparisons": 5568,
+      "max_net_percent": 0.010612506315100285,
+      "median_gross_class_percent": 13.473372250765838,
+      "median_offsetting_percent": 6.73663886131682
+    },
+    {
+      "year": 2021,
+      "comparisons": 5568,
+      "max_net_percent": 0.010622889425021577,
+      "median_gross_class_percent": 13.957122203896745,
+      "median_offsetting_percent": 6.978489409277292
+    }
+  ],
+  "national_2021_net_TgC": 0.10540269334263948,
+  "checks": "National total and the eight largest class changes agree with archived E7 to its rounding precision.",
+  "interpretation": "An alert marks a version difference, not an error in the source or a measured environmental change. Gross class differences count positive and negative terms. Offsetting differences are an arithmetic quantity, not evidence of carbon transport.",
+  "scope": "Finite set from the supplied extracts. Municipality-year comparisons are not independent samples. No significance test or claim of transfer to other products."
+}

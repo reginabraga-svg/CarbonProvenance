@@ -1,0 +1,24 @@
+{
+  "language": "English",
+  "excluded_internal_editorial_notes": [
+    "Confronto_literatura_analises.md",
+    "Plano_comparacao_cientifica.md",
+    "Relatorio_contribuicao_cientifica.md",
+    "Resultado_comparacao_pixels_E14.md",
+    "Resultado_compatibilizacao_legendas.md",
+    "Resultado_consequencias_atribuicao.md",
+    "Resultado_estabilidade_E13.md",
+    "Resultado_teste_fontes.md",
+    "Rodada_revisao_artigo.md"
+  ],
+  "unchanged_scientific_files": 87,
+  "retained_source_identifiers": "Original data headers, asset identifiers, place names, source publication titles and bibliographic titles",
+  "numeric_results_changed": false,
+  "frozen_protocols_changed": false,
+  "excluded_superseded_editorial_check": "manuscript/verificacao_artigo.json",
+  "regression_checks": {
+    "engine_tests_passed": 13,
+    "shared_figure_exports_passed": true,
+    "earth_engine_script_syntax_checks_passed": 3
+  }
+}

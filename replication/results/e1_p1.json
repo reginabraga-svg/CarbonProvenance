@@ -1,0 +1,76 @@
+[
+ {
+  "step": "soil beta2.1->col3",
+  "source": "mapbiomas_soil_context",
+  "new_version": "V1",
+  "derived_values": 136900,
+  "source_diff": {
+   "changed": 68,
+   "removed": 0,
+   "added": 0,
+   "contract_changed": 0,
+   "unannounced": 0
+  },
+  "impact": {
+   "stale": 91241,
+   "orphan": 0,
+   "resolvable": 0
+  },
+  "truly_changed": 91240,
+  "flagged": 91241,
+  "recall": 1.0,
+  "precision": 1.0,
+  "incremental_equals_full_rebuild": true,
+  "mismatches": [],
+  "table_level_flagged": 91241,
+  "table_level_precision": 1.0,
+  "no_lineage_silently_stale": 91240,
+  "evaluations_incremental": 91241,
+  "evaluations_full": 136900,
+  "seconds_impact_analysis": 0.1457,
+  "seconds_incremental_recompute": 0.4446,
+  "seconds_full_rebuild": 2.638,
+  "status_counts_after": {
+   "contextual": 91294,
+   "blocked": 45596,
+   "unresolved": 10
+  }
+ },
+ {
+  "step": "landcover 7.1->10",
+  "source": "mapbiomas_soil_context",
+  "new_version": "V2",
+  "derived_values": 136900,
+  "source_diff": {
+   "changed": 64,
+   "removed": 3,
+   "added": 8,
+   "contract_changed": 0,
+   "unannounced": 0
+  },
+  "impact": {
+   "stale": 88815,
+   "orphan": 2426,
+   "resolvable": 0
+  },
+  "truly_changed": 91240,
+  "flagged": 91241,
+  "recall": 1.0,
+  "precision": 1.0,
+  "incremental_equals_full_rebuild": true,
+  "mismatches": [],
+  "table_level_flagged": 91241,
+  "table_level_precision": 1.0,
+  "no_lineage_silently_stale": 91240,
+  "evaluations_incremental": 91241,
+  "evaluations_full": 136900,
+  "seconds_impact_analysis": 0.1166,
+  "seconds_incremental_recompute": 0.4699,
+  "seconds_full_rebuild": 2.874,
+  "status_counts_after": {
+   "contextual": 90080,
+   "blocked": 44384,
+   "unresolved": 2436
+  }
+ }
+]

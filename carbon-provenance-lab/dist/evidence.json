@@ -1,0 +1,936 @@
+{
+  "schema_version": 1,
+  "title": "Carbon Provenance Lab",
+  "origin": "replication_archive",
+  "archive": "S1_artC.zip",
+  "revisions": [
+    {
+      "id": "e1_p1.json-0",
+      "name": "Soil revision in farm area integration",
+      "pipeline": "P1",
+      "changed": 91240,
+      "flagged": 91241,
+      "recall": 1.0,
+      "precision": 1.0,
+      "orphans": 0,
+      "equal": true,
+      "source_file": "e1_p1.json",
+      "origin": "replication_archive",
+      "details": {
+        "step": "soil beta2.1->col3",
+        "source": "mapbiomas_soil_context",
+        "new_version": "V1",
+        "derived_values": 136900,
+        "source_diff": {
+          "changed": 68,
+          "removed": 0,
+          "added": 0,
+          "contract_changed": 0,
+          "unannounced": 0
+        },
+        "impact": {
+          "stale": 91241,
+          "orphan": 0,
+          "resolvable": 0
+        },
+        "truly_changed": 91240,
+        "flagged": 91241,
+        "recall": 1.0,
+        "precision": 1.0,
+        "incremental_equals_full_rebuild": true,
+        "mismatches": [],
+        "table_level_flagged": 91241,
+        "table_level_precision": 1.0,
+        "no_lineage_silently_stale": 91240,
+        "evaluations_incremental": 91241,
+        "evaluations_full": 136900,
+        "seconds_impact_analysis": 0.1457,
+        "seconds_incremental_recompute": 0.4446,
+        "seconds_full_rebuild": 2.638,
+        "status_counts_after": {
+          "contextual": 91294,
+          "blocked": 45596,
+          "unresolved": 10
+        }
+      }
+    },
+    {
+      "id": "e1_p1.json-1",
+      "name": "Land cover revision in farm area integration",
+      "pipeline": "P1",
+      "changed": 91240,
+      "flagged": 91241,
+      "recall": 1.0,
+      "precision": 1.0,
+      "orphans": 2426,
+      "equal": true,
+      "source_file": "e1_p1.json",
+      "origin": "replication_archive",
+      "details": {
+        "step": "landcover 7.1->10",
+        "source": "mapbiomas_soil_context",
+        "new_version": "V2",
+        "derived_values": 136900,
+        "source_diff": {
+          "changed": 64,
+          "removed": 3,
+          "added": 8,
+          "contract_changed": 0,
+          "unannounced": 0
+        },
+        "impact": {
+          "stale": 88815,
+          "orphan": 2426,
+          "resolvable": 0
+        },
+        "truly_changed": 91240,
+        "flagged": 91241,
+        "recall": 1.0,
+        "precision": 1.0,
+        "incremental_equals_full_rebuild": true,
+        "mismatches": [],
+        "table_level_flagged": 91241,
+        "table_level_precision": 1.0,
+        "no_lineage_silently_stale": 91240,
+        "evaluations_incremental": 91241,
+        "evaluations_full": 136900,
+        "seconds_impact_analysis": 0.1166,
+        "seconds_incremental_recompute": 0.4699,
+        "seconds_full_rebuild": 2.874,
+        "status_counts_after": {
+          "contextual": 90080,
+          "blocked": 44384,
+          "unresolved": 2436
+        }
+      }
+    },
+    {
+      "id": "e1_p2.json-0",
+      "name": "PRIMAP emissions series",
+      "pipeline": "P2",
+      "changed": 3310,
+      "flagged": 3318,
+      "recall": 1.0,
+      "precision": 0.9976,
+      "orphans": 0,
+      "equal": true,
+      "source_file": "e1_p2.json",
+      "origin": "replication_archive",
+      "details": {
+        "step": "PRIMAP-hist v2.6->v2.7",
+        "source": "primap_hist",
+        "new_version": "v2.7",
+        "derived_values": 35553,
+        "source_diff": {
+          "changed": 7052,
+          "removed": 0,
+          "added": 128,
+          "contract_changed": 0,
+          "unannounced": 0
+        },
+        "impact": {
+          "stale": 3318,
+          "orphan": 0,
+          "resolvable": 0
+        },
+        "truly_changed": 3310,
+        "flagged": 3318,
+        "recall": 1.0,
+        "precision": 0.9976,
+        "incremental_equals_full_rebuild": true,
+        "mismatches": [],
+        "table_level_flagged": 4576,
+        "table_level_precision": 0.7233,
+        "no_lineage_silently_stale": 3310,
+        "evaluations_incremental": 3318,
+        "evaluations_full": 35553,
+        "seconds_impact_analysis": 0.0204,
+        "seconds_incremental_recompute": 0.0291,
+        "seconds_full_rebuild": 1.113,
+        "status_counts_after": {
+          "ok": 35425,
+          "unresolved": 128
+        }
+      }
+    },
+    {
+      "id": "e1_p2.json-1",
+      "name": "Global warming potentials",
+      "pipeline": "P2",
+      "changed": 4688,
+      "flagged": 4688,
+      "recall": 1.0,
+      "precision": 1.0,
+      "orphans": 0,
+      "equal": true,
+      "source_file": "e1_p2.json",
+      "origin": "replication_archive",
+      "details": {
+        "step": "GWP AR5->AR6",
+        "source": "gwp",
+        "new_version": "AR6",
+        "derived_values": 35553,
+        "source_diff": {
+          "changed": 2,
+          "removed": 0,
+          "added": 0,
+          "contract_changed": 0,
+          "unannounced": 0
+        },
+        "impact": {
+          "stale": 4688,
+          "orphan": 0,
+          "resolvable": 0
+        },
+        "truly_changed": 4688,
+        "flagged": 4688,
+        "recall": 1.0,
+        "precision": 1.0,
+        "incremental_equals_full_rebuild": true,
+        "mismatches": [],
+        "table_level_flagged": 4688,
+        "table_level_precision": 1.0,
+        "no_lineage_silently_stale": 4688,
+        "evaluations_incremental": 4688,
+        "evaluations_full": 35553,
+        "seconds_impact_analysis": 0.0106,
+        "seconds_incremental_recompute": 0.0274,
+        "seconds_full_rebuild": 1.071,
+        "status_counts_after": {
+          "ok": 35425,
+          "unresolved": 128
+        }
+      }
+    },
+    {
+      "id": "e1_p2.json-2",
+      "name": "IPCC emission factors",
+      "pipeline": "P2",
+      "changed": 23810,
+      "flagged": 25359,
+      "recall": 1.0,
+      "precision": 0.9389,
+      "orphans": 5352,
+      "equal": true,
+      "source_file": "e1_p2.json",
+      "origin": "replication_archive",
+      "details": {
+        "step": "IPCC factors 2006->2019 (2006 regions kept)",
+        "source": "ipcc_factors",
+        "new_version": "2019",
+        "derived_values": 35553,
+        "source_diff": {
+          "changed": 16,
+          "removed": 4,
+          "added": 11,
+          "contract_changed": 0,
+          "unannounced": 0
+        },
+        "impact": {
+          "stale": 20007,
+          "orphan": 5352,
+          "resolvable": 0
+        },
+        "truly_changed": 23810,
+        "flagged": 25359,
+        "recall": 1.0,
+        "precision": 0.9389,
+        "incremental_equals_full_rebuild": true,
+        "mismatches": [],
+        "table_level_flagged": 32417,
+        "table_level_precision": 0.7345,
+        "no_lineage_silently_stale": 23810,
+        "evaluations_incremental": 25359,
+        "evaluations_full": 35553,
+        "seconds_impact_analysis": 0.0302,
+        "seconds_incremental_recompute": 0.1116,
+        "seconds_full_rebuild": 1.048,
+        "status_counts_after": {
+          "unresolved": 5472,
+          "ok": 30081
+        }
+      }
+    },
+    {
+      "id": "e1_p2.json-3",
+      "name": "IPCC region mapping",
+      "pipeline": "P2",
+      "changed": 5344,
+      "flagged": 5352,
+      "recall": 1.0,
+      "precision": 0.9985,
+      "orphans": 0,
+      "equal": true,
+      "source_file": "e1_p2.json",
+      "origin": "replication_archive",
+      "details": {
+        "step": "regional scheme 2006->2019 (rewire)",
+        "rewired": 1612,
+        "affected": 5352,
+        "truly_changed": 5344,
+        "recall": 1.0,
+        "precision": 0.9985,
+        "incremental_equals_full_rebuild": true,
+        "mismatches": [],
+        "recomputed": 5352,
+        "evaluations_full": 35553,
+        "seconds": 0.048,
+        "status_counts_after": {
+          "ok": 35425,
+          "unresolved": 128
+        },
+        "flagged": 5352
+      }
+    },
+    {
+      "id": "p3-0",
+      "name": "Soil revision across Brazil",
+      "pipeline": "P3",
+      "changed": 362416,
+      "flagged": 362521,
+      "recall": 1.0,
+      "precision": 0.9997,
+      "orphans": 825,
+      "equal": true,
+      "source_file": "e1_p3.json",
+      "origin": "replication_archive",
+      "details": {
+        "new_version": "V1",
+        "values": 1017520,
+        "derived": 391854,
+        "soil_diff": {
+          "changed": 311072,
+          "removed": 825,
+          "added": 148,
+          "contract_changed": 0,
+          "unannounced": 0
+        },
+        "area_diff": {
+          "changed": 206025,
+          "removed": 825,
+          "added": 148,
+          "contract_changed": 0,
+          "unannounced": 0
+        },
+        "rewired": 952,
+        "truly_changed": 362416,
+        "flagged": 362521,
+        "recall": 1.0,
+        "precision": 0.9997,
+        "orphans_after": 825,
+        "table_level_flagged": 391854,
+        "incremental_equals_full_rebuild": true,
+        "mismatches": [],
+        "seconds_incremental": 13.37,
+        "seconds_full_rebuild": 18.09,
+        "evaluations_incremental": 621825,
+        "evaluations_full": 391854,
+        "status_counts": {
+          "ok": 362381,
+          "unresolved": 29473
+        }
+      }
+    },
+    {
+      "id": "p3-1",
+      "name": "Land cover revision across Brazil",
+      "pipeline": "P3",
+      "changed": 387637,
+      "flagged": 388224,
+      "recall": 1.0,
+      "precision": 0.9985,
+      "orphans": 16858,
+      "equal": true,
+      "source_file": "e1_p3.json",
+      "origin": "replication_archive",
+      "details": {
+        "new_version": "V2",
+        "values": 1074816,
+        "derived": 391854,
+        "soil_diff": {
+          "changed": 291511,
+          "removed": 16505,
+          "added": 29120,
+          "contract_changed": 0,
+          "unannounced": 0
+        },
+        "area_diff": {
+          "changed": 292215,
+          "removed": 16505,
+          "added": 29120,
+          "contract_changed": 0,
+          "unannounced": 0
+        },
+        "rewired": 21588,
+        "truly_changed": 387637,
+        "flagged": 388224,
+        "recall": 1.0,
+        "precision": 0.9985,
+        "orphans_after": 16858,
+        "table_level_flagged": 391854,
+        "incremental_equals_full_rebuild": true,
+        "mismatches": [],
+        "seconds_incremental": 14.59,
+        "seconds_full_rebuild": 16.65,
+        "evaluations_incremental": 815202,
+        "evaluations_full": 391854,
+        "status_counts": {
+          "ok": 374996,
+          "unresolved": 16858
+        }
+      }
+    }
+  ],
+  "p3": {
+    "build_seconds": 16.2,
+    "values": 1017224,
+    "derived": 391854,
+    "status_V0": {
+      "ok": 363058,
+      "unresolved": 28796
+    },
+    "steps": [
+      {
+        "new_version": "V1",
+        "values": 1017520,
+        "derived": 391854,
+        "soil_diff": {
+          "changed": 311072,
+          "removed": 825,
+          "added": 148,
+          "contract_changed": 0,
+          "unannounced": 0
+        },
+        "area_diff": {
+          "changed": 206025,
+          "removed": 825,
+          "added": 148,
+          "contract_changed": 0,
+          "unannounced": 0
+        },
+        "rewired": 952,
+        "truly_changed": 362416,
+        "flagged": 362521,
+        "recall": 1.0,
+        "precision": 0.9997,
+        "orphans_after": 825,
+        "table_level_flagged": 391854,
+        "incremental_equals_full_rebuild": true,
+        "mismatches": [],
+        "seconds_incremental": 13.37,
+        "seconds_full_rebuild": 18.09,
+        "evaluations_incremental": 621825,
+        "evaluations_full": 391854,
+        "status_counts": {
+          "ok": 362381,
+          "unresolved": 29473
+        }
+      },
+      {
+        "new_version": "V2",
+        "values": 1074816,
+        "derived": 391854,
+        "soil_diff": {
+          "changed": 291511,
+          "removed": 16505,
+          "added": 29120,
+          "contract_changed": 0,
+          "unannounced": 0
+        },
+        "area_diff": {
+          "changed": 292215,
+          "removed": 16505,
+          "added": 29120,
+          "contract_changed": 0,
+          "unannounced": 0
+        },
+        "rewired": 21588,
+        "truly_changed": 387637,
+        "flagged": 388224,
+        "recall": 1.0,
+        "precision": 0.9985,
+        "orphans_after": 16858,
+        "table_level_flagged": 391854,
+        "incremental_equals_full_rebuild": true,
+        "mismatches": [],
+        "seconds_incremental": 14.59,
+        "seconds_full_rebuild": 16.65,
+        "evaluations_incremental": 815202,
+        "evaluations_full": 391854,
+        "status_counts": {
+          "ok": 374996,
+          "unresolved": 16858
+        }
+      }
+    ],
+    "headline": {
+      "stock_br_2021_PgC_V0": 37.504,
+      "dstock_br_2020_2021_TgC_V0": -39.32,
+      "stock_br_2021_PgC_V1": 37.389,
+      "dstock_br_2020_2021_TgC_V1": -1653.06,
+      "stock_br_2021_PgC_V2": 37.389,
+      "dstock_br_2020_2021_TgC_V2": -1653.07,
+      "V0->V1": {
+        "municipalities": 5565,
+        "median_change": 0.0765,
+        "p05": -0.1506,
+        "p95": 0.31,
+        "over_10pct": 2907,
+        "over_25pct": 584,
+        "annual_change_2020_2021_sign_flips": "1669/5565"
+      },
+      "V0->V1_by_state": {
+        "Acre": 13.57,
+        "Alagoas": 0.64,
+        "Amapa": 4.05,
+        "Amazonas": -13.59,
+        "Bahia": 0.18,
+        "Ceara": 3.58,
+        "Distrito Federal": 6.6,
+        "Espirito Santo": 0.6,
+        "Goias": -1.98,
+        "Maranhao": 10.43,
+        "Mato Grosso": -13.12,
+        "Mato Grosso do Sul": 4.81,
+        "Minas Gerais": 7.25,
+        "Para": 5.58,
+        "Paraiba": 10.75,
+        "Parana": 10.97,
+        "Pernambuco": 6.57,
+        "Piaui": 12.34,
+        "Rio Grande do Norte": 15.66,
+        "Rio Grande do Sul": -3.49,
+        "Rio de Janeiro": 9.05,
+        "Rondonia": 32.69,
+        "Roraima": 13.34,
+        "Santa Catarina": 10.67,
+        "Sao Paulo": 6.05,
+        "Sergipe": -6.68,
+        "Tocantins": -1.2
+      },
+      "V1->V2": {
+        "municipalities": 5568,
+        "median_change": 0.0,
+        "p05": -0.0,
+        "p95": 0.0,
+        "over_10pct": 0,
+        "over_25pct": 0,
+        "annual_change_2020_2021_sign_flips": "0/5568"
+      },
+      "V1->V2_by_state": {
+        "Acre": 0.0,
+        "Alagoas": -0.0,
+        "Amapa": -0.0,
+        "Amazonas": 0.0,
+        "Bahia": -0.0,
+        "Ceara": -0.0,
+        "Distrito Federal": 0.0,
+        "Espirito Santo": -0.0,
+        "Goias": 0.0,
+        "Maranhao": 0.0,
+        "Mato Grosso": 0.0,
+        "Mato Grosso do Sul": 0.0,
+        "Minas Gerais": 0.0,
+        "Para": 0.0,
+        "Paraiba": 0.0,
+        "Parana": -0.0,
+        "Pernambuco": 0.0,
+        "Piaui": 0.0,
+        "Rio Grande do Norte": 0.0,
+        "Rio Grande do Sul": -0.0,
+        "Rio de Janeiro": -0.0,
+        "Rondonia": -0.0,
+        "Roraima": 0.0,
+        "Santa Catarina": -0.0,
+        "Sao Paulo": -0.0,
+        "Sergipe": -0.0,
+        "Tocantins": -0.0
+      }
+    },
+    "orphan_example": [
+      "stock|56859067B10014476741522|40|2017 = — [stock, t C, instant:2017, municipality_class] status=orphan (input lost its origin: soil|56859067B10014476741522|40|2017, area|56859067B10014476741522|40|2017) <- mul {'expect': [('stock', 't C/ha', 'instant:2017', 'municipality_class'), ('area', 'ha', 'instant:2017', 'municipality_class')]}",
+      "  soil|56859067B10014476741522|40|2017 = — [stock, t C/ha, instant:2017, municipality_class] status=orphan (mapbiomas_soil V2 no longer provides this key) <- source mapbiomas_soil version V2 sha256 ",
+      "  area|56859067B10014476741522|40|2017 = — [area, ha, instant:2017, municipality_class] status=orphan (mapbiomas_lulc_area V2 no longer provides this key) <- source mapbiomas_lulc_area version V2 sha256 "
+    ]
+  },
+  "attribution": {
+    "X1_rondonia_2020_soil_revision": {
+      "stock_old_TgC": 803.27,
+      "stock_new_TgC": 1114.07,
+      "change_pct": 38.7,
+      "change_TgC": 310.8,
+      "closure_error_tC": 1.7881393432617188e-07,
+      "source_values_reached": 868,
+      "seconds": 0.0,
+      "by_kind_TgC": {
+        "context withdrawn": -0.0,
+        "soil": 316.08,
+        "area": -5.28
+      },
+      "by_class_TgC": {
+        "Forest formation": 170.26,
+        "Pasture": 125.39,
+        "Grassland": 6.52,
+        "Savanna formation": 6.45,
+        "Soybean": 2.99,
+        "River and lake": -2.79
+      },
+      "by_class_share": {
+        "Forest formation": 0.548,
+        "Pasture": 0.403,
+        "Grassland": 0.021,
+        "Savanna formation": 0.021
+      },
+      "municipalities": 52,
+      "top10_share": 0.586,
+      "top3": [
+        [
+          "Porto Velho",
+          61.26
+        ],
+        [
+          "Guajará-Mirim",
+          25.96
+        ],
+        [
+          "Nova Mamoré",
+          17.09
+        ]
+      ],
+      "independent_join_max_deviation_tC": 5.960464477539063e-08
+    },
+    "X2_brazil_2020_soil_revision": {
+      "change_TgC": 1499.31,
+      "change_pct": 3.99,
+      "closure_error_tC": 2.86102294921875e-06,
+      "source_values_reached": 103394,
+      "seconds": 0.71,
+      "by_state_TgC": {
+        "Para": 692.13,
+        "Amazonas": -561.52,
+        "Mato Grosso": -402.69,
+        "Rondonia": 310.8,
+        "Minas Gerais": 244.69,
+        "Roraima": 197.48,
+        "Maranhao": 167.99,
+        "Acre": 146.23
+      },
+      "by_class_TgC": {
+        "Forest formation": 675.53,
+        "Pasture": 602.93,
+        "Savanna formation": 146.0,
+        "River and lake": -144.35,
+        "Mosaic of uses": 137.14,
+        "Grassland": 87.95
+      },
+      "gross_up_TgC": 2500.12,
+      "gross_down_TgC": -1000.81
+    },
+    "X3_sign_flips_2020_2021": {
+      "municipalities": 1669,
+      "positive_to_negative": 1657,
+      "soil_dominates": 1668,
+      "abs_contribution_TgC": {
+        "soil": 569.09,
+        "area": 1.33,
+        "context withdrawn": 0.0,
+        "context added": 0.0
+      },
+      "max_closure_error_tC": 7.078051567077637e-08
+    },
+    "X4_brazil_2021_land_cover_revision": {
+      "change_TgC": 0.11,
+      "change_pct": 0.0003,
+      "closure_error_tC": 1.310283550992608e-06,
+      "by_kind_TgC": {
+        "context added": 2291.28,
+        "context withdrawn": -69.22,
+        "soil": -452.16,
+        "area": -1769.8
+      },
+      "gross_class_flows_TgC": 6478.36,
+      "by_class_TgC": {
+        "Floodable forest": 2217.81,
+        "Forest formation": -1982.75,
+        "Grassland": -810.76,
+        "Wetland": 648.6,
+        "Mosaic of uses": -302.02,
+        "Pasture": 213.86,
+        "Savanna formation": -85.82,
+        "Sugar cane": 79.51
+      },
+      "max_municipal_change_pct": 0.0106
+    }
+  },
+  "defects": {
+    "P1 soil contexts": {
+      "unit_label": {
+        "structural": "0/30",
+        "contract": "30/30",
+        "provenance": "30/30",
+        "any": "30/30"
+      },
+      "period": {
+        "structural": "0/30",
+        "contract": "30/30",
+        "provenance": "0/30",
+        "any": "30/30"
+      },
+      "kind": {
+        "structural": "0/30",
+        "contract": "30/30",
+        "provenance": "0/30",
+        "any": "30/30"
+      },
+      "support": {
+        "structural": "0/30",
+        "contract": "30/30",
+        "provenance": "0/30",
+        "any": "30/30"
+      },
+      "removed": {
+        "structural": "30/30",
+        "contract": "0/30",
+        "provenance": "30/30",
+        "any": "30/30"
+      },
+      "silent_scale": {
+        "structural": "0/30",
+        "contract": "0/30",
+        "provenance": "30/30",
+        "any": "30/30"
+      },
+      "silent_scale_versioned": {
+        "structural": "0/30",
+        "contract": "0/30",
+        "provenance": "0/30",
+        "any": "0/30"
+      },
+      "revision_versioned": {
+        "structural": "0/30",
+        "contract": "0/30",
+        "provenance": "0/30",
+        "any": "0/30"
+      },
+      "invalid_total": {
+        "structural": "30/210",
+        "contract": "120/210",
+        "provenance": "90/210",
+        "any": "180/210"
+      },
+      "controls_flagged": {
+        "structural": "0/30",
+        "contract": "0/30",
+        "provenance": "0/30",
+        "any": "0/30"
+      }
+    },
+    "P2 factors, PRIMAP, FAOSTAT": {
+      "unit_label": {
+        "structural": "0/90",
+        "contract": "90/90",
+        "provenance": "90/90",
+        "any": "90/90"
+      },
+      "period": {
+        "structural": "0/90",
+        "contract": "60/90",
+        "provenance": "0/90",
+        "any": "60/90"
+      },
+      "kind": {
+        "structural": "0/90",
+        "contract": "90/90",
+        "provenance": "0/90",
+        "any": "90/90"
+      },
+      "support": {
+        "structural": "0/90",
+        "contract": "90/90",
+        "provenance": "0/90",
+        "any": "90/90"
+      },
+      "removed": {
+        "structural": "90/90",
+        "contract": "0/90",
+        "provenance": "90/90",
+        "any": "90/90"
+      },
+      "silent_scale": {
+        "structural": "0/90",
+        "contract": "0/90",
+        "provenance": "90/90",
+        "any": "90/90"
+      },
+      "silent_scale_versioned": {
+        "structural": "0/90",
+        "contract": "0/90",
+        "provenance": "0/90",
+        "any": "0/90"
+      },
+      "revision_versioned": {
+        "structural": "0/90",
+        "contract": "0/90",
+        "provenance": "0/90",
+        "any": "0/90"
+      },
+      "invalid_total": {
+        "structural": "90/630",
+        "contract": "330/630",
+        "provenance": "270/630",
+        "any": "510/630"
+      },
+      "controls_flagged": {
+        "structural": "0/90",
+        "contract": "0/90",
+        "provenance": "0/90",
+        "any": "0/90"
+      }
+    },
+    "all": {
+      "unit_label": {
+        "structural": "0/120",
+        "contract": "120/120",
+        "provenance": "120/120",
+        "any": "120/120"
+      },
+      "period": {
+        "structural": "0/120",
+        "contract": "90/120",
+        "provenance": "0/120",
+        "any": "90/120"
+      },
+      "kind": {
+        "structural": "0/120",
+        "contract": "120/120",
+        "provenance": "0/120",
+        "any": "120/120"
+      },
+      "support": {
+        "structural": "0/120",
+        "contract": "120/120",
+        "provenance": "0/120",
+        "any": "120/120"
+      },
+      "removed": {
+        "structural": "120/120",
+        "contract": "0/120",
+        "provenance": "120/120",
+        "any": "120/120"
+      },
+      "silent_scale": {
+        "structural": "0/120",
+        "contract": "0/120",
+        "provenance": "120/120",
+        "any": "120/120"
+      },
+      "silent_scale_versioned": {
+        "structural": "0/120",
+        "contract": "0/120",
+        "provenance": "0/120",
+        "any": "0/120"
+      },
+      "revision_versioned": {
+        "structural": "0/120",
+        "contract": "0/120",
+        "provenance": "0/120",
+        "any": "0/120"
+      },
+      "invalid_total": {
+        "structural": "120/840",
+        "contract": "450/840",
+        "provenance": "360/840",
+        "any": "690/840"
+      },
+      "controls_flagged": {
+        "structural": "0/120",
+        "contract": "0/120",
+        "provenance": "0/120",
+        "any": "0/120"
+      }
+    }
+  },
+  "practice": {
+    "revisions": [
+      {
+        "revision": "Soil beta 2.1 -> collection 3 (P1)",
+        "lineage_flagged": 91250,
+        "lineage_orphans_reported": 0,
+        "validation_alarm": false,
+        "failed": []
+      },
+      {
+        "revision": "Land cover 7.1 -> 10 (P1)",
+        "lineage_flagged": 91250,
+        "lineage_orphans_reported": 0,
+        "validation_alarm": true,
+        "failed": [
+          "expect_column_distinct_values_to_contain_set"
+        ]
+      },
+      {
+        "revision": "PRIMAP-hist v2.6 -> v2.7 (P2)",
+        "lineage_flagged": 4696,
+        "lineage_orphans_reported": 0,
+        "validation_alarm": true,
+        "failed": [
+          "expect_column_values_to_be_in_set"
+        ]
+      },
+      {
+        "revision": "GWP AR5 -> AR6 (P2)",
+        "lineage_flagged": 4688,
+        "lineage_orphans_reported": 0,
+        "validation_alarm": true,
+        "failed": [
+          "expect_column_values_to_be_between"
+        ]
+      },
+      {
+        "revision": "IPCC factors 2006 -> 2019, 2006 regions (P2)",
+        "lineage_flagged": 32417,
+        "lineage_orphans_reported": 0,
+        "validation_alarm": true,
+        "failed": [
+          "expect_column_distinct_values_to_contain_set",
+          "expect_column_values_to_be_between"
+        ]
+      }
+    ],
+    "defects": {
+      "unit_label": "120/120",
+      "period": "69/120",
+      "kind": "120/120",
+      "support": "120/120",
+      "removed": "120/120",
+      "silent_scale": "71/120",
+      "silent_scale_versioned": "71/120",
+      "revision_versioned": "1/120",
+      "invalid_total": "691/840",
+      "controls_flagged": "1/120",
+      "union_with_ledger": {
+        "unit_label": "120/120",
+        "period": "120/120",
+        "kind": "120/120",
+        "support": "120/120",
+        "removed": "120/120",
+        "silent_scale": "120/120",
+        "silent_scale_versioned": "71/120",
+        "revision_versioned": "1/120",
+        "invalid_total": "791/840",
+        "controls_flagged": "1/120"
+      }
+    },
+    "release": {
+      "expectations": 11,
+      "failed": [],
+      "problems_flagged": "0/5"
+    },
+    "openlineage_events": 8
+  },
+  "limits": [
+    "Results in this view come from the replication archive.",
+    "Extension test execution appears in Evaluation Results.",
+    "These counts do not estimate defect prevalence in source data."
+  ]
+}

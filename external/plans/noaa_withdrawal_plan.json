@@ -1,0 +1,5457 @@
+{
+  "schema_version": 1,
+  "title": "NOAA monthly CO2 comparison / controlled test: key_withdrawal",
+  "sources": [
+    {
+      "name": "mlo",
+      "version": "downloaded-snapshot",
+      "csv": "key,value,qkind,unit,period,support\nmlo|2015|01,400.18,concentration,ppm,monthly:2015-01,station_series\nmlo|2015|02,400.55,concentration,ppm,monthly:2015-02,station_series\nmlo|2015|03,401.74,concentration,ppm,monthly:2015-03,station_series\nmlo|2015|04,403.35,concentration,ppm,monthly:2015-04,station_series\nmlo|2015|05,404.15,concentration,ppm,monthly:2015-05,station_series\nmlo|2015|06,402.97,concentration,ppm,monthly:2015-06,station_series\nmlo|2015|07,401.46,concentration,ppm,monthly:2015-07,station_series\nmlo|2015|08,399.11,concentration,ppm,monthly:2015-08,station_series\nmlo|2015|09,397.82,concentration,ppm,monthly:2015-09,station_series\nmlo|2015|10,398.49,concentration,ppm,monthly:2015-10,station_series\nmlo|2015|11,400.27,concentration,ppm,monthly:2015-11,station_series\nmlo|2015|12,402.06,concentration,ppm,monthly:2015-12,station_series\nmlo|2016|01,402.73,concentration,ppm,monthly:2016-01,station_series\nmlo|2016|02,404.25,concentration,ppm,monthly:2016-02,station_series\nmlo|2016|03,405.06,concentration,ppm,monthly:2016-03,station_series\nmlo|2016|04,407.60,concentration,ppm,monthly:2016-04,station_series\nmlo|2016|05,407.90,concentration,ppm,monthly:2016-05,station_series\nmlo|2016|06,406.99,concentration,ppm,monthly:2016-06,station_series\nmlo|2016|07,404.59,concentration,ppm,monthly:2016-07,station_series\nmlo|2016|08,402.45,concentration,ppm,monthly:2016-08,station_series\nmlo|2016|09,401.23,concentration,ppm,monthly:2016-09,station_series\nmlo|2016|10,401.79,concentration,ppm,monthly:2016-10,station_series\nmlo|2016|11,403.72,concentration,ppm,monthly:2016-11,station_series\nmlo|2016|12,404.64,concentration,ppm,monthly:2016-12,station_series\nmlo|2017|01,406.36,concentration,ppm,monthly:2017-01,station_series\nmlo|2017|02,406.66,concentration,ppm,monthly:2017-02,station_series\nmlo|2017|03,407.54,concentration,ppm,monthly:2017-03,station_series\nmlo|2017|04,409.22,concentration,ppm,monthly:2017-04,station_series\nmlo|2017|05,409.89,concentration,ppm,monthly:2017-05,station_series\nmlo|2017|06,409.08,concentration,ppm,monthly:2017-06,station_series\nmlo|2017|07,407.33,concentration,ppm,monthly:2017-07,station_series\nmlo|2017|08,405.32,concentration,ppm,monthly:2017-08,station_series\nmlo|2017|09,403.57,concentration,ppm,monthly:2017-09,station_series\nmlo|2017|10,403.82,concentration,ppm,monthly:2017-10,station_series\nmlo|2017|11,405.31,concentration,ppm,monthly:2017-11,station_series\nmlo|2017|12,407.00,concentration,ppm,monthly:2017-12,station_series\nmlo|2018|01,408.15,concentration,ppm,monthly:2018-01,station_series\nmlo|2018|02,408.52,concentration,ppm,monthly:2018-02,station_series\nmlo|2018|03,409.59,concentration,ppm,monthly:2018-03,station_series\nmlo|2018|04,410.45,concentration,ppm,monthly:2018-04,station_series\nmlo|2018|05,411.44,concentration,ppm,monthly:2018-05,station_series\nmlo|2018|06,410.99,concentration,ppm,monthly:2018-06,station_series\nmlo|2018|07,408.90,concentration,ppm,monthly:2018-07,station_series\nmlo|2018|08,407.16,concentration,ppm,monthly:2018-08,station_series\nmlo|2018|09,405.71,concentration,ppm,monthly:2018-09,station_series\nmlo|2018|10,406.19,concentration,ppm,monthly:2018-10,station_series\nmlo|2018|11,408.21,concentration,ppm,monthly:2018-11,station_series\nmlo|2018|12,409.27,concentration,ppm,monthly:2018-12,station_series\nmlo|2019|01,411.03,concentration,ppm,monthly:2019-01,station_series\nmlo|2019|02,411.96,concentration,ppm,monthly:2019-02,station_series\nmlo|2019|03,412.18,concentration,ppm,monthly:2019-03,station_series\nmlo|2019|04,413.54,concentration,ppm,monthly:2019-04,station_series\nmlo|2019|05,414.86,concentration,ppm,monthly:2019-05,station_series\nmlo|2019|06,414.15,concentration,ppm,monthly:2019-06,station_series\nmlo|2019|07,411.96,concentration,ppm,monthly:2019-07,station_series\nmlo|2019|08,410.17,concentration,ppm,monthly:2019-08,station_series\nmlo|2019|09,408.76,concentration,ppm,monthly:2019-09,station_series\nmlo|2019|10,408.74,concentration,ppm,monthly:2019-10,station_series\nmlo|2019|11,410.47,concentration,ppm,monthly:2019-11,station_series\nmlo|2019|12,411.97,concentration,ppm,monthly:2019-12,station_series\nmlo|2020|01,413.59,concentration,ppm,monthly:2020-01,station_series\nmlo|2020|02,414.32,concentration,ppm,monthly:2020-02,station_series\nmlo|2020|03,414.72,concentration,ppm,monthly:2020-03,station_series\nmlo|2020|04,416.42,concentration,ppm,monthly:2020-04,station_series\nmlo|2020|05,417.28,concentration,ppm,monthly:2020-05,station_series\nmlo|2020|06,416.58,concentration,ppm,monthly:2020-06,station_series\nmlo|2020|07,414.58,concentration,ppm,monthly:2020-07,station_series\nmlo|2020|08,412.75,concentration,ppm,monthly:2020-08,station_series\nmlo|2020|09,411.50,concentration,ppm,monthly:2020-09,station_series\nmlo|2020|10,411.49,concentration,ppm,monthly:2020-10,station_series\nmlo|2020|11,413.10,concentration,ppm,monthly:2020-11,station_series\nmlo|2020|12,414.23,concentration,ppm,monthly:2020-12,station_series\nmlo|2021|01,415.49,concentration,ppm,monthly:2021-01,station_series\nmlo|2021|02,416.72,concentration,ppm,monthly:2021-02,station_series\nmlo|2021|03,417.61,concentration,ppm,monthly:2021-03,station_series\nmlo|2021|04,419.01,concentration,ppm,monthly:2021-04,station_series\nmlo|2021|05,419.09,concentration,ppm,monthly:2021-05,station_series\nmlo|2021|06,418.93,concentration,ppm,monthly:2021-06,station_series\nmlo|2021|07,416.90,concentration,ppm,monthly:2021-07,station_series\nmlo|2021|08,414.42,concentration,ppm,monthly:2021-08,station_series\nmlo|2021|09,413.26,concentration,ppm,monthly:2021-09,station_series\nmlo|2021|10,413.90,concentration,ppm,monthly:2021-10,station_series\nmlo|2021|11,414.97,concentration,ppm,monthly:2021-11,station_series\nmlo|2021|12,416.67,concentration,ppm,monthly:2021-12,station_series\nmlo|2022|01,418.13,concentration,ppm,monthly:2022-01,station_series\nmlo|2022|02,419.24,concentration,ppm,monthly:2022-02,station_series\nmlo|2022|03,418.76,concentration,ppm,monthly:2022-03,station_series\nmlo|2022|04,420.19,concentration,ppm,monthly:2022-04,station_series\nmlo|2022|05,420.97,concentration,ppm,monthly:2022-05,station_series\nmlo|2022|06,420.94,concentration,ppm,monthly:2022-06,station_series\nmlo|2022|07,418.85,concentration,ppm,monthly:2022-07,station_series\nmlo|2022|08,417.15,concentration,ppm,monthly:2022-08,station_series\nmlo|2022|09,415.91,concentration,ppm,monthly:2022-09,station_series\nmlo|2022|10,415.74,concentration,ppm,monthly:2022-10,station_series\nmlo|2022|11,417.47,concentration,ppm,monthly:2022-11,station_series\nmlo|2022|12,418.99,concentration,ppm,monthly:2022-12,station_series\nmlo|2023|01,419.48,concentration,ppm,monthly:2023-01,station_series\nmlo|2023|02,420.31,concentration,ppm,monthly:2023-02,station_series\nmlo|2023|03,420.99,concentration,ppm,monthly:2023-03,station_series\nmlo|2023|04,423.35,concentration,ppm,monthly:2023-04,station_series\nmlo|2023|05,424.00,concentration,ppm,monthly:2023-05,station_series\nmlo|2023|06,423.68,concentration,ppm,monthly:2023-06,station_series\nmlo|2023|07,421.83,concentration,ppm,monthly:2023-07,station_series\nmlo|2023|08,419.68,concentration,ppm,monthly:2023-08,station_series\nmlo|2023|09,418.50,concentration,ppm,monthly:2023-09,station_series\nmlo|2023|10,418.82,concentration,ppm,monthly:2023-10,station_series\nmlo|2023|11,420.46,concentration,ppm,monthly:2023-11,station_series\nmlo|2023|12,421.86,concentration,ppm,monthly:2023-12,station_series\n"
+    },
+    {
+      "name": "global",
+      "version": "downloaded-snapshot",
+      "csv": "key,value,qkind,unit,period,support\nglobal|2015|01,399.56,concentration,ppm,monthly:2015-01,global_marine_surface\nglobal|2015|02,400.12,concentration,ppm,monthly:2015-02,global_marine_surface\nglobal|2015|03,400.57,concentration,ppm,monthly:2015-03,global_marine_surface\nglobal|2015|04,400.96,concentration,ppm,monthly:2015-04,global_marine_surface\nglobal|2015|05,400.91,concentration,ppm,monthly:2015-05,global_marine_surface\nglobal|2015|06,400.06,concentration,ppm,monthly:2015-06,global_marine_surface\nglobal|2015|07,398.38,concentration,ppm,monthly:2015-07,global_marine_surface\nglobal|2015|08,397.07,concentration,ppm,monthly:2015-08,global_marine_surface\nglobal|2015|09,397.34,concentration,ppm,monthly:2015-09,global_marine_surface\nglobal|2015|10,398.80,concentration,ppm,monthly:2015-10,global_marine_surface\nglobal|2015|11,400.36,concentration,ppm,monthly:2015-11,global_marine_surface\nglobal|2015|12,401.66,concentration,ppm,monthly:2015-12,global_marine_surface\nglobal|2016|01,402.62,concentration,ppm,monthly:2016-01,global_marine_surface\nglobal|2016|02,403.26,concentration,ppm,monthly:2016-02,global_marine_surface\nglobal|2016|03,403.85,concentration,ppm,monthly:2016-03,global_marine_surface\nglobal|2016|04,404.36,concentration,ppm,monthly:2016-04,global_marine_surface\nglobal|2016|05,404.40,concentration,ppm,monthly:2016-05,global_marine_surface\nglobal|2016|06,403.62,concentration,ppm,monthly:2016-06,global_marine_surface\nglobal|2016|07,402.10,concentration,ppm,monthly:2016-07,global_marine_surface\nglobal|2016|08,400.78,concentration,ppm,monthly:2016-08,global_marine_surface\nglobal|2016|09,400.96,concentration,ppm,monthly:2016-09,global_marine_surface\nglobal|2016|10,402.41,concentration,ppm,monthly:2016-10,global_marine_surface\nglobal|2016|11,403.76,concentration,ppm,monthly:2016-11,global_marine_surface\nglobal|2016|12,404.67,concentration,ppm,monthly:2016-12,global_marine_surface\nglobal|2017|01,405.33,concentration,ppm,monthly:2017-01,global_marine_surface\nglobal|2017|02,405.91,concentration,ppm,monthly:2017-02,global_marine_surface\nglobal|2017|03,406.32,concentration,ppm,monthly:2017-03,global_marine_surface\nglobal|2017|04,406.60,concentration,ppm,monthly:2017-04,global_marine_surface\nglobal|2017|05,406.64,concentration,ppm,monthly:2017-05,global_marine_surface\nglobal|2017|06,405.85,concentration,ppm,monthly:2017-06,global_marine_surface\nglobal|2017|07,404.11,concentration,ppm,monthly:2017-07,global_marine_surface\nglobal|2017|08,402.57,concentration,ppm,monthly:2017-08,global_marine_surface\nglobal|2017|09,402.66,concentration,ppm,monthly:2017-09,global_marine_surface\nglobal|2017|10,404.16,concentration,ppm,monthly:2017-10,global_marine_surface\nglobal|2017|11,405.70,concentration,ppm,monthly:2017-11,global_marine_surface\nglobal|2017|12,406.75,concentration,ppm,monthly:2017-12,global_marine_surface\nglobal|2018|01,407.53,concentration,ppm,monthly:2018-01,global_marine_surface\nglobal|2018|02,408.23,concentration,ppm,monthly:2018-02,global_marine_surface\nglobal|2018|03,408.77,concentration,ppm,monthly:2018-03,global_marine_surface\nglobal|2018|04,409.07,concentration,ppm,monthly:2018-04,global_marine_surface\nglobal|2018|05,408.94,concentration,ppm,monthly:2018-05,global_marine_surface\nglobal|2018|06,408.06,concentration,ppm,monthly:2018-06,global_marine_surface\nglobal|2018|07,406.49,concentration,ppm,monthly:2018-07,global_marine_surface\nglobal|2018|08,405.11,concentration,ppm,monthly:2018-08,global_marine_surface\nglobal|2018|09,405.18,concentration,ppm,monthly:2018-09,global_marine_surface\nglobal|2018|10,406.65,concentration,ppm,monthly:2018-10,global_marine_surface\nglobal|2018|11,408.13,concentration,ppm,monthly:2018-11,global_marine_surface\nglobal|2018|12,409.19,concentration,ppm,monthly:2018-12,global_marine_surface\nglobal|2019|01,409.92,concentration,ppm,monthly:2019-01,global_marine_surface\nglobal|2019|02,410.34,concentration,ppm,monthly:2019-02,global_marine_surface\nglobal|2019|03,410.89,concentration,ppm,monthly:2019-03,global_marine_surface\nglobal|2019|04,411.33,concentration,ppm,monthly:2019-04,global_marine_surface\nglobal|2019|05,411.34,concentration,ppm,monthly:2019-05,global_marine_surface\nglobal|2019|06,410.53,concentration,ppm,monthly:2019-06,global_marine_surface\nglobal|2019|07,408.88,concentration,ppm,monthly:2019-07,global_marine_surface\nglobal|2019|08,407.65,concentration,ppm,monthly:2019-08,global_marine_surface\nglobal|2019|09,407.92,concentration,ppm,monthly:2019-09,global_marine_surface\nglobal|2019|10,409.44,concentration,ppm,monthly:2019-10,global_marine_surface\nglobal|2019|11,410.88,concentration,ppm,monthly:2019-11,global_marine_surface\nglobal|2019|12,411.76,concentration,ppm,monthly:2019-12,global_marine_surface\nglobal|2020|01,412.44,concentration,ppm,monthly:2020-01,global_marine_surface\nglobal|2020|02,412.97,concentration,ppm,monthly:2020-02,global_marine_surface\nglobal|2020|03,413.44,concentration,ppm,monthly:2020-03,global_marine_surface\nglobal|2020|04,413.86,concentration,ppm,monthly:2020-04,global_marine_surface\nglobal|2020|05,413.81,concentration,ppm,monthly:2020-05,global_marine_surface\nglobal|2020|06,412.88,concentration,ppm,monthly:2020-06,global_marine_surface\nglobal|2020|07,411.17,concentration,ppm,monthly:2020-07,global_marine_surface\nglobal|2020|08,409.74,concentration,ppm,monthly:2020-08,global_marine_surface\nglobal|2020|09,410.00,concentration,ppm,monthly:2020-09,global_marine_surface\nglobal|2020|10,411.66,concentration,ppm,monthly:2020-10,global_marine_surface\nglobal|2020|11,413.25,concentration,ppm,monthly:2020-11,global_marine_surface\nglobal|2020|12,414.14,concentration,ppm,monthly:2020-12,global_marine_surface\nglobal|2021|01,414.73,concentration,ppm,monthly:2021-01,global_marine_surface\nglobal|2021|02,415.20,concentration,ppm,monthly:2021-02,global_marine_surface\nglobal|2021|03,415.49,concentration,ppm,monthly:2021-03,global_marine_surface\nglobal|2021|04,415.81,concentration,ppm,monthly:2021-04,global_marine_surface\nglobal|2021|05,416.01,concentration,ppm,monthly:2021-05,global_marine_surface\nglobal|2021|06,415.20,concentration,ppm,monthly:2021-06,global_marine_surface\nglobal|2021|07,413.45,concentration,ppm,monthly:2021-07,global_marine_surface\nglobal|2021|08,412.15,concentration,ppm,monthly:2021-08,global_marine_surface\nglobal|2021|09,412.38,concentration,ppm,monthly:2021-09,global_marine_surface\nglobal|2021|10,413.83,concentration,ppm,monthly:2021-10,global_marine_surface\nglobal|2021|11,415.58,concentration,ppm,monthly:2021-11,global_marine_surface\nglobal|2021|12,416.60,concentration,ppm,monthly:2021-12,global_marine_surface\nglobal|2022|01,417.18,concentration,ppm,monthly:2022-01,global_marine_surface\nglobal|2022|02,417.64,concentration,ppm,monthly:2022-02,global_marine_surface\nglobal|2022|03,418.16,concentration,ppm,monthly:2022-03,global_marine_surface\nglobal|2022|04,418.58,concentration,ppm,monthly:2022-04,global_marine_surface\nglobal|2022|05,418.45,concentration,ppm,monthly:2022-05,global_marine_surface\nglobal|2022|06,417.43,concentration,ppm,monthly:2022-06,global_marine_surface\nglobal|2022|07,415.67,concentration,ppm,monthly:2022-07,global_marine_surface\nglobal|2022|08,414.40,concentration,ppm,monthly:2022-08,global_marine_surface\nglobal|2022|09,414.62,concentration,ppm,monthly:2022-09,global_marine_surface\nglobal|2022|10,416.13,concentration,ppm,monthly:2022-10,global_marine_surface\nglobal|2022|11,417.84,concentration,ppm,monthly:2022-11,global_marine_surface\nglobal|2022|12,418.91,concentration,ppm,monthly:2022-12,global_marine_surface\nglobal|2023|01,419.37,concentration,ppm,monthly:2023-01,global_marine_surface\nglobal|2023|02,419.65,concentration,ppm,monthly:2023-02,global_marine_surface\nglobal|2023|03,419.98,concentration,ppm,monthly:2023-03,global_marine_surface\nglobal|2023|04,420.48,concentration,ppm,monthly:2023-04,global_marine_surface\nglobal|2023|05,420.54,concentration,ppm,monthly:2023-05,global_marine_surface\nglobal|2023|06,419.56,concentration,ppm,monthly:2023-06,global_marine_surface\nglobal|2023|07,417.92,concentration,ppm,monthly:2023-07,global_marine_surface\nglobal|2023|08,416.78,concentration,ppm,monthly:2023-08,global_marine_surface\nglobal|2023|09,417.17,concentration,ppm,monthly:2023-09,global_marine_surface\nglobal|2023|10,418.84,concentration,ppm,monthly:2023-10,global_marine_surface\nglobal|2023|11,420.40,concentration,ppm,monthly:2023-11,global_marine_surface\nglobal|2023|12,421.50,concentration,ppm,monthly:2023-12,global_marine_surface\n"
+    }
+  ],
+  "nodes": [
+    {
+      "key": "concentration_difference|2015|01",
+      "op": "diff",
+      "inputs": [
+        "mlo|2015|01",
+        "global|2015|01"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2015-01",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-01",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-01",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2015|02",
+      "op": "diff",
+      "inputs": [
+        "mlo|2015|02",
+        "global|2015|02"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2015-02",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-02",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-02",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2015|03",
+      "op": "diff",
+      "inputs": [
+        "mlo|2015|03",
+        "global|2015|03"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2015-03",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-03",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-03",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2015|04",
+      "op": "diff",
+      "inputs": [
+        "mlo|2015|04",
+        "global|2015|04"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2015-04",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-04",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-04",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2015|05",
+      "op": "diff",
+      "inputs": [
+        "mlo|2015|05",
+        "global|2015|05"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2015-05",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-05",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-05",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2015|06",
+      "op": "diff",
+      "inputs": [
+        "mlo|2015|06",
+        "global|2015|06"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2015-06",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-06",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-06",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2015|07",
+      "op": "diff",
+      "inputs": [
+        "mlo|2015|07",
+        "global|2015|07"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2015-07",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-07",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-07",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2015|08",
+      "op": "diff",
+      "inputs": [
+        "mlo|2015|08",
+        "global|2015|08"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2015-08",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-08",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-08",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2015|09",
+      "op": "diff",
+      "inputs": [
+        "mlo|2015|09",
+        "global|2015|09"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2015-09",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-09",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-09",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2015|10",
+      "op": "diff",
+      "inputs": [
+        "mlo|2015|10",
+        "global|2015|10"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2015-10",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-10",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-10",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2015|11",
+      "op": "diff",
+      "inputs": [
+        "mlo|2015|11",
+        "global|2015|11"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2015-11",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-11",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-11",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2015|12",
+      "op": "diff",
+      "inputs": [
+        "mlo|2015|12",
+        "global|2015|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2015-12",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-12",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-12",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "monthly_record_mean|mlo|2015",
+      "op": "lin",
+      "inputs": [
+        "mlo|2015|01",
+        "mlo|2015|02",
+        "mlo|2015|03",
+        "mlo|2015|04",
+        "mlo|2015|05",
+        "mlo|2015|06",
+        "mlo|2015|07",
+        "mlo|2015|08",
+        "mlo|2015|09",
+        "mlo|2015|10",
+        "mlo|2015|11",
+        "mlo|2015|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2015",
+        "support": "station_series"
+      },
+      "params": {
+        "w": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-01",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-02",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-03",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-04",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-05",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-06",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-07",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-08",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-09",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-10",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-11",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-12",
+            "station_series"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "monthly_record_mean|global|2015",
+      "op": "lin",
+      "inputs": [
+        "global|2015|01",
+        "global|2015|02",
+        "global|2015|03",
+        "global|2015|04",
+        "global|2015|05",
+        "global|2015|06",
+        "global|2015|07",
+        "global|2015|08",
+        "global|2015|09",
+        "global|2015|10",
+        "global|2015|11",
+        "global|2015|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2015",
+        "support": "global_marine_surface"
+      },
+      "params": {
+        "w": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-01",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-02",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-03",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-04",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-05",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-06",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-07",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-08",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-09",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-10",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-11",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2015-12",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "annual_mean_difference|2015",
+      "op": "diff",
+      "inputs": [
+        "monthly_record_mean|mlo|2015",
+        "monthly_record_mean|global|2015"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2015",
+        "support": "station_vs_global"
+      },
+      "params": {}
+    },
+    {
+      "key": "concentration_difference|2016|01",
+      "op": "diff",
+      "inputs": [
+        "mlo|2016|01",
+        "global|2016|01"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2016-01",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-01",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-01",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2016|02",
+      "op": "diff",
+      "inputs": [
+        "mlo|2016|02",
+        "global|2016|02"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2016-02",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-02",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-02",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2016|03",
+      "op": "diff",
+      "inputs": [
+        "mlo|2016|03",
+        "global|2016|03"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2016-03",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-03",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-03",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2016|04",
+      "op": "diff",
+      "inputs": [
+        "mlo|2016|04",
+        "global|2016|04"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2016-04",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-04",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-04",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2016|05",
+      "op": "diff",
+      "inputs": [
+        "mlo|2016|05",
+        "global|2016|05"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2016-05",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-05",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-05",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2016|06",
+      "op": "diff",
+      "inputs": [
+        "mlo|2016|06",
+        "global|2016|06"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2016-06",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-06",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-06",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2016|07",
+      "op": "diff",
+      "inputs": [
+        "mlo|2016|07",
+        "global|2016|07"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2016-07",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-07",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-07",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2016|08",
+      "op": "diff",
+      "inputs": [
+        "mlo|2016|08",
+        "global|2016|08"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2016-08",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-08",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-08",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2016|09",
+      "op": "diff",
+      "inputs": [
+        "mlo|2016|09",
+        "global|2016|09"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2016-09",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-09",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-09",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2016|10",
+      "op": "diff",
+      "inputs": [
+        "mlo|2016|10",
+        "global|2016|10"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2016-10",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-10",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-10",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2016|11",
+      "op": "diff",
+      "inputs": [
+        "mlo|2016|11",
+        "global|2016|11"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2016-11",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-11",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-11",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2016|12",
+      "op": "diff",
+      "inputs": [
+        "mlo|2016|12",
+        "global|2016|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2016-12",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-12",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-12",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "monthly_record_mean|mlo|2016",
+      "op": "lin",
+      "inputs": [
+        "mlo|2016|01",
+        "mlo|2016|02",
+        "mlo|2016|03",
+        "mlo|2016|04",
+        "mlo|2016|05",
+        "mlo|2016|06",
+        "mlo|2016|07",
+        "mlo|2016|08",
+        "mlo|2016|09",
+        "mlo|2016|10",
+        "mlo|2016|11",
+        "mlo|2016|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2016",
+        "support": "station_series"
+      },
+      "params": {
+        "w": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-01",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-02",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-03",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-04",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-05",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-06",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-07",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-08",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-09",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-10",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-11",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-12",
+            "station_series"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "monthly_record_mean|global|2016",
+      "op": "lin",
+      "inputs": [
+        "global|2016|01",
+        "global|2016|02",
+        "global|2016|03",
+        "global|2016|04",
+        "global|2016|05",
+        "global|2016|06",
+        "global|2016|07",
+        "global|2016|08",
+        "global|2016|09",
+        "global|2016|10",
+        "global|2016|11",
+        "global|2016|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2016",
+        "support": "global_marine_surface"
+      },
+      "params": {
+        "w": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-01",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-02",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-03",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-04",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-05",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-06",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-07",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-08",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-09",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-10",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-11",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2016-12",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "annual_mean_difference|2016",
+      "op": "diff",
+      "inputs": [
+        "monthly_record_mean|mlo|2016",
+        "monthly_record_mean|global|2016"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2016",
+        "support": "station_vs_global"
+      },
+      "params": {}
+    },
+    {
+      "key": "concentration_difference|2017|01",
+      "op": "diff",
+      "inputs": [
+        "mlo|2017|01",
+        "global|2017|01"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2017-01",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-01",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-01",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2017|02",
+      "op": "diff",
+      "inputs": [
+        "mlo|2017|02",
+        "global|2017|02"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2017-02",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-02",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-02",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2017|03",
+      "op": "diff",
+      "inputs": [
+        "mlo|2017|03",
+        "global|2017|03"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2017-03",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-03",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-03",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2017|04",
+      "op": "diff",
+      "inputs": [
+        "mlo|2017|04",
+        "global|2017|04"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2017-04",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-04",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-04",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2017|05",
+      "op": "diff",
+      "inputs": [
+        "mlo|2017|05",
+        "global|2017|05"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2017-05",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-05",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-05",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2017|06",
+      "op": "diff",
+      "inputs": [
+        "mlo|2017|06",
+        "global|2017|06"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2017-06",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-06",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-06",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2017|07",
+      "op": "diff",
+      "inputs": [
+        "mlo|2017|07",
+        "global|2017|07"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2017-07",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-07",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-07",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2017|08",
+      "op": "diff",
+      "inputs": [
+        "mlo|2017|08",
+        "global|2017|08"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2017-08",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-08",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-08",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2017|09",
+      "op": "diff",
+      "inputs": [
+        "mlo|2017|09",
+        "global|2017|09"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2017-09",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-09",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-09",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2017|10",
+      "op": "diff",
+      "inputs": [
+        "mlo|2017|10",
+        "global|2017|10"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2017-10",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-10",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-10",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2017|11",
+      "op": "diff",
+      "inputs": [
+        "mlo|2017|11",
+        "global|2017|11"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2017-11",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-11",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-11",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2017|12",
+      "op": "diff",
+      "inputs": [
+        "mlo|2017|12",
+        "global|2017|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2017-12",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-12",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-12",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "monthly_record_mean|mlo|2017",
+      "op": "lin",
+      "inputs": [
+        "mlo|2017|01",
+        "mlo|2017|02",
+        "mlo|2017|03",
+        "mlo|2017|04",
+        "mlo|2017|05",
+        "mlo|2017|06",
+        "mlo|2017|07",
+        "mlo|2017|08",
+        "mlo|2017|09",
+        "mlo|2017|10",
+        "mlo|2017|11",
+        "mlo|2017|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2017",
+        "support": "station_series"
+      },
+      "params": {
+        "w": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-01",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-02",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-03",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-04",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-05",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-06",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-07",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-08",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-09",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-10",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-11",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-12",
+            "station_series"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "monthly_record_mean|global|2017",
+      "op": "lin",
+      "inputs": [
+        "global|2017|01",
+        "global|2017|02",
+        "global|2017|03",
+        "global|2017|04",
+        "global|2017|05",
+        "global|2017|06",
+        "global|2017|07",
+        "global|2017|08",
+        "global|2017|09",
+        "global|2017|10",
+        "global|2017|11",
+        "global|2017|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2017",
+        "support": "global_marine_surface"
+      },
+      "params": {
+        "w": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-01",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-02",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-03",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-04",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-05",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-06",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-07",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-08",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-09",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-10",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-11",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2017-12",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "annual_mean_difference|2017",
+      "op": "diff",
+      "inputs": [
+        "monthly_record_mean|mlo|2017",
+        "monthly_record_mean|global|2017"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2017",
+        "support": "station_vs_global"
+      },
+      "params": {}
+    },
+    {
+      "key": "concentration_difference|2018|01",
+      "op": "diff",
+      "inputs": [
+        "mlo|2018|01",
+        "global|2018|01"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2018-01",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-01",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-01",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2018|02",
+      "op": "diff",
+      "inputs": [
+        "mlo|2018|02",
+        "global|2018|02"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2018-02",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-02",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-02",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2018|03",
+      "op": "diff",
+      "inputs": [
+        "mlo|2018|03",
+        "global|2018|03"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2018-03",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-03",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-03",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2018|04",
+      "op": "diff",
+      "inputs": [
+        "mlo|2018|04",
+        "global|2018|04"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2018-04",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-04",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-04",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2018|05",
+      "op": "diff",
+      "inputs": [
+        "mlo|2018|05",
+        "global|2018|05"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2018-05",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-05",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-05",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2018|06",
+      "op": "diff",
+      "inputs": [
+        "mlo|2018|06",
+        "global|2018|06"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2018-06",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-06",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-06",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2018|07",
+      "op": "diff",
+      "inputs": [
+        "mlo|2018|07",
+        "global|2018|07"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2018-07",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-07",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-07",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2018|08",
+      "op": "diff",
+      "inputs": [
+        "mlo|2018|08",
+        "global|2018|08"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2018-08",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-08",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-08",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2018|09",
+      "op": "diff",
+      "inputs": [
+        "mlo|2018|09",
+        "global|2018|09"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2018-09",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-09",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-09",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2018|10",
+      "op": "diff",
+      "inputs": [
+        "mlo|2018|10",
+        "global|2018|10"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2018-10",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-10",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-10",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2018|11",
+      "op": "diff",
+      "inputs": [
+        "mlo|2018|11",
+        "global|2018|11"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2018-11",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-11",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-11",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2018|12",
+      "op": "diff",
+      "inputs": [
+        "mlo|2018|12",
+        "global|2018|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2018-12",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-12",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-12",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "monthly_record_mean|mlo|2018",
+      "op": "lin",
+      "inputs": [
+        "mlo|2018|01",
+        "mlo|2018|02",
+        "mlo|2018|03",
+        "mlo|2018|04",
+        "mlo|2018|05",
+        "mlo|2018|06",
+        "mlo|2018|07",
+        "mlo|2018|08",
+        "mlo|2018|09",
+        "mlo|2018|10",
+        "mlo|2018|11",
+        "mlo|2018|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2018",
+        "support": "station_series"
+      },
+      "params": {
+        "w": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-01",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-02",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-03",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-04",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-05",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-06",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-07",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-08",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-09",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-10",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-11",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-12",
+            "station_series"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "monthly_record_mean|global|2018",
+      "op": "lin",
+      "inputs": [
+        "global|2018|01",
+        "global|2018|02",
+        "global|2018|03",
+        "global|2018|04",
+        "global|2018|05",
+        "global|2018|06",
+        "global|2018|07",
+        "global|2018|08",
+        "global|2018|09",
+        "global|2018|10",
+        "global|2018|11",
+        "global|2018|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2018",
+        "support": "global_marine_surface"
+      },
+      "params": {
+        "w": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-01",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-02",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-03",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-04",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-05",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-06",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-07",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-08",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-09",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-10",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-11",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2018-12",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "annual_mean_difference|2018",
+      "op": "diff",
+      "inputs": [
+        "monthly_record_mean|mlo|2018",
+        "monthly_record_mean|global|2018"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2018",
+        "support": "station_vs_global"
+      },
+      "params": {}
+    },
+    {
+      "key": "concentration_difference|2019|01",
+      "op": "diff",
+      "inputs": [
+        "mlo|2019|01",
+        "global|2019|01"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2019-01",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-01",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-01",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2019|02",
+      "op": "diff",
+      "inputs": [
+        "mlo|2019|02",
+        "global|2019|02"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2019-02",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-02",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-02",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2019|03",
+      "op": "diff",
+      "inputs": [
+        "mlo|2019|03",
+        "global|2019|03"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2019-03",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-03",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-03",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2019|04",
+      "op": "diff",
+      "inputs": [
+        "mlo|2019|04",
+        "global|2019|04"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2019-04",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-04",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-04",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2019|05",
+      "op": "diff",
+      "inputs": [
+        "mlo|2019|05",
+        "global|2019|05"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2019-05",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-05",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-05",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2019|06",
+      "op": "diff",
+      "inputs": [
+        "mlo|2019|06",
+        "global|2019|06"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2019-06",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-06",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-06",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2019|07",
+      "op": "diff",
+      "inputs": [
+        "mlo|2019|07",
+        "global|2019|07"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2019-07",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-07",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-07",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2019|08",
+      "op": "diff",
+      "inputs": [
+        "mlo|2019|08",
+        "global|2019|08"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2019-08",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-08",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-08",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2019|09",
+      "op": "diff",
+      "inputs": [
+        "mlo|2019|09",
+        "global|2019|09"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2019-09",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-09",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-09",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2019|10",
+      "op": "diff",
+      "inputs": [
+        "mlo|2019|10",
+        "global|2019|10"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2019-10",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-10",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-10",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2019|11",
+      "op": "diff",
+      "inputs": [
+        "mlo|2019|11",
+        "global|2019|11"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2019-11",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-11",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-11",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2019|12",
+      "op": "diff",
+      "inputs": [
+        "mlo|2019|12",
+        "global|2019|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2019-12",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-12",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-12",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "monthly_record_mean|mlo|2019",
+      "op": "lin",
+      "inputs": [
+        "mlo|2019|01",
+        "mlo|2019|02",
+        "mlo|2019|03",
+        "mlo|2019|04",
+        "mlo|2019|05",
+        "mlo|2019|06",
+        "mlo|2019|07",
+        "mlo|2019|08",
+        "mlo|2019|09",
+        "mlo|2019|10",
+        "mlo|2019|11",
+        "mlo|2019|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2019",
+        "support": "station_series"
+      },
+      "params": {
+        "w": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-01",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-02",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-03",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-04",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-05",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-06",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-07",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-08",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-09",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-10",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-11",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-12",
+            "station_series"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "monthly_record_mean|global|2019",
+      "op": "lin",
+      "inputs": [
+        "global|2019|01",
+        "global|2019|02",
+        "global|2019|03",
+        "global|2019|04",
+        "global|2019|05",
+        "global|2019|06",
+        "global|2019|07",
+        "global|2019|08",
+        "global|2019|09",
+        "global|2019|10",
+        "global|2019|11",
+        "global|2019|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2019",
+        "support": "global_marine_surface"
+      },
+      "params": {
+        "w": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-01",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-02",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-03",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-04",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-05",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-06",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-07",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-08",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-09",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-10",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-11",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2019-12",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "annual_mean_difference|2019",
+      "op": "diff",
+      "inputs": [
+        "monthly_record_mean|mlo|2019",
+        "monthly_record_mean|global|2019"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2019",
+        "support": "station_vs_global"
+      },
+      "params": {}
+    },
+    {
+      "key": "concentration_difference|2020|01",
+      "op": "diff",
+      "inputs": [
+        "mlo|2020|01",
+        "global|2020|01"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2020-01",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-01",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-01",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2020|02",
+      "op": "diff",
+      "inputs": [
+        "mlo|2020|02",
+        "global|2020|02"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2020-02",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-02",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-02",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2020|03",
+      "op": "diff",
+      "inputs": [
+        "mlo|2020|03",
+        "global|2020|03"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2020-03",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-03",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-03",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2020|04",
+      "op": "diff",
+      "inputs": [
+        "mlo|2020|04",
+        "global|2020|04"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2020-04",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-04",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-04",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2020|05",
+      "op": "diff",
+      "inputs": [
+        "mlo|2020|05",
+        "global|2020|05"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2020-05",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-05",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-05",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2020|06",
+      "op": "diff",
+      "inputs": [
+        "mlo|2020|06",
+        "global|2020|06"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2020-06",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-06",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-06",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2020|07",
+      "op": "diff",
+      "inputs": [
+        "mlo|2020|07",
+        "global|2020|07"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2020-07",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-07",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-07",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2020|08",
+      "op": "diff",
+      "inputs": [
+        "mlo|2020|08",
+        "global|2020|08"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2020-08",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-08",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-08",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2020|09",
+      "op": "diff",
+      "inputs": [
+        "mlo|2020|09",
+        "global|2020|09"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2020-09",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-09",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-09",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2020|10",
+      "op": "diff",
+      "inputs": [
+        "mlo|2020|10",
+        "global|2020|10"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2020-10",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-10",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-10",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2020|11",
+      "op": "diff",
+      "inputs": [
+        "mlo|2020|11",
+        "global|2020|11"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2020-11",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-11",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-11",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2020|12",
+      "op": "diff",
+      "inputs": [
+        "mlo|2020|12",
+        "global|2020|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2020-12",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-12",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-12",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "monthly_record_mean|mlo|2020",
+      "op": "lin",
+      "inputs": [
+        "mlo|2020|01",
+        "mlo|2020|02",
+        "mlo|2020|03",
+        "mlo|2020|04",
+        "mlo|2020|05",
+        "mlo|2020|06",
+        "mlo|2020|07",
+        "mlo|2020|08",
+        "mlo|2020|09",
+        "mlo|2020|10",
+        "mlo|2020|11",
+        "mlo|2020|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2020",
+        "support": "station_series"
+      },
+      "params": {
+        "w": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-01",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-02",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-03",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-04",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-05",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-06",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-07",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-08",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-09",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-10",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-11",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-12",
+            "station_series"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "monthly_record_mean|global|2020",
+      "op": "lin",
+      "inputs": [
+        "global|2020|01",
+        "global|2020|02",
+        "global|2020|03",
+        "global|2020|04",
+        "global|2020|05",
+        "global|2020|06",
+        "global|2020|07",
+        "global|2020|08",
+        "global|2020|09",
+        "global|2020|10",
+        "global|2020|11",
+        "global|2020|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2020",
+        "support": "global_marine_surface"
+      },
+      "params": {
+        "w": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-01",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-02",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-03",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-04",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-05",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-06",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-07",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-08",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-09",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-10",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-11",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2020-12",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "annual_mean_difference|2020",
+      "op": "diff",
+      "inputs": [
+        "monthly_record_mean|mlo|2020",
+        "monthly_record_mean|global|2020"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2020",
+        "support": "station_vs_global"
+      },
+      "params": {}
+    },
+    {
+      "key": "concentration_difference|2021|01",
+      "op": "diff",
+      "inputs": [
+        "mlo|2021|01",
+        "global|2021|01"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2021-01",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-01",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-01",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2021|02",
+      "op": "diff",
+      "inputs": [
+        "mlo|2021|02",
+        "global|2021|02"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2021-02",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-02",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-02",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2021|03",
+      "op": "diff",
+      "inputs": [
+        "mlo|2021|03",
+        "global|2021|03"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2021-03",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-03",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-03",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2021|04",
+      "op": "diff",
+      "inputs": [
+        "mlo|2021|04",
+        "global|2021|04"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2021-04",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-04",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-04",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2021|05",
+      "op": "diff",
+      "inputs": [
+        "mlo|2021|05",
+        "global|2021|05"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2021-05",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-05",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-05",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2021|06",
+      "op": "diff",
+      "inputs": [
+        "mlo|2021|06",
+        "global|2021|06"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2021-06",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-06",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-06",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2021|07",
+      "op": "diff",
+      "inputs": [
+        "mlo|2021|07",
+        "global|2021|07"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2021-07",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-07",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-07",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2021|08",
+      "op": "diff",
+      "inputs": [
+        "mlo|2021|08",
+        "global|2021|08"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2021-08",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-08",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-08",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2021|09",
+      "op": "diff",
+      "inputs": [
+        "mlo|2021|09",
+        "global|2021|09"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2021-09",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-09",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-09",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2021|10",
+      "op": "diff",
+      "inputs": [
+        "mlo|2021|10",
+        "global|2021|10"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2021-10",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-10",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-10",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2021|11",
+      "op": "diff",
+      "inputs": [
+        "mlo|2021|11",
+        "global|2021|11"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2021-11",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-11",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-11",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2021|12",
+      "op": "diff",
+      "inputs": [
+        "mlo|2021|12",
+        "global|2021|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2021-12",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-12",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-12",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "monthly_record_mean|mlo|2021",
+      "op": "lin",
+      "inputs": [
+        "mlo|2021|01",
+        "mlo|2021|02",
+        "mlo|2021|03",
+        "mlo|2021|04",
+        "mlo|2021|05",
+        "mlo|2021|06",
+        "mlo|2021|07",
+        "mlo|2021|08",
+        "mlo|2021|09",
+        "mlo|2021|10",
+        "mlo|2021|11",
+        "mlo|2021|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2021",
+        "support": "station_series"
+      },
+      "params": {
+        "w": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-01",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-02",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-03",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-04",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-05",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-06",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-07",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-08",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-09",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-10",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-11",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-12",
+            "station_series"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "monthly_record_mean|global|2021",
+      "op": "lin",
+      "inputs": [
+        "global|2021|01",
+        "global|2021|02",
+        "global|2021|03",
+        "global|2021|04",
+        "global|2021|05",
+        "global|2021|06",
+        "global|2021|07",
+        "global|2021|08",
+        "global|2021|09",
+        "global|2021|10",
+        "global|2021|11",
+        "global|2021|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2021",
+        "support": "global_marine_surface"
+      },
+      "params": {
+        "w": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-01",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-02",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-03",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-04",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-05",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-06",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-07",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-08",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-09",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-10",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-11",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2021-12",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "annual_mean_difference|2021",
+      "op": "diff",
+      "inputs": [
+        "monthly_record_mean|mlo|2021",
+        "monthly_record_mean|global|2021"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2021",
+        "support": "station_vs_global"
+      },
+      "params": {}
+    },
+    {
+      "key": "concentration_difference|2022|01",
+      "op": "diff",
+      "inputs": [
+        "mlo|2022|01",
+        "global|2022|01"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2022-01",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-01",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-01",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2022|02",
+      "op": "diff",
+      "inputs": [
+        "mlo|2022|02",
+        "global|2022|02"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2022-02",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-02",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-02",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2022|03",
+      "op": "diff",
+      "inputs": [
+        "mlo|2022|03",
+        "global|2022|03"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2022-03",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-03",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-03",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2022|04",
+      "op": "diff",
+      "inputs": [
+        "mlo|2022|04",
+        "global|2022|04"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2022-04",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-04",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-04",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2022|05",
+      "op": "diff",
+      "inputs": [
+        "mlo|2022|05",
+        "global|2022|05"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2022-05",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-05",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-05",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2022|06",
+      "op": "diff",
+      "inputs": [
+        "mlo|2022|06",
+        "global|2022|06"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2022-06",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-06",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-06",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2022|07",
+      "op": "diff",
+      "inputs": [
+        "mlo|2022|07",
+        "global|2022|07"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2022-07",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-07",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-07",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2022|08",
+      "op": "diff",
+      "inputs": [
+        "mlo|2022|08",
+        "global|2022|08"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2022-08",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-08",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-08",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2022|09",
+      "op": "diff",
+      "inputs": [
+        "mlo|2022|09",
+        "global|2022|09"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2022-09",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-09",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-09",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2022|10",
+      "op": "diff",
+      "inputs": [
+        "mlo|2022|10",
+        "global|2022|10"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2022-10",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-10",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-10",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2022|11",
+      "op": "diff",
+      "inputs": [
+        "mlo|2022|11",
+        "global|2022|11"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2022-11",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-11",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-11",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2022|12",
+      "op": "diff",
+      "inputs": [
+        "mlo|2022|12",
+        "global|2022|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2022-12",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-12",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-12",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "monthly_record_mean|mlo|2022",
+      "op": "lin",
+      "inputs": [
+        "mlo|2022|01",
+        "mlo|2022|02",
+        "mlo|2022|03",
+        "mlo|2022|04",
+        "mlo|2022|05",
+        "mlo|2022|06",
+        "mlo|2022|07",
+        "mlo|2022|08",
+        "mlo|2022|09",
+        "mlo|2022|10",
+        "mlo|2022|11",
+        "mlo|2022|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2022",
+        "support": "station_series"
+      },
+      "params": {
+        "w": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-01",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-02",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-03",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-04",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-05",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-06",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-07",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-08",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-09",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-10",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-11",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-12",
+            "station_series"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "monthly_record_mean|global|2022",
+      "op": "lin",
+      "inputs": [
+        "global|2022|01",
+        "global|2022|02",
+        "global|2022|03",
+        "global|2022|04",
+        "global|2022|05",
+        "global|2022|06",
+        "global|2022|07",
+        "global|2022|08",
+        "global|2022|09",
+        "global|2022|10",
+        "global|2022|11",
+        "global|2022|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2022",
+        "support": "global_marine_surface"
+      },
+      "params": {
+        "w": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-01",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-02",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-03",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-04",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-05",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-06",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-07",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-08",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-09",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-10",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-11",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2022-12",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "annual_mean_difference|2022",
+      "op": "diff",
+      "inputs": [
+        "monthly_record_mean|mlo|2022",
+        "monthly_record_mean|global|2022"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2022",
+        "support": "station_vs_global"
+      },
+      "params": {}
+    },
+    {
+      "key": "concentration_difference|2023|01",
+      "op": "diff",
+      "inputs": [
+        "mlo|2023|01",
+        "global|2023|01"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2023-01",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-01",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-01",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2023|02",
+      "op": "diff",
+      "inputs": [
+        "mlo|2023|02",
+        "global|2023|02"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2023-02",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-02",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-02",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2023|03",
+      "op": "diff",
+      "inputs": [
+        "mlo|2023|03",
+        "global|2023|03"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2023-03",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-03",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-03",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2023|04",
+      "op": "diff",
+      "inputs": [
+        "mlo|2023|04",
+        "global|2023|04"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2023-04",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-04",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-04",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2023|05",
+      "op": "diff",
+      "inputs": [
+        "mlo|2023|05",
+        "global|2023|05"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2023-05",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-05",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-05",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2023|06",
+      "op": "diff",
+      "inputs": [
+        "mlo|2023|06",
+        "global|2023|06"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2023-06",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-06",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-06",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2023|07",
+      "op": "diff",
+      "inputs": [
+        "mlo|2023|07",
+        "global|2023|07"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2023-07",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-07",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-07",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2023|08",
+      "op": "diff",
+      "inputs": [
+        "mlo|2023|08",
+        "global|2023|08"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2023-08",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-08",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-08",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2023|09",
+      "op": "diff",
+      "inputs": [
+        "mlo|2023|09",
+        "global|2023|09"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2023-09",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-09",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-09",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2023|10",
+      "op": "diff",
+      "inputs": [
+        "mlo|2023|10",
+        "global|2023|10"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2023-10",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-10",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-10",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2023|11",
+      "op": "diff",
+      "inputs": [
+        "mlo|2023|11",
+        "global|2023|11"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2023-11",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-11",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-11",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "concentration_difference|2023|12",
+      "op": "diff",
+      "inputs": [
+        "mlo|2023|12",
+        "global|2023|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "monthly:2023-12",
+        "support": "station_vs_global"
+      },
+      "params": {
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-12",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-12",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "monthly_record_mean|mlo|2023",
+      "op": "lin",
+      "inputs": [
+        "mlo|2023|01",
+        "mlo|2023|02",
+        "mlo|2023|03",
+        "mlo|2023|04",
+        "mlo|2023|05",
+        "mlo|2023|06",
+        "mlo|2023|07",
+        "mlo|2023|08",
+        "mlo|2023|09",
+        "mlo|2023|10",
+        "mlo|2023|11",
+        "mlo|2023|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2023",
+        "support": "station_series"
+      },
+      "params": {
+        "w": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-01",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-02",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-03",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-04",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-05",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-06",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-07",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-08",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-09",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-10",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-11",
+            "station_series"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-12",
+            "station_series"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "monthly_record_mean|global|2023",
+      "op": "lin",
+      "inputs": [
+        "global|2023|01",
+        "global|2023|02",
+        "global|2023|03",
+        "global|2023|04",
+        "global|2023|05",
+        "global|2023|06",
+        "global|2023|07",
+        "global|2023|08",
+        "global|2023|09",
+        "global|2023|10",
+        "global|2023|11",
+        "global|2023|12"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2023",
+        "support": "global_marine_surface"
+      },
+      "params": {
+        "w": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "expect": [
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-01",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-02",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-03",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-04",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-05",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-06",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-07",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-08",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-09",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-10",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-11",
+            "global_marine_surface"
+          ],
+          [
+            "concentration",
+            "ppm",
+            "monthly:2023-12",
+            "global_marine_surface"
+          ]
+        ]
+      }
+    },
+    {
+      "key": "annual_mean_difference|2023",
+      "op": "diff",
+      "inputs": [
+        "monthly_record_mean|mlo|2023",
+        "monthly_record_mean|global|2023"
+      ],
+      "contract": {
+        "qkind": "concentration",
+        "unit": "ppm",
+        "period": "annual:2023",
+        "support": "station_vs_global"
+      },
+      "params": {}
+    }
+  ],
+  "revisions": [
+    {
+      "name": "Controlled test: key_withdrawal",
+      "updates": [
+        {
+          "source": "mlo",
+          "version": "controlled-withdrawal",
+          "csv": "key,value,qkind,unit,period,support\nmlo|2015|01,400.18,concentration,ppm,monthly:2015-01,station_series\nmlo|2015|02,400.55,concentration,ppm,monthly:2015-02,station_series\nmlo|2015|03,401.74,concentration,ppm,monthly:2015-03,station_series\nmlo|2015|04,403.35,concentration,ppm,monthly:2015-04,station_series\nmlo|2015|05,404.15,concentration,ppm,monthly:2015-05,station_series\nmlo|2015|06,402.97,concentration,ppm,monthly:2015-06,station_series\nmlo|2015|07,401.46,concentration,ppm,monthly:2015-07,station_series\nmlo|2015|08,399.11,concentration,ppm,monthly:2015-08,station_series\nmlo|2015|09,397.82,concentration,ppm,monthly:2015-09,station_series\nmlo|2015|10,398.49,concentration,ppm,monthly:2015-10,station_series\nmlo|2015|11,400.27,concentration,ppm,monthly:2015-11,station_series\nmlo|2015|12,402.06,concentration,ppm,monthly:2015-12,station_series\nmlo|2016|01,402.73,concentration,ppm,monthly:2016-01,station_series\nmlo|2016|02,404.25,concentration,ppm,monthly:2016-02,station_series\nmlo|2016|03,405.06,concentration,ppm,monthly:2016-03,station_series\nmlo|2016|04,407.60,concentration,ppm,monthly:2016-04,station_series\nmlo|2016|05,407.90,concentration,ppm,monthly:2016-05,station_series\nmlo|2016|06,406.99,concentration,ppm,monthly:2016-06,station_series\nmlo|2016|07,404.59,concentration,ppm,monthly:2016-07,station_series\nmlo|2016|08,402.45,concentration,ppm,monthly:2016-08,station_series\nmlo|2016|09,401.23,concentration,ppm,monthly:2016-09,station_series\nmlo|2016|10,401.79,concentration,ppm,monthly:2016-10,station_series\nmlo|2016|11,403.72,concentration,ppm,monthly:2016-11,station_series\nmlo|2016|12,404.64,concentration,ppm,monthly:2016-12,station_series\nmlo|2017|01,406.36,concentration,ppm,monthly:2017-01,station_series\nmlo|2017|02,406.66,concentration,ppm,monthly:2017-02,station_series\nmlo|2017|03,407.54,concentration,ppm,monthly:2017-03,station_series\nmlo|2017|04,409.22,concentration,ppm,monthly:2017-04,station_series\nmlo|2017|05,409.89,concentration,ppm,monthly:2017-05,station_series\nmlo|2017|06,409.08,concentration,ppm,monthly:2017-06,station_series\nmlo|2017|07,407.33,concentration,ppm,monthly:2017-07,station_series\nmlo|2017|08,405.32,concentration,ppm,monthly:2017-08,station_series\nmlo|2017|09,403.57,concentration,ppm,monthly:2017-09,station_series\nmlo|2017|10,403.82,concentration,ppm,monthly:2017-10,station_series\nmlo|2017|11,405.31,concentration,ppm,monthly:2017-11,station_series\nmlo|2017|12,407.00,concentration,ppm,monthly:2017-12,station_series\nmlo|2018|01,408.15,concentration,ppm,monthly:2018-01,station_series\nmlo|2018|02,408.52,concentration,ppm,monthly:2018-02,station_series\nmlo|2018|03,409.59,concentration,ppm,monthly:2018-03,station_series\nmlo|2018|04,410.45,concentration,ppm,monthly:2018-04,station_series\nmlo|2018|05,411.44,concentration,ppm,monthly:2018-05,station_series\nmlo|2018|06,410.99,concentration,ppm,monthly:2018-06,station_series\nmlo|2018|07,408.90,concentration,ppm,monthly:2018-07,station_series\nmlo|2018|08,407.16,concentration,ppm,monthly:2018-08,station_series\nmlo|2018|09,405.71,concentration,ppm,monthly:2018-09,station_series\nmlo|2018|10,406.19,concentration,ppm,monthly:2018-10,station_series\nmlo|2018|11,408.21,concentration,ppm,monthly:2018-11,station_series\nmlo|2018|12,409.27,concentration,ppm,monthly:2018-12,station_series\nmlo|2019|01,411.03,concentration,ppm,monthly:2019-01,station_series\nmlo|2019|02,411.96,concentration,ppm,monthly:2019-02,station_series\nmlo|2019|03,412.18,concentration,ppm,monthly:2019-03,station_series\nmlo|2019|04,413.54,concentration,ppm,monthly:2019-04,station_series\nmlo|2019|05,414.86,concentration,ppm,monthly:2019-05,station_series\nmlo|2019|06,414.15,concentration,ppm,monthly:2019-06,station_series\nmlo|2019|07,411.96,concentration,ppm,monthly:2019-07,station_series\nmlo|2019|08,410.17,concentration,ppm,monthly:2019-08,station_series\nmlo|2019|09,408.76,concentration,ppm,monthly:2019-09,station_series\nmlo|2019|10,408.74,concentration,ppm,monthly:2019-10,station_series\nmlo|2019|11,410.47,concentration,ppm,monthly:2019-11,station_series\nmlo|2019|12,411.97,concentration,ppm,monthly:2019-12,station_series\nmlo|2020|02,414.32,concentration,ppm,monthly:2020-02,station_series\nmlo|2020|03,414.72,concentration,ppm,monthly:2020-03,station_series\nmlo|2020|04,416.42,concentration,ppm,monthly:2020-04,station_series\nmlo|2020|05,417.28,concentration,ppm,monthly:2020-05,station_series\nmlo|2020|06,416.58,concentration,ppm,monthly:2020-06,station_series\nmlo|2020|07,414.58,concentration,ppm,monthly:2020-07,station_series\nmlo|2020|08,412.75,concentration,ppm,monthly:2020-08,station_series\nmlo|2020|09,411.50,concentration,ppm,monthly:2020-09,station_series\nmlo|2020|10,411.49,concentration,ppm,monthly:2020-10,station_series\nmlo|2020|11,413.10,concentration,ppm,monthly:2020-11,station_series\nmlo|2020|12,414.23,concentration,ppm,monthly:2020-12,station_series\nmlo|2021|01,415.49,concentration,ppm,monthly:2021-01,station_series\nmlo|2021|02,416.72,concentration,ppm,monthly:2021-02,station_series\nmlo|2021|03,417.61,concentration,ppm,monthly:2021-03,station_series\nmlo|2021|04,419.01,concentration,ppm,monthly:2021-04,station_series\nmlo|2021|05,419.09,concentration,ppm,monthly:2021-05,station_series\nmlo|2021|06,418.93,concentration,ppm,monthly:2021-06,station_series\nmlo|2021|07,416.90,concentration,ppm,monthly:2021-07,station_series\nmlo|2021|08,414.42,concentration,ppm,monthly:2021-08,station_series\nmlo|2021|09,413.26,concentration,ppm,monthly:2021-09,station_series\nmlo|2021|10,413.90,concentration,ppm,monthly:2021-10,station_series\nmlo|2021|11,414.97,concentration,ppm,monthly:2021-11,station_series\nmlo|2021|12,416.67,concentration,ppm,monthly:2021-12,station_series\nmlo|2022|01,418.13,concentration,ppm,monthly:2022-01,station_series\nmlo|2022|02,419.24,concentration,ppm,monthly:2022-02,station_series\nmlo|2022|03,418.76,concentration,ppm,monthly:2022-03,station_series\nmlo|2022|04,420.19,concentration,ppm,monthly:2022-04,station_series\nmlo|2022|05,420.97,concentration,ppm,monthly:2022-05,station_series\nmlo|2022|06,420.94,concentration,ppm,monthly:2022-06,station_series\nmlo|2022|07,418.85,concentration,ppm,monthly:2022-07,station_series\nmlo|2022|08,417.15,concentration,ppm,monthly:2022-08,station_series\nmlo|2022|09,415.91,concentration,ppm,monthly:2022-09,station_series\nmlo|2022|10,415.74,concentration,ppm,monthly:2022-10,station_series\nmlo|2022|11,417.47,concentration,ppm,monthly:2022-11,station_series\nmlo|2022|12,418.99,concentration,ppm,monthly:2022-12,station_series\nmlo|2023|01,419.48,concentration,ppm,monthly:2023-01,station_series\nmlo|2023|02,420.31,concentration,ppm,monthly:2023-02,station_series\nmlo|2023|03,420.99,concentration,ppm,monthly:2023-03,station_series\nmlo|2023|04,423.35,concentration,ppm,monthly:2023-04,station_series\nmlo|2023|05,424.00,concentration,ppm,monthly:2023-05,station_series\nmlo|2023|06,423.68,concentration,ppm,monthly:2023-06,station_series\nmlo|2023|07,421.83,concentration,ppm,monthly:2023-07,station_series\nmlo|2023|08,419.68,concentration,ppm,monthly:2023-08,station_series\nmlo|2023|09,418.50,concentration,ppm,monthly:2023-09,station_series\nmlo|2023|10,418.82,concentration,ppm,monthly:2023-10,station_series\nmlo|2023|11,420.46,concentration,ppm,monthly:2023-11,station_series\nmlo|2023|12,421.86,concentration,ppm,monthly:2023-12,station_series\n"
+        }
+      ]
+    }
+  ]
+}

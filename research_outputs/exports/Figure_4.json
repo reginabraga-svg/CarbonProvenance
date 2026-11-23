@@ -1,0 +1,1497 @@
+{
+  "id": "soil",
+  "title": "Soil carbon stock change by state",
+  "source": "MapBiomas CSV extracts in S1_artC.zip",
+  "versions": {
+    "V0": "Soil beta 2.1 / land cover 7.1",
+    "V1": "Soil collection 3 / land cover 7.1",
+    "V2": "Soil collection 3 / land cover 10"
+  },
+  "before_version": "V0",
+  "after_version": "V1",
+  "unit": "%",
+  "default_year": 2020,
+  "years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "data": {
+    "2017": [
+      {
+        "key": "Acre",
+        "label": "Acre",
+        "before": 641.5150276495139,
+        "after": 789.8817187376152,
+        "value": 23.12754724261272,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Alagoas",
+        "label": "Alagoas",
+        "before": 102.90295503986316,
+        "after": 104.6993534998755,
+        "value": 1.7457209652691263,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Amapa",
+        "label": "Amapa",
+        "before": 758.453447691183,
+        "after": 848.6770944670371,
+        "value": 11.895739554023388,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Amazonas",
+        "label": "Amazonas",
+        "before": 8283.778409466677,
+        "after": 7715.945678507991,
+        "value": -6.854755196128481,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Bahia",
+        "label": "Bahia",
+        "before": 2147.5572382802443,
+        "after": 2194.977690496153,
+        "value": 2.2081112144830772,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Ceara",
+        "label": "Ceara",
+        "before": 444.59652596247884,
+        "after": 468.55659610766907,
+        "value": 5.389171697489226,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Distrito Federal",
+        "label": "Distrito Federal",
+        "before": 26.993174685577927,
+        "after": 29.74638734924531,
+        "value": 10.199662306258439,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Espirito Santo",
+        "label": "Espirito Santo",
+        "before": 237.6355987466141,
+        "after": 240.49503420742246,
+        "value": 1.2032858190818896,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Goias",
+        "label": "Goias",
+        "before": 1571.2632340316532,
+        "after": 1571.7370921895647,
+        "value": 0.030157783091233625,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Maranhao",
+        "label": "Maranhao",
+        "before": 1207.0577682164408,
+        "after": 1376.0079477220893,
+        "value": 13.996859467239165,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Mato Grosso",
+        "label": "Mato Grosso",
+        "before": 4022.2296154965347,
+        "after": 3625.157906683722,
+        "value": -9.871930415981367,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Mato Grosso do Sul",
+        "label": "Mato Grosso do Sul",
+        "before": 1273.6113803104831,
+        "after": 1356.101395156412,
+        "value": 6.476859120544232,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Minas Gerais",
+        "label": "Minas Gerais",
+        "before": 2716.0884450875324,
+        "after": 2961.1230224730766,
+        "value": 9.02159787280592,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Para",
+        "label": "Para",
+        "before": 5593.9277111729,
+        "after": 6298.384360868401,
+        "value": 12.59323834822661,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Paraiba",
+        "label": "Paraiba",
+        "before": 167.20047541798755,
+        "after": 188.39257374755172,
+        "value": 12.674663918619622,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Parana",
+        "label": "Parana",
+        "before": 1044.0785789504314,
+        "after": 1165.17116793902,
+        "value": 11.598034039767203,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Pernambuco",
+        "label": "Pernambuco",
+        "before": 306.9857119665211,
+        "after": 332.0362143776343,
+        "value": 8.16015255258693,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Piaui",
+        "label": "Piaui",
+        "before": 700.8150505146997,
+        "after": 800.2154322700155,
+        "value": 14.183539820144153,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Rio Grande do Norte",
+        "label": "Rio Grande do Norte",
+        "before": 143.7206951830938,
+        "after": 168.4056187827791,
+        "value": 17.175622180394967,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Rio Grande do Sul",
+        "label": "Rio Grande do Sul",
+        "before": 1420.6302597549097,
+        "after": 1397.1415963726251,
+        "value": -1.6533973721168604,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Rio de Janeiro",
+        "label": "Rio de Janeiro",
+        "before": 209.28951955654773,
+        "after": 229.84754328369732,
+        "value": 9.822767891439987,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Rondonia",
+        "label": "Rondonia",
+        "before": 803.8060285812898,
+        "after": 1117.788863090209,
+        "value": 39.062015379891605,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Roraima",
+        "label": "Roraima",
+        "before": 951.9646676376058,
+        "after": 1149.9813994051988,
+        "value": 20.800848865430165,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Santa Catarina",
+        "label": "Santa Catarina",
+        "before": 599.653473059263,
+        "after": 669.6936843324454,
+        "value": 11.680114336010927,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Sao Paulo",
+        "label": "Sao Paulo",
+        "before": 1057.0129545525647,
+        "after": 1135.3113781449283,
+        "value": 7.407517879050718,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Sergipe",
+        "label": "Sergipe",
+        "before": 91.46853315970694,
+        "after": 86.10863938634552,
+        "value": -5.859822594949538,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Tocantins",
+        "label": "Tocantins",
+        "before": 1033.9996829266045,
+        "after": 1055.0982179480582,
+        "value": 2.0404779005093188,
+        "status": "available",
+        "unit": "%"
+      }
+    ],
+    "2018": [
+      {
+        "key": "Acre",
+        "label": "Acre",
+        "before": 641.132899733656,
+        "after": 788.2382835393986,
+        "value": 22.94460070086157,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Alagoas",
+        "label": "Alagoas",
+        "before": 102.71954791271519,
+        "after": 104.40483933576668,
+        "value": 1.6406725470438754,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Amapa",
+        "label": "Amapa",
+        "before": 758.1018868091832,
+        "after": 846.9658275952728,
+        "value": 11.721899434931359,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Amazonas",
+        "label": "Amazonas",
+        "before": 8273.426519584164,
+        "after": 7700.458747515825,
+        "value": -6.925398693178176,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Bahia",
+        "label": "Bahia",
+        "before": 2146.9622385814823,
+        "after": 2193.6501327682204,
+        "value": 2.1746024847453915,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Ceara",
+        "label": "Ceara",
+        "before": 444.84461730521895,
+        "after": 469.7502193533769,
+        "value": 5.5987194357956405,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Distrito Federal",
+        "label": "Distrito Federal",
+        "before": 27.145147630124267,
+        "after": 29.680704551436488,
+        "value": 9.340737268632093,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Espirito Santo",
+        "label": "Espirito Santo",
+        "before": 237.52640944896788,
+        "after": 240.8680053788559,
+        "value": 1.4068313235737095,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Goias",
+        "label": "Goias",
+        "before": 1578.3381841489818,
+        "after": 1571.0753442264936,
+        "value": -0.46015739816902546,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Maranhao",
+        "label": "Maranhao",
+        "before": 1208.7440501221072,
+        "after": 1375.397144227479,
+        "value": 13.787293851708004,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Mato Grosso",
+        "label": "Mato Grosso",
+        "before": 4032.9661239596567,
+        "after": 3622.10201759381,
+        "value": -10.187640900946892,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Mato Grosso do Sul",
+        "label": "Mato Grosso do Sul",
+        "before": 1274.9059693809406,
+        "after": 1354.7629469158246,
+        "value": 6.2637543044574695,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Minas Gerais",
+        "label": "Minas Gerais",
+        "before": 2721.939397613864,
+        "after": 2960.243360330435,
+        "value": 8.754932711781738,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Para",
+        "label": "Para",
+        "before": 5597.882353582975,
+        "after": 6286.206946268026,
+        "value": 12.296160390803523,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Paraiba",
+        "label": "Paraiba",
+        "before": 167.1297064293052,
+        "after": 188.11949045537847,
+        "value": 12.558978576888613,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Parana",
+        "label": "Parana",
+        "before": 1044.6049698147156,
+        "after": 1164.7681766200747,
+        "value": 11.50321990394827,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Pernambuco",
+        "label": "Pernambuco",
+        "before": 306.8937508262497,
+        "after": 331.60061160643414,
+        "value": 8.05062361604505,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Piaui",
+        "label": "Piaui",
+        "before": 700.4091787039544,
+        "after": 801.5665973333571,
+        "value": 14.442617502041543,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Rio Grande do Norte",
+        "label": "Rio Grande do Norte",
+        "before": 143.84863649106418,
+        "after": 168.91772345434043,
+        "value": 17.427406734462526,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Rio Grande do Sul",
+        "label": "Rio Grande do Sul",
+        "before": 1419.216536858484,
+        "after": 1397.186679453971,
+        "value": -1.5522548414829918,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Rio de Janeiro",
+        "label": "Rio de Janeiro",
+        "before": 209.0711882912767,
+        "after": 230.01325822522273,
+        "value": 10.016717322508173,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Rondonia",
+        "label": "Rondonia",
+        "before": 804.8661624365483,
+        "after": 1115.5413077528897,
+        "value": 38.59960324035035,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Roraima",
+        "label": "Roraima",
+        "before": 951.6482539639437,
+        "after": 1148.1435325784405,
+        "value": 20.64788936416644,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Santa Catarina",
+        "label": "Santa Catarina",
+        "before": 599.7251426860594,
+        "after": 669.3438471601052,
+        "value": 11.608435184530741,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Sao Paulo",
+        "label": "Sao Paulo",
+        "before": 1056.2219817187938,
+        "after": 1133.4152958973687,
+        "value": 7.3084366273989065,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Sergipe",
+        "label": "Sergipe",
+        "before": 91.81308962682505,
+        "after": 85.77510621442269,
+        "value": -6.576386261418488,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Tocantins",
+        "label": "Tocantins",
+        "before": 1039.6696519253192,
+        "after": 1054.9469662233578,
+        "value": 1.4694392848485283,
+        "status": "available",
+        "unit": "%"
+      }
+    ],
+    "2019": [
+      {
+        "key": "Acre",
+        "label": "Acre",
+        "before": 641.7085561930272,
+        "after": 788.0492031110789,
+        "value": 22.804845830048738,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Alagoas",
+        "label": "Alagoas",
+        "before": 102.79917757620892,
+        "after": 104.49843967428373,
+        "value": 1.652991918943214,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Amapa",
+        "label": "Amapa",
+        "before": 759.3755370208576,
+        "after": 847.1271544844453,
+        "value": 11.555760382781145,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Amazonas",
+        "label": "Amazonas",
+        "before": 8269.707582408104,
+        "after": 7701.158861934843,
+        "value": -6.875076474078934,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Bahia",
+        "label": "Bahia",
+        "before": 2149.030707167038,
+        "after": 2196.3617959725043,
+        "value": 2.2024389250286935,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Ceara",
+        "label": "Ceara",
+        "before": 444.45737757559044,
+        "after": 470.61510529312676,
+        "value": 5.885317476384477,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Distrito Federal",
+        "label": "Distrito Federal",
+        "before": 27.167489204134085,
+        "after": 29.657850740111773,
+        "value": 9.166697434810157,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Espirito Santo",
+        "label": "Espirito Santo",
+        "before": 236.96150052112827,
+        "after": 241.0228002103809,
+        "value": 1.7139069765852,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Goias",
+        "label": "Goias",
+        "before": 1576.7670162443358,
+        "after": 1571.2447999119263,
+        "value": -0.3502239884217384,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Maranhao",
+        "label": "Maranhao",
+        "before": 1209.6673697808933,
+        "after": 1376.7688182487113,
+        "value": 13.813834500478016,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Mato Grosso",
+        "label": "Mato Grosso",
+        "before": 4030.6839821677936,
+        "after": 3620.92442068725,
+        "value": -10.166005652970235,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Mato Grosso do Sul",
+        "label": "Mato Grosso do Sul",
+        "before": 1272.683828862512,
+        "after": 1353.0932773352974,
+        "value": 6.31810090214262,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Minas Gerais",
+        "label": "Minas Gerais",
+        "before": 2719.7631723735567,
+        "after": 2960.556525249405,
+        "value": 8.853467659307501,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Para",
+        "label": "Para",
+        "before": 5596.796093671694,
+        "after": 6286.356979337486,
+        "value": 12.320636201942037,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Paraiba",
+        "label": "Paraiba",
+        "before": 167.03598244540765,
+        "after": 188.32199054811255,
+        "value": 12.743366902794007,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Parana",
+        "label": "Parana",
+        "before": 1041.8845906205324,
+        "after": 1163.820026790577,
+        "value": 11.703353448909471,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Pernambuco",
+        "label": "Pernambuco",
+        "before": 306.9022834637045,
+        "after": 331.9142469332094,
+        "value": 8.149813415273233,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Piaui",
+        "label": "Piaui",
+        "before": 700.1918323487611,
+        "after": 804.193298548411,
+        "value": 14.853281828607145,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Rio Grande do Norte",
+        "label": "Rio Grande do Norte",
+        "before": 143.8375251055181,
+        "after": 169.19705660895585,
+        "value": 17.630678423335077,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Rio Grande do Sul",
+        "label": "Rio Grande do Sul",
+        "before": 1420.2823803452607,
+        "after": 1396.7344008071398,
+        "value": -1.6579787135285295,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Rio de Janeiro",
+        "label": "Rio de Janeiro",
+        "before": 208.86971046537047,
+        "after": 230.05727169268758,
+        "value": 10.14391276749047,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Rondonia",
+        "label": "Rondonia",
+        "before": 804.0136582882972,
+        "after": 1114.9227897050262,
+        "value": 38.66963306054254,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Roraima",
+        "label": "Roraima",
+        "before": 951.5593905481867,
+        "after": 1148.6780484951385,
+        "value": 20.715328954233026,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Santa Catarina",
+        "label": "Santa Catarina",
+        "before": 598.8724813910667,
+        "after": 669.0924471555402,
+        "value": 11.725361900310727,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Sao Paulo",
+        "label": "Sao Paulo",
+        "before": 1056.0620265407297,
+        "after": 1132.0761176023716,
+        "value": 7.197881294021746,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Sergipe",
+        "label": "Sergipe",
+        "before": 91.56058001882484,
+        "after": 86.04572918775844,
+        "value": -6.023171576602648,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Tocantins",
+        "label": "Tocantins",
+        "before": 1038.7374093350506,
+        "after": 1055.8661653411623,
+        "value": 1.6489977016497903,
+        "status": "available",
+        "unit": "%"
+      }
+    ],
+    "2020": [
+      {
+        "key": "Acre",
+        "label": "Acre",
+        "before": 641.6194094321768,
+        "after": 787.8479368770584,
+        "value": 22.790539889416927,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Alagoas",
+        "label": "Alagoas",
+        "before": 102.98640720896435,
+        "after": 104.64689257525974,
+        "value": 1.6123344927706729,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Amapa",
+        "label": "Amapa",
+        "before": 758.6685708468153,
+        "after": 847.3744691405782,
+        "value": 11.692312256292702,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Amazonas",
+        "label": "Amazonas",
+        "before": 8263.383697973306,
+        "after": 7701.8611809584,
+        "value": -6.7953097367683295,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Bahia",
+        "label": "Bahia",
+        "before": 2152.040591917188,
+        "after": 2203.0518607614063,
+        "value": 2.370367410159946,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Ceara",
+        "label": "Ceara",
+        "before": 445.39290619813573,
+        "after": 471.9801628454064,
+        "value": 5.96939382672681,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Distrito Federal",
+        "label": "Distrito Federal",
+        "before": 27.12949458850714,
+        "after": 29.628049064646454,
+        "value": 9.209734696634486,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Espirito Santo",
+        "label": "Espirito Santo",
+        "before": 236.91726163855648,
+        "after": 241.0849714045754,
+        "value": 1.7591414560485852,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Goias",
+        "label": "Goias",
+        "before": 1575.3366196254942,
+        "after": 1571.5111916566043,
+        "value": -0.24283241570296488,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Maranhao",
+        "label": "Maranhao",
+        "before": 1208.998806217856,
+        "after": 1376.986753735821,
+        "value": 13.894798460842672,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Mato Grosso",
+        "label": "Mato Grosso",
+        "before": 4018.865634669816,
+        "after": 3616.1775780483636,
+        "value": -10.01994326825849,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Mato Grosso do Sul",
+        "label": "Mato Grosso do Sul",
+        "before": 1272.1729975408573,
+        "after": 1353.0645823818497,
+        "value": 6.358536535310688,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Minas Gerais",
+        "label": "Minas Gerais",
+        "before": 2716.1955359230083,
+        "after": 2960.8820964839806,
+        "value": 9.008429523017526,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Para",
+        "label": "Para",
+        "before": 5591.108502981044,
+        "after": 6283.234537900939,
+        "value": 12.379048529479796,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Paraiba",
+        "label": "Paraiba",
+        "before": 167.6606730074052,
+        "after": 188.9263399865242,
+        "value": 12.683753797278241,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Parana",
+        "label": "Parana",
+        "before": 1043.061668291186,
+        "after": 1163.6671167436514,
+        "value": 11.562638348128495,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Pernambuco",
+        "label": "Pernambuco",
+        "before": 308.53767721512014,
+        "after": 333.1401405915734,
+        "value": 7.97389271823028,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Piaui",
+        "label": "Piaui",
+        "before": 700.4384137211346,
+        "after": 806.2964442201644,
+        "value": 15.113110364214698,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Rio Grande do Norte",
+        "label": "Rio Grande do Norte",
+        "before": 144.35959466384426,
+        "after": 169.7427472520363,
+        "value": 17.58328058990415,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Rio Grande do Sul",
+        "label": "Rio Grande do Sul",
+        "before": 1423.2340022199799,
+        "after": 1396.0964950369514,
+        "value": -1.9067494973208254,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Rio de Janeiro",
+        "label": "Rio de Janeiro",
+        "before": 208.57788033294065,
+        "after": 229.93768839418559,
+        "value": 10.2406870887505,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Rondonia",
+        "label": "Rondonia",
+        "before": 803.2719542638276,
+        "after": 1114.0712100878332,
+        "value": 38.691660299386754,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Roraima",
+        "label": "Roraima",
+        "before": 951.5614201643181,
+        "after": 1149.0405862898194,
+        "value": 20.75317072978853,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Santa Catarina",
+        "label": "Santa Catarina",
+        "before": 599.5143537541946,
+        "after": 668.654785407437,
+        "value": 11.532739995344699,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Sao Paulo",
+        "label": "Sao Paulo",
+        "before": 1052.2750578551593,
+        "after": 1130.5605585539995,
+        "value": 7.439642336330632,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Sergipe",
+        "label": "Sergipe",
+        "before": 91.64384509828237,
+        "after": 86.00999295560429,
+        "value": -6.1475510293529485,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Tocantins",
+        "label": "Tocantins",
+        "before": 1038.1222410686669,
+        "after": 1056.9096542835573,
+        "value": 1.8097496105612842,
+        "status": "available",
+        "unit": "%"
+      }
+    ],
+    "2021": [
+      {
+        "key": "Acre",
+        "label": "Acre",
+        "before": 641.6623744876323,
+        "after": 728.7444714869326,
+        "value": 13.57132667609433,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Alagoas",
+        "label": "Alagoas",
+        "before": 102.76217987491437,
+        "after": 103.41702082373902,
+        "value": 0.6372392543849914,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Amapa",
+        "label": "Amapa",
+        "before": 761.3591627068347,
+        "after": 792.2179737351506,
+        "value": 4.053121383422331,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Amazonas",
+        "label": "Amazonas",
+        "before": 8260.44984356261,
+        "after": 7137.48296027878,
+        "value": -13.594500354710837,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Bahia",
+        "label": "Bahia",
+        "before": 2149.436920615365,
+        "after": 2153.3861849067566,
+        "value": 0.18373483089983988,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Ceara",
+        "label": "Ceara",
+        "before": 445.5057331565382,
+        "after": 461.442052065102,
+        "value": 3.5771299272964185,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Distrito Federal",
+        "label": "Distrito Federal",
+        "before": 26.98420605272693,
+        "after": 28.765644081908583,
+        "value": 6.601780410736335,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Espirito Santo",
+        "label": "Espirito Santo",
+        "before": 237.17204817105832,
+        "after": 238.5884073788107,
+        "value": 0.5971863964048696,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Goias",
+        "label": "Goias",
+        "before": 1569.6192559577773,
+        "after": 1538.4982739382924,
+        "value": -1.9827089850840807,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Maranhao",
+        "label": "Maranhao",
+        "before": 1209.4594513436546,
+        "after": 1335.6518479682547,
+        "value": 10.43378481886319,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Mato Grosso",
+        "label": "Mato Grosso",
+        "before": 4013.4737353290675,
+        "after": 3486.7186389514723,
+        "value": -13.124667834269665,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Mato Grosso do Sul",
+        "label": "Mato Grosso do Sul",
+        "before": 1266.1191572204254,
+        "after": 1327.0447991430926,
+        "value": 4.811999058320882,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Minas Gerais",
+        "label": "Minas Gerais",
+        "before": 2708.924934884755,
+        "after": 2905.2420400585133,
+        "value": 7.247048548508772,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Para",
+        "label": "Para",
+        "before": 5590.928208704527,
+        "after": 5903.1779327888635,
+        "value": 5.584935317148121,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Paraiba",
+        "label": "Paraiba",
+        "before": 167.11349913891706,
+        "after": 185.07537623199698,
+        "value": 10.74831009202235,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Parana",
+        "label": "Parana",
+        "before": 1041.555809976001,
+        "after": 1155.8241626188683,
+        "value": 10.970929406605713,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Pernambuco",
+        "label": "Pernambuco",
+        "before": 307.22247086837757,
+        "after": 327.4105919626062,
+        "value": 6.5711733380589,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Piaui",
+        "label": "Piaui",
+        "before": 700.1475626885822,
+        "after": 786.5437987549915,
+        "value": 12.339718178071756,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Rio Grande do Norte",
+        "label": "Rio Grande do Norte",
+        "before": 143.92090472625577,
+        "after": 166.46129176385847,
+        "value": 15.661649070700022,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Rio Grande do Sul",
+        "label": "Rio Grande do Sul",
+        "before": 1420.3201627716746,
+        "after": 1370.8005058928672,
+        "value": -3.4865136873205027,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Rio de Janeiro",
+        "label": "Rio de Janeiro",
+        "before": 208.47451635027514,
+        "after": 227.3491809925851,
+        "value": 9.053703528251432,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Rondonia",
+        "label": "Rondonia",
+        "before": 802.7028844238687,
+        "after": 1065.1416065997062,
+        "value": 32.69437886275941,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Roraima",
+        "label": "Roraima",
+        "before": 951.4311538370902,
+        "after": 1078.3477935667495,
+        "value": 13.339550551588397,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Santa Catarina",
+        "label": "Santa Catarina",
+        "before": 599.3242144727607,
+        "after": 663.2534334562525,
+        "value": 10.666884040340662,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Sao Paulo",
+        "label": "Sao Paulo",
+        "before": 1051.0066142531684,
+        "after": 1114.5412258767567,
+        "value": 6.045120055570274,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Sergipe",
+        "label": "Sergipe",
+        "before": 91.45697379246919,
+        "after": 85.34656615690486,
+        "value": -6.6811828362371095,
+        "status": "available",
+        "unit": "%"
+      },
+      {
+        "key": "Tocantins",
+        "label": "Tocantins",
+        "before": 1035.2231545227603,
+        "after": 1022.8495817119236,
+        "value": -1.1952565740804832,
+        "status": "available",
+        "unit": "%"
+      }
+    ]
+  },
+  "scope": "Stock is the sum of soil mean times valid mapped area. A change of mapped contexts is included. This is a version comparison, not a measured environmental trend.",
+  "year": 2020,
+  "rows": [
+    {
+      "key": "Rondonia",
+      "label": "Rondonia",
+      "before": 803.2719542638276,
+      "after": 1114.0712100878332,
+      "value": 38.691660299386754,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Acre",
+      "label": "Acre",
+      "before": 641.6194094321768,
+      "after": 787.8479368770584,
+      "value": 22.790539889416927,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Roraima",
+      "label": "Roraima",
+      "before": 951.5614201643181,
+      "after": 1149.0405862898194,
+      "value": 20.75317072978853,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Rio Grande do Norte",
+      "label": "Rio Grande do Norte",
+      "before": 144.35959466384426,
+      "after": 169.7427472520363,
+      "value": 17.58328058990415,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Piaui",
+      "label": "Piaui",
+      "before": 700.4384137211346,
+      "after": 806.2964442201644,
+      "value": 15.113110364214698,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Maranhao",
+      "label": "Maranhao",
+      "before": 1208.998806217856,
+      "after": 1376.986753735821,
+      "value": 13.894798460842672,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Paraiba",
+      "label": "Paraiba",
+      "before": 167.6606730074052,
+      "after": 188.9263399865242,
+      "value": 12.683753797278241,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Para",
+      "label": "Para",
+      "before": 5591.108502981044,
+      "after": 6283.234537900939,
+      "value": 12.379048529479796,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Amapa",
+      "label": "Amapa",
+      "before": 758.6685708468153,
+      "after": 847.3744691405782,
+      "value": 11.692312256292702,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Parana",
+      "label": "Parana",
+      "before": 1043.061668291186,
+      "after": 1163.6671167436514,
+      "value": 11.562638348128495,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Santa Catarina",
+      "label": "Santa Catarina",
+      "before": 599.5143537541946,
+      "after": 668.654785407437,
+      "value": 11.532739995344699,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Rio de Janeiro",
+      "label": "Rio de Janeiro",
+      "before": 208.57788033294065,
+      "after": 229.93768839418559,
+      "value": 10.2406870887505,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Distrito Federal",
+      "label": "Distrito Federal",
+      "before": 27.12949458850714,
+      "after": 29.628049064646454,
+      "value": 9.209734696634486,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Minas Gerais",
+      "label": "Minas Gerais",
+      "before": 2716.1955359230083,
+      "after": 2960.8820964839806,
+      "value": 9.008429523017526,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Pernambuco",
+      "label": "Pernambuco",
+      "before": 308.53767721512014,
+      "after": 333.1401405915734,
+      "value": 7.97389271823028,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Sao Paulo",
+      "label": "Sao Paulo",
+      "before": 1052.2750578551593,
+      "after": 1130.5605585539995,
+      "value": 7.439642336330632,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Mato Grosso do Sul",
+      "label": "Mato Grosso do Sul",
+      "before": 1272.1729975408573,
+      "after": 1353.0645823818497,
+      "value": 6.358536535310688,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Ceara",
+      "label": "Ceara",
+      "before": 445.39290619813573,
+      "after": 471.9801628454064,
+      "value": 5.96939382672681,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Bahia",
+      "label": "Bahia",
+      "before": 2152.040591917188,
+      "after": 2203.0518607614063,
+      "value": 2.370367410159946,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Tocantins",
+      "label": "Tocantins",
+      "before": 1038.1222410686669,
+      "after": 1056.9096542835573,
+      "value": 1.8097496105612842,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Espirito Santo",
+      "label": "Espirito Santo",
+      "before": 236.91726163855648,
+      "after": 241.0849714045754,
+      "value": 1.7591414560485852,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Alagoas",
+      "label": "Alagoas",
+      "before": 102.98640720896435,
+      "after": 104.64689257525974,
+      "value": 1.6123344927706729,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Goias",
+      "label": "Goias",
+      "before": 1575.3366196254942,
+      "after": 1571.5111916566043,
+      "value": -0.24283241570296488,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Rio Grande do Sul",
+      "label": "Rio Grande do Sul",
+      "before": 1423.2340022199799,
+      "after": 1396.0964950369514,
+      "value": -1.9067494973208254,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Sergipe",
+      "label": "Sergipe",
+      "before": 91.64384509828237,
+      "after": 86.00999295560429,
+      "value": -6.1475510293529485,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Amazonas",
+      "label": "Amazonas",
+      "before": 8263.383697973306,
+      "after": 7701.8611809584,
+      "value": -6.7953097367683295,
+      "status": "available",
+      "unit": "%"
+    },
+    {
+      "key": "Mato Grosso",
+      "label": "Mato Grosso",
+      "before": 4018.865634669816,
+      "after": 3616.1775780483636,
+      "value": -10.01994326825849,
+      "status": "available",
+      "unit": "%"
+    }
+  ],
+  "period": "2020",
+  "versionText": "Soil beta 2.1 / land cover 7.1 → Soil collection 3 / land cover 7.1"
+}

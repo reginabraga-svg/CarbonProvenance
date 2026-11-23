@@ -1,0 +1,408 @@
+{
+  "experiment": "E13",
+  "protocol_sha256": "f3df3ee983a60ba656d5028184b5eda2d9e149ea5dbd27e81505122a3a7fb8df",
+  "denominator_counts": [
+    {
+      "denominator": "previous",
+      "threshold_percent": 0.1,
+      "eligible": 27840,
+      "class_alerts": 27794,
+      "total_alerts": 0,
+      "class_without_total": 27794
+    },
+    {
+      "denominator": "previous",
+      "threshold_percent": 1,
+      "eligible": 27840,
+      "class_alerts": 25828,
+      "total_alerts": 0,
+      "class_without_total": 25828
+    },
+    {
+      "denominator": "previous",
+      "threshold_percent": 5,
+      "eligible": 27840,
+      "class_alerts": 15158,
+      "total_alerts": 0,
+      "class_without_total": 15158
+    },
+    {
+      "denominator": "previous",
+      "threshold_percent": 10,
+      "eligible": 27840,
+      "class_alerts": 8176,
+      "total_alerts": 0,
+      "class_without_total": 8176
+    },
+    {
+      "denominator": "symmetric",
+      "threshold_percent": 0.1,
+      "eligible": 27840,
+      "class_alerts": 27794,
+      "total_alerts": 0,
+      "class_without_total": 27794
+    },
+    {
+      "denominator": "symmetric",
+      "threshold_percent": 1,
+      "eligible": 27840,
+      "class_alerts": 25828,
+      "total_alerts": 0,
+      "class_without_total": 25828
+    },
+    {
+      "denominator": "symmetric",
+      "threshold_percent": 5,
+      "eligible": 27840,
+      "class_alerts": 15158,
+      "total_alerts": 0,
+      "class_without_total": 15158
+    },
+    {
+      "denominator": "symmetric",
+      "threshold_percent": 10,
+      "eligible": 27840,
+      "class_alerts": 8176,
+      "total_alerts": 0,
+      "class_without_total": 8176
+    },
+    {
+      "denominator": "maximum",
+      "threshold_percent": 0.1,
+      "eligible": 27840,
+      "class_alerts": 27794,
+      "total_alerts": 0,
+      "class_without_total": 27794
+    },
+    {
+      "denominator": "maximum",
+      "threshold_percent": 1,
+      "eligible": 27840,
+      "class_alerts": 25828,
+      "total_alerts": 0,
+      "class_without_total": 25828
+    },
+    {
+      "denominator": "maximum",
+      "threshold_percent": 5,
+      "eligible": 27840,
+      "class_alerts": 15158,
+      "total_alerts": 0,
+      "class_without_total": 15158
+    },
+    {
+      "denominator": "maximum",
+      "threshold_percent": 10,
+      "eligible": 27840,
+      "class_alerts": 8176,
+      "total_alerts": 0,
+      "class_without_total": 8176
+    }
+  ],
+  "by_year": [
+    {
+      "year": 2017,
+      "eligible": 5568,
+      "alerts": 5169,
+      "alert_percent": 92.83405172413794,
+      "previous_stock_in_alerts_percent": 69.34585141865449,
+      "gross_sum_TgC": 2251.6601032516382,
+      "weighted_gross_percent": 5.762157622856154,
+      "median_gross_percent": 5.498939338448868
+    },
+    {
+      "year": 2018,
+      "eligible": 5568,
+      "alerts": 5157,
+      "alert_percent": 92.61853448275862,
+      "previous_stock_in_alerts_percent": 70.28236473323064,
+      "gross_sum_TgC": 2245.441924370275,
+      "weighted_gross_percent": 5.752654655286639,
+      "median_gross_percent": 5.541654316899175
+    },
+    {
+      "year": 2019,
+      "eligible": 5568,
+      "alerts": 5129,
+      "alert_percent": 92.11566091954023,
+      "previous_stock_in_alerts_percent": 67.137959839865,
+      "gross_sum_TgC": 2208.1573142922716,
+      "weighted_gross_percent": 5.656378910258456,
+      "median_gross_percent": 5.461033039126868
+    },
+    {
+      "year": 2020,
+      "eligible": 5568,
+      "alerts": 5167,
+      "alert_percent": 92.79813218390804,
+      "previous_stock_in_alerts_percent": 69.21783859950479,
+      "gross_sum_TgC": 2243.775213226797,
+      "weighted_gross_percent": 5.747023790677912,
+      "median_gross_percent": 5.736728583741334
+    },
+    {
+      "year": 2021,
+      "eligible": 5568,
+      "alerts": 5206,
+      "alert_percent": 93.49856321839081,
+      "previous_stock_in_alerts_percent": 74.00112108350615,
+      "gross_sum_TgC": 2294.2578753253465,
+      "weighted_gross_percent": 6.136131036765297,
+      "median_gross_percent": 6.047179958281104
+    }
+  ],
+  "by_stock_group": [
+    {
+      "year": 2017,
+      "group": 1,
+      "eligible": 1392,
+      "previous_stock_min_tC": 828.3921813449584,
+      "previous_stock_max_tC": 925395.8851630174,
+      "alerts": 1302,
+      "alert_percent": 93.53448275862068,
+      "median_gross_percent": 6.397991490454738
+    },
+    {
+      "year": 2017,
+      "group": 2,
+      "eligible": 1392,
+      "previous_stock_min_tC": 925464.5717200576,
+      "previous_stock_max_tC": 1953109.122594988,
+      "alerts": 1307,
+      "alert_percent": 93.89367816091954,
+      "median_gross_percent": 4.977047474682802
+    },
+    {
+      "year": 2017,
+      "group": 3,
+      "eligible": 1392,
+      "previous_stock_min_tC": 1954230.9673954532,
+      "previous_stock_max_tC": 4582407.270633171,
+      "alerts": 1312,
+      "alert_percent": 94.25287356321839,
+      "median_gross_percent": 5.676408243397786
+    },
+    {
+      "year": 2017,
+      "group": 4,
+      "eligible": 1392,
+      "previous_stock_min_tC": 4582569.18428286,
+      "previous_stock_max_tC": 789815129.5187268,
+      "alerts": 1248,
+      "alert_percent": 89.65517241379311,
+      "median_gross_percent": 5.1069655575318915
+    },
+    {
+      "year": 2018,
+      "group": 1,
+      "eligible": 1392,
+      "previous_stock_min_tC": 833.4392325484722,
+      "previous_stock_max_tC": 924524.847757966,
+      "alerts": 1306,
+      "alert_percent": 93.82183908045977,
+      "median_gross_percent": 6.500651275220056
+    },
+    {
+      "year": 2018,
+      "group": 2,
+      "eligible": 1392,
+      "previous_stock_min_tC": 925525.9915167562,
+      "previous_stock_max_tC": 1952023.6396662863,
+      "alerts": 1299,
+      "alert_percent": 93.31896551724138,
+      "median_gross_percent": 5.0466462041071285
+    },
+    {
+      "year": 2018,
+      "group": 3,
+      "eligible": 1392,
+      "previous_stock_min_tC": 1954112.5700565656,
+      "previous_stock_max_tC": 4579316.432108443,
+      "alerts": 1311,
+      "alert_percent": 94.18103448275862,
+      "median_gross_percent": 5.7040682988336595
+    },
+    {
+      "year": 2018,
+      "group": 4,
+      "eligible": 1392,
+      "previous_stock_min_tC": 4580630.827827194,
+      "previous_stock_max_tC": 787978113.2358177,
+      "alerts": 1241,
+      "alert_percent": 89.15229885057471,
+      "median_gross_percent": 5.097373921333613
+    },
+    {
+      "year": 2019,
+      "group": 1,
+      "eligible": 1392,
+      "previous_stock_min_tC": 844.0908734624826,
+      "previous_stock_max_tC": 922783.1682361496,
+      "alerts": 1303,
+      "alert_percent": 93.60632183908046,
+      "median_gross_percent": 6.361739018102774
+    },
+    {
+      "year": 2019,
+      "group": 2,
+      "eligible": 1392,
+      "previous_stock_min_tC": 923920.0937997432,
+      "previous_stock_max_tC": 1951328.74660672,
+      "alerts": 1297,
+      "alert_percent": 93.17528735632183,
+      "median_gross_percent": 4.866747314000719
+    },
+    {
+      "year": 2019,
+      "group": 3,
+      "eligible": 1392,
+      "previous_stock_min_tC": 1952825.5079285968,
+      "previous_stock_max_tC": 4578802.275677528,
+      "alerts": 1318,
+      "alert_percent": 94.68390804597702,
+      "median_gross_percent": 5.702355804443478
+    },
+    {
+      "year": 2019,
+      "group": 4,
+      "eligible": 1392,
+      "previous_stock_min_tC": 4579452.563067217,
+      "previous_stock_max_tC": 788016574.511985,
+      "alerts": 1211,
+      "alert_percent": 86.99712643678161,
+      "median_gross_percent": 5.021683325345871
+    },
+    {
+      "year": 2020,
+      "group": 1,
+      "eligible": 1392,
+      "previous_stock_min_tC": 856.8346336408974,
+      "previous_stock_max_tC": 924158.6623776908,
+      "alerts": 1318,
+      "alert_percent": 94.68390804597702,
+      "median_gross_percent": 6.6140876987682855
+    },
+    {
+      "year": 2020,
+      "group": 2,
+      "eligible": 1392,
+      "previous_stock_min_tC": 924555.822629136,
+      "previous_stock_max_tC": 1952085.855393959,
+      "alerts": 1308,
+      "alert_percent": 93.96551724137932,
+      "median_gross_percent": 5.198019766268747
+    },
+    {
+      "year": 2020,
+      "group": 3,
+      "eligible": 1392,
+      "previous_stock_min_tC": 1952311.4001187088,
+      "previous_stock_max_tC": 4583346.91886027,
+      "alerts": 1317,
+      "alert_percent": 94.61206896551724,
+      "median_gross_percent": 5.867524083660531
+    },
+    {
+      "year": 2020,
+      "group": 4,
+      "eligible": 1392,
+      "previous_stock_min_tC": 4586150.57947631,
+      "previous_stock_max_tC": 787741674.08413,
+      "alerts": 1224,
+      "alert_percent": 87.93103448275862,
+      "median_gross_percent": 5.285881552330107
+    },
+    {
+      "year": 2021,
+      "group": 1,
+      "eligible": 1392,
+      "previous_stock_min_tC": 862.6645408679057,
+      "previous_stock_max_tC": 912833.05262746,
+      "alerts": 1321,
+      "alert_percent": 94.89942528735632,
+      "median_gross_percent": 7.053610667420678
+    },
+    {
+      "year": 2021,
+      "group": 2,
+      "eligible": 1392,
+      "previous_stock_min_tC": 913221.8958149086,
+      "previous_stock_max_tC": 1921249.2118975825,
+      "alerts": 1313,
+      "alert_percent": 94.32471264367817,
+      "median_gross_percent": 5.624266582419168
+    },
+    {
+      "year": 2021,
+      "group": 3,
+      "eligible": 1392,
+      "previous_stock_min_tC": 1921863.3488933872,
+      "previous_stock_max_tC": 4513204.881844431,
+      "alerts": 1327,
+      "alert_percent": 95.33045977011494,
+      "median_gross_percent": 6.115356789372974
+    },
+    {
+      "year": 2021,
+      "group": 4,
+      "eligible": 1392,
+      "previous_stock_min_tC": 4517607.313972856,
+      "previous_stock_max_tC": 727172559.6085769,
+      "alerts": 1245,
+      "alert_percent": 89.4396551724138,
+      "median_gross_percent": 5.5793010547133965
+    }
+  ],
+  "municipality_years_with_alert": {
+    "0": 156,
+    "1": 90,
+    "2": 139,
+    "3": 127,
+    "4": 201,
+    "5": 4855
+  },
+  "year_omissions": [
+    {
+      "omitted_year": 2017,
+      "eligible": 22272,
+      "alerts": 20659,
+      "alert_percent": 92.75772270114942
+    },
+    {
+      "omitted_year": 2018,
+      "eligible": 22272,
+      "alerts": 20671,
+      "alert_percent": 92.81160201149426
+    },
+    {
+      "omitted_year": 2019,
+      "eligible": 22272,
+      "alerts": 20699,
+      "alert_percent": 92.93732040229885
+    },
+    {
+      "omitted_year": 2020,
+      "eligible": 22272,
+      "alerts": 20661,
+      "alert_percent": 92.76670258620689
+    },
+    {
+      "omitted_year": 2021,
+      "eligible": 22272,
+      "alerts": 20622,
+      "alert_percent": 92.5915948275862
+    }
+  ],
+  "checks": {
+    "E12_counts_reproduced": true,
+    "independent_summary_checks": 27
+  },
+  "limits": [
+    "No pixel transition cross-tabulation",
+    "No causal attribution of residual differences",
+    "No map accuracy or confidence interval estimate",
+    "Denominator variants can agree because the two total stocks scarcely differ",
+    "Year and municipality records share sources and are not independent samples",
+    "No decision outcome or usability experiment"
+  ]
+}

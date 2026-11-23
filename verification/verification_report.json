@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-23",
+  "article": "Artigo_C_CAS_adequado_20261120.docx",
+  "article_sha256": "7fcc80adec0ad35e7f5e4481b5439d167eb7967ee00987d7f72e10ab3c5d6318",
+  "article_modified": false,
+  "checks": [
+    {
+      "check": "Table 7 complete implementations",
+      "passed": true
+    },
+    {
+      "check": "Table 7 ablations",
+      "passed": true
+    },
+    {
+      "check": "Table 8 E11",
+      "passed": true
+    },
+    {
+      "check": "Table 9 E12",
+      "passed": true
+    },
+    {
+      "check": "Table 10 E13",
+      "passed": true
+    },
+    {
+      "check": "Table 11 Forest",
+      "passed": true
+    },
+    {
+      "check": "Table 11 Farming",
+      "passed": true
+    },
+    {
+      "check": "Table 12 Midpoint",
+      "passed": true
+    },
+    {
+      "check": "Table 12 Soil first",
+      "passed": true
+    },
+    {
+      "check": "Table 12 Area first",
+      "passed": true
+    },
+    {
+      "check": "Abstract sign reversals",
+      "passed": true
+    },
+    {
+      "check": "Abstract dominance",
+      "passed": true
+    },
+    {
+      "check": "Abstract class comparisons",
+      "passed": true
+    },
+    {
+      "check": "Abstract national difference",
+      "passed": true
+    },
+    {
+      "check": "E14 cached reconciliation",
+      "passed": true
+    },
+    {
+      "check": "E9 rerun",
+      "passed": true
+    }
+  ],
+  "engine_tests_passed": 13,
+  "rerun_experiments": [
+    "E8",
+    "E9",
+    "E10 Python and SQL",
+    "E10 ProvSQL",
+    "E10 native features",
+    "E11",
+    "E12",
+    "E12 code 0 sensitivity",
+    "E13",
+    "E14 cached reconciliation",
+    "E15",
+    "E16",
+    "Figure 4 and 5 shared plotting exports",
+    "HTTP API and static dashboard"
+  ],
+  "not_rerun": [
+    "Original E1 to E7 full executions",
+    "New Earth Engine downloads",
+    "New participant evaluation",
+    "Fresh installation in an empty environment"
+  ],
+  "packaging_fixes": [
+    "carbon-audit/src/external_transfer.py",
+    "carbon-audit/comparison/unmapped_sensitivity.py",
+    "carbon-audit/start-dashboard.cmd"
+  ],
+  "notes": [
+    "Archived scientific source extracts and result files are preserved. Rerun records are under verification/rerun.",
+    "The E9 historical app.js hash differs after interface revisions. Both calculation engine hashes still match.",
+    "The Zenodo DOI in the article refers to S1. This extension has not been deposited by this task."
+  ],
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0"
+  }
+}

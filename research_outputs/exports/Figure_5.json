@@ -1,0 +1,1506 @@
+{
+  "id": "cover",
+  "title": "Stock change by land cover class",
+  "source": "MapBiomas CSV extracts in S1_artC.zip",
+  "versions": {
+    "V0": "Soil beta 2.1 / land cover 7.1",
+    "V1": "Soil collection 3 / land cover 7.1",
+    "V2": "Soil collection 3 / land cover 10"
+  },
+  "before_version": "V1",
+  "after_version": "V2",
+  "unit": "Tg C",
+  "default_year": 2021,
+  "years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "data": {
+    "2017": [
+      {
+        "key": "0",
+        "label": "not mapped",
+        "before": 0.8574478854203672,
+        "after": 1.190813944111023,
+        "value": 0.3333660586906559,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "3",
+        "label": "Forest formation",
+        "before": 20300.23049432234,
+        "after": 18255.78430345858,
+        "value": -2044.4461908637581,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "4",
+        "label": "Savanna formation",
+        "before": 4204.626691980887,
+        "after": 4186.527828279542,
+        "value": -18.098863701345444,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "5",
+        "label": "Mangrove",
+        "before": 72.91308511573585,
+        "after": 74.9708702501902,
+        "value": 2.0577851344543396,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "6",
+        "label": "Floodable forest",
+        "before": 0,
+        "after": 2370.76801376876,
+        "value": 2370.76801376876,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "9",
+        "label": "Forest plantation",
+        "before": 430.84857886121506,
+        "after": 446.36330143364387,
+        "value": 15.514722572428823,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "11",
+        "label": "Wetland",
+        "before": 609.0242662975991,
+        "after": 1296.8316931628822,
+        "value": 687.807426865283,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "12",
+        "label": "Grassland",
+        "before": 2021.1588988195133,
+        "after": 1168.3938310714268,
+        "value": -852.7650677480865,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "13",
+        "label": "Other non-forest formation",
+        "before": 0.9065365141011712,
+        "after": 0,
+        "value": -0.9065365141011712,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "15",
+        "label": "Pasture",
+        "before": 6579.330391348742,
+        "after": 6631.814298539395,
+        "value": 52.4839071906538,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "20",
+        "label": "Sugar cane",
+        "before": 398.87706585823713,
+        "after": 465.61395861823314,
+        "value": 66.736892759996,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "21",
+        "label": "Mosaic of uses",
+        "before": 1842.5382217023478,
+        "after": 1526.0133052774536,
+        "value": -316.5249164248941,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "23",
+        "label": "Beach and dune",
+        "before": 0.6901468755335874,
+        "after": 0,
+        "value": -0.6901468755335874,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "24",
+        "label": "Urban area",
+        "before": 10.090946092486648,
+        "after": 0,
+        "value": -10.090946092486648,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "25",
+        "label": "Other non-vegetated",
+        "before": 50.882764898244744,
+        "after": 40.00186077209479,
+        "value": -10.880904126149959,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "29",
+        "label": "Rocky outcrop",
+        "before": 17.066547196885445,
+        "after": 4.452070094977229,
+        "value": -12.614477101908214,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "30",
+        "label": "Mining",
+        "before": 1.6883170726780583,
+        "after": 0,
+        "value": -1.6883170726780583,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "31",
+        "label": "Aquaculture",
+        "before": 4.813433230064882,
+        "after": 5.247819885001181,
+        "value": 0.43438665493629874,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "32",
+        "label": "Hypersaline tidal flat",
+        "before": 3.59773902144674,
+        "after": 4.135028602252001,
+        "value": 0.5372895808052607,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "33",
+        "label": "River and lake",
+        "before": 53.549132591834756,
+        "after": 75.8837737738979,
+        "value": 22.334641182063148,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "35",
+        "label": "Oil palm",
+        "before": 0,
+        "after": 11.443251393044259,
+        "value": 11.443251393044259,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "39",
+        "label": "Soybean",
+        "before": 1693.7641857192095,
+        "after": 1691.1767390976277,
+        "value": -2.5874466215817926,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "40",
+        "label": "Rice",
+        "before": 56.99522587600619,
+        "after": 60.08647715294715,
+        "value": 3.091251276940964,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "41",
+        "label": "Other temporary crops",
+        "before": 509.58538473477415,
+        "after": 513.6079022896885,
+        "value": 4.0225175549142955,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "46",
+        "label": "Coffee",
+        "before": 67.116457822413,
+        "after": 67.53335092292879,
+        "value": 0.41689310051579775,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "47",
+        "label": "Citrus",
+        "before": 15.92148872811057,
+        "after": 17.778400737443626,
+        "value": 1.8569120093330573,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "48",
+        "label": "Other perennial crops",
+        "before": 20.525408961890854,
+        "after": 15.75990907808975,
+        "value": -4.7654998838011045,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "49",
+        "label": "Wooded sandbank vegetation",
+        "before": 79.83564719772548,
+        "after": 78.51633082943906,
+        "value": -1.319316368286416,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "50",
+        "label": "Herbaceous sandbank vegetation",
+        "before": 23.4199766277311,
+        "after": 61.01244383470556,
+        "value": 37.592467206974455,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "62",
+        "label": "Cotton",
+        "before": 5.829126193610883,
+        "after": 5.81895570121028,
+        "value": -0.01017049240060337,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "75",
+        "label": "Photovoltaic power plant",
+        "before": 0,
+        "after": 0.06468432648001532,
+        "value": 0.06468432648001532,
+        "status": "available",
+        "unit": "Tg C"
+      }
+    ],
+    "2018": [
+      {
+        "key": "0",
+        "label": "not mapped",
+        "before": 0.834696941969719,
+        "after": 1.1569454117060651,
+        "value": 0.322248469736346,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "3",
+        "label": "Forest formation",
+        "before": 20236.142552317135,
+        "after": 18184.02961557712,
+        "value": -2052.112936740013,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "4",
+        "label": "Savanna formation",
+        "before": 4201.601009949748,
+        "after": 4175.444746585151,
+        "value": -26.156263364596366,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "5",
+        "label": "Mangrove",
+        "before": 72.94163007272604,
+        "after": 75.07866752845567,
+        "value": 2.1370374557296334,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "6",
+        "label": "Floodable forest",
+        "before": 0,
+        "after": 2368.3661072653,
+        "value": 2368.3661072653,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "9",
+        "label": "Forest plantation",
+        "before": 435.7599716266124,
+        "after": 451.81357632329303,
+        "value": 16.053604696680605,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "11",
+        "label": "Wetland",
+        "before": 672.5590301790354,
+        "after": 1354.7696250536223,
+        "value": 682.2105948745868,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "12",
+        "label": "Grassland",
+        "before": 1948.6221596975518,
+        "after": 1085.6080186811337,
+        "value": -863.014141016418,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "13",
+        "label": "Other non-forest formation",
+        "before": 0.9412595344030237,
+        "after": 0,
+        "value": -0.9412595344030237,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "15",
+        "label": "Pasture",
+        "before": 6533.67353151515,
+        "after": 6627.358482729684,
+        "value": 93.68495121453381,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "20",
+        "label": "Sugar cane",
+        "before": 394.8038048568687,
+        "after": 463.9088882322112,
+        "value": 69.10508337534255,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "21",
+        "label": "Mosaic of uses",
+        "before": 1894.8256338915423,
+        "after": 1553.4646703679125,
+        "value": -341.3609635236299,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "23",
+        "label": "Beach and dune",
+        "before": 0.7408759646853038,
+        "after": 0,
+        "value": -0.7408759646853038,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "24",
+        "label": "Urban area",
+        "before": 10.2519606955593,
+        "after": 0,
+        "value": -10.2519606955593,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "25",
+        "label": "Other non-vegetated",
+        "before": 52.33446215058085,
+        "after": 39.816170925230836,
+        "value": -12.518291225350007,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "29",
+        "label": "Rocky outcrop",
+        "before": 17.23355852508875,
+        "after": 4.44621737712056,
+        "value": -12.78734114796819,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "30",
+        "label": "Mining",
+        "before": 1.7273244286367178,
+        "after": 0,
+        "value": -1.7273244286367178,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "31",
+        "label": "Aquaculture",
+        "before": 4.746840081562966,
+        "after": 5.320632571373849,
+        "value": 0.573792489810883,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "32",
+        "label": "Hypersaline tidal flat",
+        "before": 3.5856942554288693,
+        "after": 4.0541748507463,
+        "value": 0.4684805953174308,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "33",
+        "label": "River and lake",
+        "before": 54.455291081780274,
+        "after": 91.64486268929073,
+        "value": 37.18957160751045,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "35",
+        "label": "Oil palm",
+        "before": 0,
+        "after": 11.951599565954039,
+        "value": 11.951599565954039,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "39",
+        "label": "Soybean",
+        "before": 1744.0708844669477,
+        "after": 1740.4479406340208,
+        "value": -3.6229438329269885,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "40",
+        "label": "Rice",
+        "before": 57.431968749717726,
+        "after": 59.656536772196006,
+        "value": 2.224568022478275,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "41",
+        "label": "Other temporary crops",
+        "before": 479.5848902768373,
+        "after": 487.0457623642787,
+        "value": 7.460872087441385,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "46",
+        "label": "Coffee",
+        "before": 67.24884023756312,
+        "after": 67.73854448709218,
+        "value": 0.4897042495290637,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "47",
+        "label": "Citrus",
+        "before": 15.8604245276108,
+        "after": 17.724865492900378,
+        "value": 1.8644409652895797,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "48",
+        "label": "Other perennial crops",
+        "before": 20.89267201248915,
+        "after": 16.21516555804402,
+        "value": -4.67750645444513,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "49",
+        "label": "Wooded sandbank vegetation",
+        "before": 80.0414669059611,
+        "after": 78.47404938568592,
+        "value": -1.5674175202751757,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "50",
+        "label": "Herbaceous sandbank vegetation",
+        "before": 23.627019837975205,
+        "after": 60.98927177475527,
+        "value": 37.36225193678006,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "62",
+        "label": "Cotton",
+        "before": 6.603657794414709,
+        "after": 6.592348956795731,
+        "value": -0.011308837618978693,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "75",
+        "label": "Photovoltaic power plant",
+        "before": 0,
+        "after": 0.13445451683456228,
+        "value": 0.13445451683456228,
+        "status": "available",
+        "unit": "Tg C"
+      }
+    ],
+    "2019": [
+      {
+        "key": "0",
+        "label": "not mapped",
+        "before": 0.6701503123822294,
+        "after": 1.133755719216232,
+        "value": 0.4636054068340025,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "3",
+        "label": "Forest formation",
+        "before": 20206.991436408774,
+        "after": 18116.744686459693,
+        "value": -2090.2467499490813,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "4",
+        "label": "Savanna formation",
+        "before": 4202.351845396191,
+        "after": 4160.381777699525,
+        "value": -41.97006769666529,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "5",
+        "label": "Mangrove",
+        "before": 73.0361451516353,
+        "after": 75.2844024568202,
+        "value": 2.2482573051849157,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "6",
+        "label": "Floodable forest",
+        "before": 0,
+        "after": 2368.090252941429,
+        "value": 2368.090252941429,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "9",
+        "label": "Forest plantation",
+        "before": 450.79508186144875,
+        "after": 463.2618548290016,
+        "value": 12.46677296755284,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "11",
+        "label": "Wetland",
+        "before": 594.1689710562874,
+        "after": 1283.905376213701,
+        "value": 689.7364051574136,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "12",
+        "label": "Grassland",
+        "before": 2022.699307013262,
+        "after": 1162.0619037524089,
+        "value": -860.637403260853,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "13",
+        "label": "Other non-forest formation",
+        "before": 0.9113500053630297,
+        "after": 0,
+        "value": -0.9113500053630297,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "15",
+        "label": "Pasture",
+        "before": 6472.117011086914,
+        "after": 6644.909574466799,
+        "value": 172.79256337988568,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "20",
+        "label": "Sugar cane",
+        "before": 379.66665804639797,
+        "after": 457.718608333713,
+        "value": 78.05195028731501,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "21",
+        "label": "Mosaic of uses",
+        "before": 1955.549104789764,
+        "after": 1592.7557806436205,
+        "value": -362.79332414614345,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "23",
+        "label": "Beach and dune",
+        "before": 0.6453324454350728,
+        "after": 0,
+        "value": -0.6453324454350728,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "24",
+        "label": "Urban area",
+        "before": 10.071510092080525,
+        "after": 0,
+        "value": -10.071510092080525,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "25",
+        "label": "Other non-vegetated",
+        "before": 51.38575938852293,
+        "after": 39.53771070195379,
+        "value": -11.84804868656914,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "29",
+        "label": "Rocky outcrop",
+        "before": 17.287383774900174,
+        "after": 4.445732307495667,
+        "value": -12.841651467404509,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "30",
+        "label": "Mining",
+        "before": 1.7831824664987406,
+        "after": 0,
+        "value": -1.7831824664987406,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "31",
+        "label": "Aquaculture",
+        "before": 4.683690160184462,
+        "after": 5.421106082036541,
+        "value": 0.7374159218520793,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "32",
+        "label": "Hypersaline tidal flat",
+        "before": 3.566253076979281,
+        "after": 3.951699104066247,
+        "value": 0.38544602708696574,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "33",
+        "label": "River and lake",
+        "before": 53.10916705380126,
+        "after": 72.91476641640357,
+        "value": 19.8055993626023,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "35",
+        "label": "Oil palm",
+        "before": 0,
+        "after": 11.829581482975174,
+        "value": 11.829581482975174,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "39",
+        "label": "Soybean",
+        "before": 1781.7772274521597,
+        "after": 1776.7531111896685,
+        "value": -5.024116262491226,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "40",
+        "label": "Rice",
+        "before": 49.01432310596942,
+        "after": 61.711039637781184,
+        "value": 12.696716531811767,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "41",
+        "label": "Other temporary crops",
+        "before": 490.192546316333,
+        "after": 486.85739232970536,
+        "value": -3.3351539866276383,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "46",
+        "label": "Coffee",
+        "before": 68.18610211073035,
+        "after": 68.63910345759118,
+        "value": 0.453001346860826,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "47",
+        "label": "Citrus",
+        "before": 16.38443200100442,
+        "after": 17.99233983190252,
+        "value": 1.6079078308981005,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "48",
+        "label": "Other perennial crops",
+        "before": 22.588889556423705,
+        "after": 18.016504535006828,
+        "value": -4.572385021416877,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "49",
+        "label": "Wooded sandbank vegetation",
+        "before": 80.32861515539531,
+        "after": 78.69047193446471,
+        "value": -1.6381432209306062,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "50",
+        "label": "Herbaceous sandbank vegetation",
+        "before": 23.676003181225944,
+        "after": 60.54744575491651,
+        "value": 36.871442573690565,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "62",
+        "label": "Cotton",
+        "before": 4.718143140874959,
+        "after": 4.709218832473807,
+        "value": -0.008924308401152492,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "75",
+        "label": "Photovoltaic power plant",
+        "before": 0,
+        "after": 0.19756022939890122,
+        "value": 0.19756022939890122,
+        "status": "available",
+        "unit": "Tg C"
+      }
+    ],
+    "2020": [
+      {
+        "key": "0",
+        "label": "not mapped",
+        "before": 0.5939049807563249,
+        "after": 1.141202737403997,
+        "value": 0.547297756647672,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "3",
+        "label": "Forest formation",
+        "before": 20172.28849099769,
+        "after": 18045.598144022224,
+        "value": -2126.690346975464,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "4",
+        "label": "Savanna formation",
+        "before": 4204.694294781088,
+        "after": 4143.834660928352,
+        "value": -60.859633852735996,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "5",
+        "label": "Mangrove",
+        "before": 72.86819202723869,
+        "after": 75.27351240016424,
+        "value": 2.405320372925535,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "6",
+        "label": "Floodable forest",
+        "before": 0,
+        "after": 2368.931747528461,
+        "value": 2368.931747528461,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "9",
+        "label": "Forest plantation",
+        "before": 457.9147531653848,
+        "after": 469.07073604307163,
+        "value": 11.155982877686798,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "11",
+        "label": "Wetland",
+        "before": 557.0510992571999,
+        "after": 1239.6593200238062,
+        "value": 682.6082207666065,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "12",
+        "label": "Grassland",
+        "before": 2061.66086389917,
+        "after": 1209.0613866010788,
+        "value": -852.5994772980914,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "13",
+        "label": "Other non-forest formation",
+        "before": 0.9054081093985893,
+        "after": 0,
+        "value": -0.9054081093985893,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "15",
+        "label": "Pasture",
+        "before": 6474.909655206623,
+        "after": 6646.482097802945,
+        "value": 171.57244259632205,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "20",
+        "label": "Sugar cane",
+        "before": 376.05531499149504,
+        "after": 459.5838030988283,
+        "value": 83.5284881073333,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "21",
+        "label": "Mosaic of uses",
+        "before": 1962.2344525885487,
+        "after": 1658.6195581985244,
+        "value": -303.6148943900242,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "23",
+        "label": "Beach and dune",
+        "before": 0.680054914928879,
+        "after": 0,
+        "value": -0.680054914928879,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "24",
+        "label": "Urban area",
+        "before": 9.635095843305594,
+        "after": 0,
+        "value": -9.635095843305594,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "25",
+        "label": "Other non-vegetated",
+        "before": 51.048143425706215,
+        "after": 38.642616605327284,
+        "value": -12.40552682037893,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "29",
+        "label": "Rocky outcrop",
+        "before": 17.42359962728789,
+        "after": 4.432433051876589,
+        "value": -12.991166575411297,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "30",
+        "label": "Mining",
+        "before": 1.526726936249574,
+        "after": 0,
+        "value": -1.526726936249574,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "31",
+        "label": "Aquaculture",
+        "before": 4.70210397295713,
+        "after": 5.3812416022881155,
+        "value": 0.6791376293309852,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "32",
+        "label": "Hypersaline tidal flat",
+        "before": 3.5622670109798156,
+        "after": 3.916483018415153,
+        "value": 0.35421600743533765,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "33",
+        "label": "River and lake",
+        "before": 43.86636626391647,
+        "after": 59.043386460428565,
+        "value": 15.177020196512096,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "35",
+        "label": "Oil palm",
+        "before": 0,
+        "after": 12.003439136132151,
+        "value": 12.003439136132151,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "39",
+        "label": "Soybean",
+        "before": 1800.7451570099356,
+        "after": 1798.3380900659947,
+        "value": -2.407066943940878,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "40",
+        "label": "Rice",
+        "before": 66.13481543215298,
+        "after": 61.15190833530737,
+        "value": -4.9829070968456115,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "41",
+        "label": "Other temporary crops",
+        "before": 478.230855253579,
+        "after": 485.84180141853744,
+        "value": 7.610946164958418,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "46",
+        "label": "Coffee",
+        "before": 69.0504035076229,
+        "after": 69.38497728593433,
+        "value": 0.3345737783114314,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "47",
+        "label": "Citrus",
+        "before": 16.744004082000398,
+        "after": 18.034687425395447,
+        "value": 1.2906833433950506,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "48",
+        "label": "Other perennial crops",
+        "before": 24.32791117690161,
+        "after": 20.56699397181173,
+        "value": -3.7609172050898785,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "49",
+        "label": "Wooded sandbank vegetation",
+        "before": 80.45957754146315,
+        "after": 78.662002553853,
+        "value": -1.7975749876101463,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "50",
+        "label": "Herbaceous sandbank vegetation",
+        "before": 23.96713344128647,
+        "after": 60.49634424139698,
+        "value": 36.52921080011052,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "62",
+        "label": "Cotton",
+        "before": 9.105378193362563,
+        "after": 9.089903214665433,
+        "value": -0.015474978697130456,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "75",
+        "label": "Photovoltaic power plant",
+        "before": 0,
+        "after": 0.25317129744485445,
+        "value": 0.25317129744485445,
+        "status": "available",
+        "unit": "Tg C"
+      }
+    ],
+    "2021": [
+      {
+        "key": "0",
+        "label": "not mapped",
+        "before": 0.6239185113382563,
+        "after": 1.2422592107308688,
+        "value": 0.6183406993926126,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "3",
+        "label": "Forest formation",
+        "before": 18697.89287043127,
+        "after": 16715.143260712022,
+        "value": -1982.7496097192497,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "4",
+        "label": "Savanna formation",
+        "before": 4053.9164162755246,
+        "after": 3968.09574442079,
+        "value": -85.82067185473441,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "5",
+        "label": "Mangrove",
+        "before": 70.75276296068759,
+        "after": 73.09477176854833,
+        "value": 2.342008807860732,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "6",
+        "label": "Floodable forest",
+        "before": 0,
+        "after": 2217.805522150159,
+        "value": 2217.805522150159,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "9",
+        "label": "Forest plantation",
+        "before": 464.05694064151083,
+        "after": 474.74110053556046,
+        "value": 10.684159894049644,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "11",
+        "label": "Wetland",
+        "before": 550.472088346675,
+        "after": 1199.0671770333033,
+        "value": 648.5950886866282,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "12",
+        "label": "Grassland",
+        "before": 1963.9872497113206,
+        "after": 1153.2299724717946,
+        "value": -810.757277239526,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "13",
+        "label": "Other non-forest formation",
+        "before": 0.9385994260314545,
+        "after": 0.000055454074951171884,
+        "value": -0.9385439719565033,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "15",
+        "label": "Pasture",
+        "before": 6448.024132377111,
+        "after": 6661.885788983033,
+        "value": 213.8616566059227,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "20",
+        "label": "Sugar cane",
+        "before": 369.9695505753578,
+        "after": 449.4827440130865,
+        "value": 79.5131934377287,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "21",
+        "label": "Mosaic of uses",
+        "before": 2043.6380108843478,
+        "after": 1741.6157685928422,
+        "value": -302.02224229150556,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "23",
+        "label": "Beach and dune",
+        "before": 0.7025364135282866,
+        "after": 0,
+        "value": -0.7025364135282866,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "24",
+        "label": "Urban area",
+        "before": 11.06139744820739,
+        "after": 0,
+        "value": -11.06139744820739,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "25",
+        "label": "Other non-vegetated",
+        "before": 56.87511346589131,
+        "after": 38.547669791677016,
+        "value": -18.327443674214297,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "29",
+        "label": "Rocky outcrop",
+        "before": 17.157746001973834,
+        "after": 4.110366681789623,
+        "value": -13.047379320184213,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "30",
+        "label": "Mining",
+        "before": 1.4356527276323394,
+        "after": 0,
+        "value": -1.4356527276323394,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "31",
+        "label": "Aquaculture",
+        "before": 4.695965444152168,
+        "after": 5.367640699436634,
+        "value": 0.6716752552844658,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "32",
+        "label": "Hypersaline tidal flat",
+        "before": 3.5003519794881934,
+        "after": 3.8828262775953726,
+        "value": 0.38247429810717887,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "33",
+        "label": "River and lake",
+        "before": 42.772758709428786,
+        "after": 54.98910210312933,
+        "value": 12.216343393700548,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "35",
+        "label": "Oil palm",
+        "before": 0,
+        "after": 12.19351996949566,
+        "value": 12.19351996949566,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "39",
+        "label": "Soybean",
+        "before": 1844.229420075875,
+        "after": 1843.19272143052,
+        "value": -1.0366986453552247,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "40",
+        "label": "Rice",
+        "before": 71.0200040155468,
+        "after": 65.11524849921672,
+        "value": -5.904755516330078,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "41",
+        "label": "Other temporary crops",
+        "before": 447.9158466644866,
+        "after": 450.3262643120662,
+        "value": 2.41041764757961,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "46",
+        "label": "Coffee",
+        "before": 68.86219422713326,
+        "after": 69.67201442691585,
+        "value": 0.809820199782595,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "47",
+        "label": "Citrus",
+        "before": 16.690731989950653,
+        "after": 18.129943471279507,
+        "value": 1.4392114813288543,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "48",
+        "label": "Other perennial crops",
+        "before": 24.290310990154516,
+        "after": 20.548798382647846,
+        "value": -3.74151260750667,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "49",
+        "label": "Wooded sandbank vegetation",
+        "before": 79.51663471433866,
+        "after": 77.95145356450219,
+        "value": -1.5651811498364656,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "50",
+        "label": "Herbaceous sandbank vegetation",
+        "before": 23.860655133344856,
+        "after": 59.166896415222375,
+        "value": 35.30624128187752,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "62",
+        "label": "Cotton",
+        "before": 10.463503049430164,
+        "after": 10.447269313894761,
+        "value": -0.01623373553540185,
+        "status": "available",
+        "unit": "Tg C"
+      },
+      {
+        "key": "75",
+        "label": "Photovoltaic power plant",
+        "before": 0,
+        "after": 0.3828651997463201,
+        "value": 0.3828651997463201,
+        "status": "available",
+        "unit": "Tg C"
+      }
+    ]
+  },
+  "scope": "Stock is the sum of soil mean times valid mapped area. A change of mapped contexts is included. This is a version comparison, not a measured environmental trend.",
+  "year": 2021,
+  "rows": [
+    {
+      "key": "6",
+      "label": "Floodable forest",
+      "before": 0,
+      "after": 2217.805522150159,
+      "value": 2217.805522150159,
+      "status": "available",
+      "unit": "Tg C"
+    },
+    {
+      "key": "3",
+      "label": "Forest formation",
+      "before": 18697.89287043127,
+      "after": 16715.143260712022,
+      "value": -1982.7496097192497,
+      "status": "available",
+      "unit": "Tg C"
+    },
+    {
+      "key": "12",
+      "label": "Grassland",
+      "before": 1963.9872497113206,
+      "after": 1153.2299724717946,
+      "value": -810.757277239526,
+      "status": "available",
+      "unit": "Tg C"
+    },
+    {
+      "key": "11",
+      "label": "Wetland",
+      "before": 550.472088346675,
+      "after": 1199.0671770333033,
+      "value": 648.5950886866282,
+      "status": "available",
+      "unit": "Tg C"
+    },
+    {
+      "key": "21",
+      "label": "Mosaic of uses",
+      "before": 2043.6380108843478,
+      "after": 1741.6157685928422,
+      "value": -302.02224229150556,
+      "status": "available",
+      "unit": "Tg C"
+    },
+    {
+      "key": "15",
+      "label": "Pasture",
+      "before": 6448.024132377111,
+      "after": 6661.885788983033,
+      "value": 213.8616566059227,
+      "status": "available",
+      "unit": "Tg C"
+    },
+    {
+      "key": "4",
+      "label": "Savanna formation",
+      "before": 4053.9164162755246,
+      "after": 3968.09574442079,
+      "value": -85.82067185473441,
+      "status": "available",
+      "unit": "Tg C"
+    },
+    {
+      "key": "20",
+      "label": "Sugar cane",
+      "before": 369.9695505753578,
+      "after": 449.4827440130865,
+      "value": 79.5131934377287,
+      "status": "available",
+      "unit": "Tg C"
+    }
+  ],
+  "period": "2021",
+  "versionText": "Soil collection 3 / land cover 7.1 → Soil collection 3 / land cover 10"
+}
